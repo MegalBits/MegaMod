@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "megamodmain:blocks/placeholder",
+    "particle": "megamodmain:blocks/placeholder"
+  }
+}

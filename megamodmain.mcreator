@@ -1,0 +1,38 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "PlaceHolder",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "place_holder"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.megamodmain.place_holder": "Place Holder"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "megamodmain",
+    "modName": "MegaModMain",
+    "version": "1.0.0",
+    "author": "GERARD, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.mcreator.megamodmain",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}
