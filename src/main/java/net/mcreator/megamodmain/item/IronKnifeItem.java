@@ -47,7 +47,7 @@ public class IronKnifeItem extends MegamodmainModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(Items.IRON_INGOT, (int) (1)));
 			}
-		}, 3, -3.6f, new Item.Properties().group(ItemGroup.COMBAT)) {
+		}, 3, -2.4f, new Item.Properties().group(ItemGroup.COMBAT)) {
 		}.setRegistryName("iron_knife"));
 	}
 }
