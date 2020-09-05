@@ -9,13 +9,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "place_holder"
+    },
+    {
+      "name": "IronKnife",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_knife"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.megamodmain.place_holder": "Place Holder"
+      "block.megamodmain.place_holder": "Place Holder",
+      "item.megamodmain.iron_knife": "Iron Knife"
     }
   },
   "workspaceSettings": {
