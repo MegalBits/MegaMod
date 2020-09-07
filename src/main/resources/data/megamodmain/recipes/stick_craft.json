@@ -2,8 +2,8 @@
   "group": "megamodmain",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "01",
-    "23"
+    "0",
+    "1"
   ],
   "key": {
     "0": {
@@ -11,16 +11,10 @@
     },
     "1": {
       "item": "megamodmain:bark"
-    },
-    "2": {
-      "item": "megamodmain:bark"
-    },
-    "3": {
-      "item": "megamodmain:bark"
     }
   },
   "result": {
-    "item": "megamodmain:plank",
+    "item": "minecraft:stick",
     "count": 1
   }
 }

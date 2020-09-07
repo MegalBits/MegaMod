@@ -22,25 +22,25 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Bark"
-      },
-      {
-        "value": "CUSTOM:Bark"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Bark"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Bark"
+        "value": "CUSTOM:Plank"
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Plank"
+      "value": "Items.STICK"
     },
-    "name": "plank_craft",
+    "name": "stick_craft_2",
     "namespace": "mod"
   }
 }

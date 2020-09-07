@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Pebble"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Pebble"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Pebble"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Pebble"
       },
       {
-        "value": "CUSTOM:Bark"
+        "value": "CUSTOM:Pebble"
       },
       {
-        "value": "CUSTOM:Bark"
+        "value": "CUSTOM:Pebble"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Pebble"
       },
       {
-        "value": "CUSTOM:Bark"
+        "value": "CUSTOM:Pebble"
       },
       {
-        "value": "CUSTOM:Bark"
+        "value": "CUSTOM:Pebble"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Plank"
+      "value": "Blocks.COBBLESTONE"
     },
-    "name": "plank_craft",
+    "name": "cobble_stone_craft",
     "namespace": "mod"
   }
 }

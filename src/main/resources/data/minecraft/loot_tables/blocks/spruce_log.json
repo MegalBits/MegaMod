@@ -9,7 +9,12 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stick",
+          "name": "megamodmain:plank",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "megamodmain:bark",
           "weight": 1
         }
       ]

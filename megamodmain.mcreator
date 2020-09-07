@@ -137,15 +137,6 @@
       "registry_name": "plank"
     },
     {
-      "name": "PlankCraft",
-      "type": "recipe",
-      "sortid": 16,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "plank_craft"
-    },
-    {
       "name": "OakPlanksCraft",
       "type": "recipe",
       "sortid": 17,
@@ -252,6 +243,123 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "dark_oak_log_lt"
+    },
+    {
+      "name": "Bark",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bark"
+    },
+    {
+      "name": "PlankCraft",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plank_craft"
+    },
+    {
+      "name": "OakLeavesLT",
+      "type": "loottable",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_leaves_lt"
+    },
+    {
+      "name": "BirchLeavesLT",
+      "type": "loottable",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "birch_leaves_lt"
+    },
+    {
+      "name": "SpruceLeavesLT",
+      "type": "loottable",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spruce_leaves_lt"
+    },
+    {
+      "name": "AcaciaLeavesLT",
+      "type": "loottable",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acacia_leaves_lt"
+    },
+    {
+      "name": "JungleLeavesLT",
+      "type": "loottable",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jungle_leaves_lt"
+    },
+    {
+      "name": "DarkOakLeavesLT",
+      "type": "loottable",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_oak_leaves_lt"
+    },
+    {
+      "name": "StickCraft",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stick_craft"
+    },
+    {
+      "name": "StickCraft2",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stick_craft_2"
+    },
+    {
+      "name": "Pebble",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pebble"
+    },
+    {
+      "name": "StoneLT",
+      "type": "loottable",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_lt"
+    },
+    {
+      "name": "CobbleStoneCraft",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cobble_stone_craft"
     }
   ],
   "variable_elements": [],
@@ -261,7 +369,9 @@
       "block.megamodmain.place_holder": "Place Holder",
       "item.megamodmain.plank": "Plank",
       "item.megamodmain.plant_fibre": "Plant Fibre",
-      "item.megamodmain.pile_of_dirt": "Mud"
+      "item.megamodmain.pebble": "Pebble",
+      "item.megamodmain.pile_of_dirt": "Mud",
+      "item.megamodmain.bark": "Bark"
     }
   },
   "workspaceSettings": {

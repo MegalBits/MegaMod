@@ -14,7 +14,14 @@
           {
             "type": "item",
             "item": {
-              "value": "Items.STICK"
+              "value": "CUSTOM:Plank"
+            },
+            "weight": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Bark"
             },
             "weight": 1
           }
