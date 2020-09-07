@@ -1,0 +1,23 @@
+{
+  "group": "megamodmain",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "megamodmain:plant_fibre"
+    },
+    "2": {
+      "item": "megamodmain:plant_fibre"
+    },
+    "4": {
+      "item": "megamodmain:plant_fibre"
+    }
+  },
+  "result": {
+    "item": "minecraft:fern",
+    "count": 1
+  }
+}

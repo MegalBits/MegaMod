@@ -11,13 +11,247 @@
       "registry_name": "place_holder"
     },
     {
-      "name": "IronKnife",
-      "type": "tool",
+      "name": "PileOfDirt",
+      "type": "item",
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "iron_knife"
+      "registry_name": "pile_of_dirt"
+    },
+    {
+      "name": "DirtCraft",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_craft"
+    },
+    {
+      "name": "DirtLT",
+      "type": "loottable",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dirt_lt"
+    },
+    {
+      "name": "GrassLT",
+      "type": "loottable",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_lt"
+    },
+    {
+      "name": "PlantFibre",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plant_fibre"
+    },
+    {
+      "name": "TallGrassCraft",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tall_grass_craft"
+    },
+    {
+      "name": "FernCraft",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fern_craft"
+    },
+    {
+      "name": "GrassBlockCraft1",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_block_craft_1"
+    },
+    {
+      "name": "GrassBlockCraft2",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_block_craft_2"
+    },
+    {
+      "name": "GrassPathLT",
+      "type": "loottable",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "grass_path_lt"
+    },
+    {
+      "name": "TallGrassLT",
+      "type": "loottable",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "tall_grass_lt"
+    },
+    {
+      "name": "DoubleTallGrassLT",
+      "type": "loottable",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "double_tall_grass_lt"
+    },
+    {
+      "name": "FernLT",
+      "type": "loottable",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fern_lt"
+    },
+    {
+      "name": "Plank",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plank"
+    },
+    {
+      "name": "PlankCraft",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plank_craft"
+    },
+    {
+      "name": "OakPlanksCraft",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_planks_craft"
+    },
+    {
+      "name": "BirchPlanksCraft",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "birch_planks_craft"
+    },
+    {
+      "name": "SprucePlanksCraft",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spruce_planks_craft"
+    },
+    {
+      "name": "AcaciaPlanksCraft",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acacia_planks_craft"
+    },
+    {
+      "name": "JunglePlanksCraft",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jungle_planks_craft"
+    },
+    {
+      "name": "DarkOakPlanksCraft",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_oak_planks_craft"
+    },
+    {
+      "name": "OakLogLT",
+      "type": "loottable",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_log_lt"
+    },
+    {
+      "name": "BirchLogLT",
+      "type": "loottable",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "birch_log_lt"
+    },
+    {
+      "name": "SpruceLogLT",
+      "type": "loottable",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spruce_log_lt"
+    },
+    {
+      "name": "AcaciaLogLT",
+      "type": "loottable",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acacia_log_lt"
+    },
+    {
+      "name": "JungleLogLT",
+      "type": "loottable",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "jungle_log_lt"
+    },
+    {
+      "name": "DarkOakLogLT",
+      "type": "loottable",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dark_oak_log_lt"
     }
   ],
   "variable_elements": [],
@@ -25,7 +259,9 @@
   "language_map": {
     "en_us": {
       "block.megamodmain.place_holder": "Place Holder",
-      "item.megamodmain.iron_knife": "Iron Knife"
+      "item.megamodmain.plank": "Plank",
+      "item.megamodmain.plant_fibre": "Plant Fibre",
+      "item.megamodmain.pile_of_dirt": "Mud"
     }
   },
   "workspaceSettings": {

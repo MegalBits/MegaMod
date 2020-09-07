@@ -1,0 +1,25 @@
+{
+  "group": "megamodmain",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "megamodmain:plant_fibre"
+    },
+    {
+      "item": "megamodmain:plant_fibre"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "megamodmain:plant_fibre"
+    },
+    {
+      "item": "megamodmain:plant_fibre"
+    }
+  ],
+  "result": {
+    "item": "minecraft:grass_block",
+    "count": 1
+  }
+}

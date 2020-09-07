@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.SAPLING#1"
+      },
+      {
+        "value": "CUSTOM:Plank"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Plank"
+      },
+      {
+        "value": "CUSTOM:Plank"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.PLANKS#1"
+    },
+    "name": "spruce_planks_craft",
+    "namespace": "mod"
+  }
+}

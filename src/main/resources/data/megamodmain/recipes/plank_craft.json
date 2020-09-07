@@ -1,0 +1,22 @@
+{
+  "group": "megamodmain",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "megamodmain:plant_fibre"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "result": {
+    "item": "megamodmain:plank",
+    "count": 1
+  }
+}

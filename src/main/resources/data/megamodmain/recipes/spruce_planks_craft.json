@@ -1,0 +1,26 @@
+{
+  "group": "megamodmain",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:spruce_sapling"
+    },
+    "1": {
+      "item": "megamodmain:plank"
+    },
+    "2": {
+      "item": "megamodmain:plank"
+    },
+    "3": {
+      "item": "megamodmain:plank"
+    }
+  },
+  "result": {
+    "item": "minecraft:spruce_planks",
+    "count": 2
+  }
+}
