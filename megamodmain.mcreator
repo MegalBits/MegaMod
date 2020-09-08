@@ -360,6 +360,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cobble_stone_craft"
+    },
+    {
+      "name": "Placeholder0",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "placeholder_0"
+    },
+    {
+      "name": "PlaceHolder1",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "place_holder_1"
+    },
+    {
+      "name": "Level0",
+      "type": "achievement",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "level_0"
+    },
+    {
+      "name": "Level1",
+      "type": "achievement",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "level_1"
     }
   ],
   "variable_elements": [],
@@ -367,9 +403,15 @@
   "language_map": {
     "en_us": {
       "block.megamodmain.place_holder": "Place Holder",
-      "item.megamodmain.plank": "Plank",
+      "item.megamodmain.placeholder_0": "Placeholder 0",
       "item.megamodmain.plant_fibre": "Plant Fibre",
       "item.megamodmain.pebble": "Pebble",
+      "item.megamodmain.place_holder_1": "Place Holder 1",
+      "item.megamodmain.plank": "Plank",
+      "advancements.level_1.descr": "Obtain A Plank",
+      "advancements.level_0.descr": "Join The Game",
+      "advancements.level_1.title": "Level 1",
+      "advancements.level_0.title": "Level 0",
       "item.megamodmain.pile_of_dirt": "Mud",
       "item.megamodmain.bark": "Bark"
     }
