@@ -396,19 +396,50 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "level_1"
+    },
+    {
+      "name": "GoldenFeatherRightClickedInAir",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_feather_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GoldenFeather",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_feather"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.megamodmain.place_holder": "Place Holder",
       "item.megamodmain.placeholder_0": "Placeholder 0",
+      "block.megamodmain.place_holder": "Place Holder",
       "item.megamodmain.plant_fibre": "Plant Fibre",
       "item.megamodmain.pebble": "Pebble",
+      "item.megamodmain.golden_feather": "Golden Feather",
       "item.megamodmain.place_holder_1": "Place Holder 1",
       "item.megamodmain.plank": "Plank",
-      "advancements.level_1.descr": "Obtain A Plank",
+      "advancements.level_1.descr": "Obtain Stone",
       "advancements.level_0.descr": "Join The Game",
       "advancements.level_1.title": "Level 1",
       "advancements.level_0.title": "Level 0",

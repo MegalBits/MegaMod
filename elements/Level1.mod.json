@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Level 1",
-    "achievementDescription": "Obtain A Plank",
+    "achievementDescription": "Obtain Stone",
     "achievementIcon": {
       "value": "CUSTOM:PlaceHolder1"
     },
