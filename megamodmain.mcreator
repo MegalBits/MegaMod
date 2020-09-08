@@ -438,6 +438,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_feather_craft"
+    },
+    {
+      "name": "RedCrate",
+      "type": "mob",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_crate"
+    },
+    {
+      "name": "RedCrateLT",
+      "type": "loottable",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_crate_lt"
     }
   ],
   "variable_elements": [],
@@ -446,11 +464,13 @@
     "en_us": {
       "block.megamodmain.place_holder": "Place Holder",
       "item.megamodmain.plank": "Plank",
+      "entity.megamodmain.red_crate": "Red Crate",
       "item.megamodmain.plant_fibre": "Plant Fibre",
       "item.megamodmain.pebble": "Pebble",
       "item.megamodmain.golden_feather": "Golden Feather",
       "item.megamodmain.pile_of_dirt": "Mud",
       "item.megamodmain.diamond_feather": "Diamond Feather",
+      "item.megamodmain.red_crate": "Red Crate Spawn Egg",
       "item.megamodmain.bark": "Bark"
     }
   },

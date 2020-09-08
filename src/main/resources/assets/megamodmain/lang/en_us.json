@@ -1,10 +1,12 @@
 {
   "block.megamodmain.place_holder": "Place Holder",
   "item.megamodmain.plank": "Plank",
+  "entity.megamodmain.red_crate": "Red Crate",
   "item.megamodmain.plant_fibre": "Plant Fibre",
   "item.megamodmain.pebble": "Pebble",
   "item.megamodmain.golden_feather": "Golden Feather",
   "item.megamodmain.pile_of_dirt": "Mud",
   "item.megamodmain.diamond_feather": "Diamond Feather",
+  "item.megamodmain.red_crate": "Red Crate Spawn Egg",
   "item.megamodmain.bark": "Bark"
 }
