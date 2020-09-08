@@ -390,6 +390,54 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "golden_feather"
+    },
+    {
+      "name": "GoldenFeatherCraft",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_feather_craft"
+    },
+    {
+      "name": "DiamondFeatherRightClickedInAir",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_feather_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DiamondFeather",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_feather"
+    },
+    {
+      "name": "DiamondFeatherCraft",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_feather_craft"
     }
   ],
   "variable_elements": [],
@@ -402,6 +450,7 @@
       "item.megamodmain.pebble": "Pebble",
       "item.megamodmain.golden_feather": "Golden Feather",
       "item.megamodmain.pile_of_dirt": "Mud",
+      "item.megamodmain.diamond_feather": "Diamond Feather",
       "item.megamodmain.bark": "Bark"
     }
   },

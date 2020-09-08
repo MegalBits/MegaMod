@@ -9,7 +9,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:jungle_sapling",
+          "name": "minecraft:spruce_sapling",
           "weight": 1
         },
         {
