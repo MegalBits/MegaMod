@@ -45,7 +45,7 @@ public class GoldenFeatherRightClickedInAirProcedure extends MegamodmainModEleme
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LEVITATION, (int) 5, (int) 14, (false), (false)));
 			if (entity instanceof PlayerEntity)
-				((PlayerEntity) entity).getCooldownTracker().setCooldown(((itemstack)).getItem(), (int) 100);
+				((PlayerEntity) entity).getCooldownTracker().setCooldown(((itemstack)).getItem(), (int) 60);
 			{
 				ItemStack _ist = (itemstack);
 				if (_ist.attemptDamageItem((int) 1, new Random(), null)) {
