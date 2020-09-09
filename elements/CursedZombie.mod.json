@@ -5,7 +5,7 @@
     "mobName": "Cursed Zombie",
     "mobLabel": "",
     "mobModelName": "Biped",
-    "mobModelTexture": "cursedzombie.png",
+    "mobModelTexture": "cursedzombie.png.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
@@ -107,11 +107,11 @@
     "rangedItemType": "Default item",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 30,
+    "spawningProbability": 17,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [],
-    "spawnInDungeons": false
+    "spawnInDungeons": true
   }
 }
