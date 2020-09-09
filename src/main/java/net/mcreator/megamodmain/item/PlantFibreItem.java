@@ -15,7 +15,7 @@ public class PlantFibreItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:plant_fibre")
 	public static final Item block = null;
 	public PlantFibreItem(MegamodmainModElements instance) {
-		super(instance, 6);
+		super(instance, 2);
 	}
 
 	@Override

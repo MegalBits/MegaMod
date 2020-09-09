@@ -15,7 +15,7 @@ public class PebbleItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:pebble")
 	public static final Item block = null;
 	public PebbleItem(MegamodmainModElements instance) {
-		super(instance, 39);
+		super(instance, 5);
 	}
 
 	@Override

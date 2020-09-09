@@ -15,7 +15,7 @@ public class PileOfDirtItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:pile_of_dirt")
 	public static final Item block = null;
 	public PileOfDirtItem(MegamodmainModElements instance) {
-		super(instance, 2);
+		super(instance, 1);
 	}
 
 	@Override

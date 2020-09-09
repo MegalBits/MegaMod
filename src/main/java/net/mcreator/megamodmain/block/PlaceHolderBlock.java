@@ -23,7 +23,7 @@ public class PlaceHolderBlock extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:place_holder")
 	public static final Block block = null;
 	public PlaceHolderBlock(MegamodmainModElements instance) {
-		super(instance, 1);
+		super(instance, 10);
 	}
 
 	@Override

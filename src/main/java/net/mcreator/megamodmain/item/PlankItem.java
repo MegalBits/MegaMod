@@ -15,7 +15,7 @@ public class PlankItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:plank")
 	public static final Item block = null;
 	public PlankItem(MegamodmainModElements instance) {
-		super(instance, 15);
+		super(instance, 3);
 	}
 
 	@Override

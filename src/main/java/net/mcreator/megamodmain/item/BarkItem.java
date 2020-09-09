@@ -15,7 +15,7 @@ public class BarkItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:bark")
 	public static final Item block = null;
 	public BarkItem(MegamodmainModElements instance) {
-		super(instance, 29);
+		super(instance, 4);
 	}
 
 	@Override

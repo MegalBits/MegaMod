@@ -4,7 +4,7 @@
     {
       "name": "PlaceHolder",
       "type": "block",
-      "sortid": 1,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -13,7 +13,7 @@
     {
       "name": "PileOfDirt",
       "type": "item",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -22,7 +22,7 @@
     {
       "name": "DirtCraft",
       "type": "recipe",
-      "sortid": 3,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -31,7 +31,7 @@
     {
       "name": "DirtLT",
       "type": "loottable",
-      "sortid": 4,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -40,7 +40,7 @@
     {
       "name": "GrassLT",
       "type": "loottable",
-      "sortid": 5,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -49,7 +49,7 @@
     {
       "name": "PlantFibre",
       "type": "item",
-      "sortid": 6,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -58,7 +58,7 @@
     {
       "name": "TallGrassCraft",
       "type": "recipe",
-      "sortid": 7,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -67,7 +67,7 @@
     {
       "name": "FernCraft",
       "type": "recipe",
-      "sortid": 8,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -76,7 +76,7 @@
     {
       "name": "GrassBlockCraft1",
       "type": "recipe",
-      "sortid": 9,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -85,7 +85,7 @@
     {
       "name": "GrassBlockCraft2",
       "type": "recipe",
-      "sortid": 10,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -94,7 +94,7 @@
     {
       "name": "GrassPathLT",
       "type": "loottable",
-      "sortid": 11,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -103,7 +103,7 @@
     {
       "name": "TallGrassLT",
       "type": "loottable",
-      "sortid": 12,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -112,7 +112,7 @@
     {
       "name": "DoubleTallGrassLT",
       "type": "loottable",
-      "sortid": 13,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "FernLT",
       "type": "loottable",
-      "sortid": 14,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "Plank",
       "type": "item",
-      "sortid": 15,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +139,7 @@
     {
       "name": "OakPlanksCraft",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -148,7 +148,7 @@
     {
       "name": "BirchPlanksCraft",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -157,7 +157,7 @@
     {
       "name": "SprucePlanksCraft",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -166,7 +166,7 @@
     {
       "name": "AcaciaPlanksCraft",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -175,7 +175,7 @@
     {
       "name": "JunglePlanksCraft",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -184,7 +184,7 @@
     {
       "name": "DarkOakPlanksCraft",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -193,7 +193,7 @@
     {
       "name": "OakLogLT",
       "type": "loottable",
-      "sortid": 23,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -202,7 +202,7 @@
     {
       "name": "BirchLogLT",
       "type": "loottable",
-      "sortid": 24,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -211,7 +211,7 @@
     {
       "name": "SpruceLogLT",
       "type": "loottable",
-      "sortid": 25,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -220,7 +220,7 @@
     {
       "name": "AcaciaLogLT",
       "type": "loottable",
-      "sortid": 26,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -229,7 +229,7 @@
     {
       "name": "JungleLogLT",
       "type": "loottable",
-      "sortid": 27,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -238,7 +238,7 @@
     {
       "name": "DarkOakLogLT",
       "type": "loottable",
-      "sortid": 28,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -247,7 +247,7 @@
     {
       "name": "Bark",
       "type": "item",
-      "sortid": 29,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -256,7 +256,7 @@
     {
       "name": "PlankCraft",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -265,7 +265,7 @@
     {
       "name": "OakLeavesLT",
       "type": "loottable",
-      "sortid": 31,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -274,7 +274,7 @@
     {
       "name": "BirchLeavesLT",
       "type": "loottable",
-      "sortid": 32,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -283,7 +283,7 @@
     {
       "name": "SpruceLeavesLT",
       "type": "loottable",
-      "sortid": 33,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -292,7 +292,7 @@
     {
       "name": "AcaciaLeavesLT",
       "type": "loottable",
-      "sortid": 34,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -301,7 +301,7 @@
     {
       "name": "JungleLeavesLT",
       "type": "loottable",
-      "sortid": 35,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -310,7 +310,7 @@
     {
       "name": "DarkOakLeavesLT",
       "type": "loottable",
-      "sortid": 36,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -319,7 +319,7 @@
     {
       "name": "StickCraft",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -328,7 +328,7 @@
     {
       "name": "StickCraft2",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -337,7 +337,7 @@
     {
       "name": "Pebble",
       "type": "item",
-      "sortid": 39,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -346,7 +346,7 @@
     {
       "name": "StoneLT",
       "type": "loottable",
-      "sortid": 40,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -355,7 +355,7 @@
     {
       "name": "CobbleStoneCraft",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -385,7 +385,7 @@
     {
       "name": "GoldenFeather",
       "type": "item",
-      "sortid": 45,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -424,7 +424,7 @@
     {
       "name": "DiamondFeather",
       "type": "item",
-      "sortid": 47,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -451,7 +451,7 @@
     {
       "name": "IronFeather",
       "type": "item",
-      "sortid": 50,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -460,7 +460,7 @@
     {
       "name": "IronFeatherRightClickedInAir",
       "type": "procedure",
-      "sortid": 51,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -481,7 +481,7 @@
     {
       "name": "IronFeatherCraft",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -490,7 +490,7 @@
     {
       "name": "DowngradePlanks",
       "type": "recipe",
-      "sortid": 53,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -499,7 +499,7 @@
     {
       "name": "Downgradeplanks2",
       "type": "recipe",
-      "sortid": 54,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -508,7 +508,7 @@
     {
       "name": "Downgradeplanks3",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -517,7 +517,7 @@
     {
       "name": "Downgradeplanks4",
       "type": "recipe",
-      "sortid": 56,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -526,7 +526,7 @@
     {
       "name": "Downgradeplanks5",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -535,7 +535,7 @@
     {
       "name": "Downgradeplanks6",
       "type": "recipe",
-      "sortid": 58,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -544,7 +544,7 @@
     {
       "name": "LapisFeather",
       "type": "item",
-      "sortid": 59,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -553,7 +553,7 @@
     {
       "name": "LapisFeatherRightClickedInAir",
       "type": "procedure",
-      "sortid": 60,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -570,6 +570,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "LapisFeatherCraft",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lapis_feather_craft"
     }
   ],
   "variable_elements": [],

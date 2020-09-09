@@ -11,7 +11,7 @@ import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.megamodmain.procedures.GoldenFeatherRightClickedInAirProcedure;
+import net.mcreator.megamodmain.procedures.LapisFeatherRightClickedInAirProcedure;
 import net.mcreator.megamodmain.itemgroup.SpecialItemGroup;
 import net.mcreator.megamodmain.MegamodmainModElements;
 
@@ -23,7 +23,7 @@ public class LapisFeatherItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:lapis_feather")
 	public static final Item block = null;
 	public LapisFeatherItem(MegamodmainModElements instance) {
-		super(instance, 59);
+		super(instance, 8);
 	}
 
 	@Override
@@ -62,7 +62,7 @@ public class LapisFeatherItem extends MegamodmainModElements.ModElement {
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("itemstack", itemstack);
-				GoldenFeatherRightClickedInAirProcedure.executeProcedure($_dependencies);
+				LapisFeatherRightClickedInAirProcedure.executeProcedure($_dependencies);
 			}
 			return ar;
 		}
