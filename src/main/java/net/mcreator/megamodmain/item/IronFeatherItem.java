@@ -11,7 +11,7 @@ import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.megamodmain.procedures.DiamondFeatherRightClickedInAirProcedure;
+import net.mcreator.megamodmain.procedures.IronFeatherRightClickedInAirProcedure;
 import net.mcreator.megamodmain.itemgroup.SpecialItemGroup;
 import net.mcreator.megamodmain.MegamodmainModElements;
 
@@ -19,11 +19,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 @MegamodmainModElements.ModElement.Tag
-public class DiamondFeatherItem extends MegamodmainModElements.ModElement {
-	@ObjectHolder("megamodmain:diamond_feather")
+public class IronFeatherItem extends MegamodmainModElements.ModElement {
+	@ObjectHolder("megamodmain:iron_feather")
 	public static final Item block = null;
-	public DiamondFeatherItem(MegamodmainModElements instance) {
-		super(instance, 47);
+	public IronFeatherItem(MegamodmainModElements instance) {
+		super(instance, 50);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class DiamondFeatherItem extends MegamodmainModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(SpecialItemGroup.tab).maxDamage(5));
-			setRegistryName("diamond_feather");
+			setRegistryName("iron_feather");
 		}
 
 		@Override
@@ -62,7 +62,7 @@ public class DiamondFeatherItem extends MegamodmainModElements.ModElement {
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("itemstack", itemstack);
-				DiamondFeatherRightClickedInAirProcedure.executeProcedure($_dependencies);
+				IronFeatherRightClickedInAirProcedure.executeProcedure($_dependencies);
 			}
 			return ar;
 		}

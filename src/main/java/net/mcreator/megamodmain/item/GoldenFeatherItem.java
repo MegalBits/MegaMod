@@ -7,12 +7,12 @@ import net.minecraft.world.World;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ActionResult;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.megamodmain.procedures.GoldenFeatherRightClickedInAirProcedure;
+import net.mcreator.megamodmain.itemgroup.SpecialItemGroup;
 import net.mcreator.megamodmain.MegamodmainModElements;
 
 import java.util.Map;
@@ -32,7 +32,7 @@ public class GoldenFeatherItem extends MegamodmainModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.TRANSPORTATION).maxDamage(10));
+			super(new Item.Properties().group(SpecialItemGroup.tab).maxDamage(10));
 			setRegistryName("golden_feather");
 		}
 

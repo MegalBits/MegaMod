@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "goldenfeather",
+    "texture": "ironfeather",
     "customModelName": "Normal",
-    "name": "Golden Feather",
+    "name": "Iron Feather",
     "creativeTab": {
       "value": "CUSTOM:Special"
     },
@@ -13,7 +13,7 @@
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
-    "damageCount": 10,
+    "damageCount": 5,
     "destroyAnyBlock": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
@@ -25,7 +25,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onRightClickedInAir": {
-      "name": "GoldenFeatherRightClickedInAir"
+      "name": "IronFeatherRightClickedInAir"
     }
   }
 }

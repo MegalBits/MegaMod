@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Special",
+    "icon": {
+      "value": "CUSTOM:GoldenFeather"
+    },
+    "showSearch": false
+  }
+}

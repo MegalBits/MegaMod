@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Diamond Feather",
     "creativeTab": {
-      "value": "TRANSPORTATION"
+      "value": "CUSTOM:Special"
     },
     "stackSize": 1,
     "enchantability": 0,
