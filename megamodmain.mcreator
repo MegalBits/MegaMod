@@ -477,6 +477,69 @@
           }
         ]
       }
+    },
+    {
+      "name": "IronFeatherCraft",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_feather_craft"
+    },
+    {
+      "name": "DowngradePlanks",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "downgrade_planks"
+    },
+    {
+      "name": "Downgradeplanks2",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "downgradeplanks_2"
+    },
+    {
+      "name": "Downgradeplanks3",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "downgradeplanks_3"
+    },
+    {
+      "name": "Downgradeplanks4",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "downgradeplanks_4"
+    },
+    {
+      "name": "Downgradeplanks5",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "downgradeplanks_5"
+    },
+    {
+      "name": "Downgradeplanks6",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "downgradeplanks_6"
     }
   ],
   "variable_elements": [],
