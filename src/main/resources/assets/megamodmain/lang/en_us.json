@@ -1,13 +1,15 @@
 {
   "block.megamodmain.place_holder": "Place Holder",
-  "item.megamodmain.plank": "Plank",
-  "item.megamodmain.lapis_feather": "Lapis Feather",
   "item.megamodmain.plant_fibre": "Plant Fibre",
   "item.megamodmain.pebble": "Pebble",
   "item.megamodmain.golden_feather": "Golden Feather",
   "itemGroup.tabspecial": "Special",
   "item.megamodmain.iron_feather": "Iron Feather",
-  "item.megamodmain.pile_of_dirt": "Mud",
   "item.megamodmain.diamond_feather": "Diamond Feather",
+  "item.megamodmain.cursed_zombie": "Cursed Zombie Spawn Egg",
+  "item.megamodmain.plank": "Plank",
+  "item.megamodmain.lapis_feather": "Lapis Feather",
+  "entity.megamodmain.cursed_zombie": "Cursed Zombie",
+  "item.megamodmain.pile_of_dirt": "Mud",
   "item.megamodmain.bark": "Bark"
 }
