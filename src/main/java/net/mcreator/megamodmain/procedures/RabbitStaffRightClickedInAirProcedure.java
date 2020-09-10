@@ -2,6 +2,7 @@ package net.mcreator.megamodmain.procedures;
 
 import net.minecraft.util.DamageSource;
 import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
 
 import net.mcreator.megamodmain.MegamodmainModElements;
@@ -40,6 +41,8 @@ public class RabbitStaffRightClickedInAirProcedure extends MegamodmainModElement
 				_ist.setDamage(0);
 			}
 		}
-		entity.attackEntityFrom(DamageSource.MAGIC, (float) 1);
+		if (entity instanceof PlayerEntity)
+			((PlayerEntity) entity).getCooldownTracker().setCooldown(((itemstack)).getItem(), (int) 20);
+		entity.attackEntityFrom(DamageSource.MAGIC, (float) 2);
 	}
 }
