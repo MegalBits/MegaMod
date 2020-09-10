@@ -195,6 +195,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "rabbit_staff"
+    },
+    {
+      "name": "RabbitStaffCraft",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rabbit_staff_craft"
     }
   ],
   "variable_elements": [],
