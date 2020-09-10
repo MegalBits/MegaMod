@@ -1,0 +1,951 @@
+{
+  "_fv": 10,
+  "_type": "loottable",
+  "definition": {
+    "type": "Generic",
+    "pools": [
+      {
+        "minrolls": 0,
+        "maxrolls": 5,
+        "minbonusrolls": 0,
+        "maxbonusrolls": 5,
+        "hasbonusrolls": true,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:GoldenFeather"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:DiamondFeather"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:IronFeather"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:LapisFeather"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:LuckyBlock"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.STONE#0"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.STONE#1"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.STONE#3"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.STONE#5"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.GRASS"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.MYCELIUM"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.DIRT#0"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.DIRT#1"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.COBBLESTONE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.MOSSY_COBBLESTONE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.PLANKS#0"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.PLANKS#2"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.PLANKS#4"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.SAPLING#0"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.SAPLING#5"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.SAPLING#3"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.SAPLING#2"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.REEDS"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.SAND#0"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.GRAVEL"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.FLOWING_WATER"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.FLOWING_LAVA"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.MAGMA"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.OBSIDIAN"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.LOG#0"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.LOG#1"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.LOG2#0"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.LEAVES#3"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.LEAVES2#1"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.LEAVES#1"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.RED_BED"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.SPONGE#0"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.DEADBUSH"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.PISTON"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.STICKY_PISTON"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.BROWN_MUSHROOM"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.RED_MUSHROOM"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.TNT"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.ENDER_CHEST"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.BOOKSHELF"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.CRAFTING_TABLE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.CHEST"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.FURNACE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.NOTEBLOCK"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.MOB_SPAWNER"
+            },
+            "weight": 3
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.FIRE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.RABBIT_STEW"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.ICE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.CAKE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.ENCHANTING_TABLE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.MELON_BLOCK"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.PUMPKIN"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.BREWING_STAND"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.SWEET_BERRY_BUSH"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.HAY_BLOCK"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.BEACON"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.DISPENSER"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.DROPPER"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.CLAY"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.TURTLE_EGG"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.BAMBOO"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.BLAST_FURNACE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.SMOKER"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.CAMPFIRE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.IRON_INGOT"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.IRON_NUGGET"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.REDSTONE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLD_INGOT"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLD_NUGGET"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.DIAMOND"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.EMERALD"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.QUARTZ"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.NETHER_STAR"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.NAUTILUS_SHELL"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.PRISMARINE_SHARD"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.PRISMARINE_CRYSTALS"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.HEART_OF_THE_SEA"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_APPLE#0"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_APPLE#1"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.COOKED_BEEF"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.COOKED_CHICKEN"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.COOKED_FISH#1"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.COOKED_MUTTON"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.COOKED_PORKCHOP"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.CARROT"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.WHEAT"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.END_CRYSTAL"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.BLAZE_POWDER"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.BLAZE_ROD"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.MAGMA_CREAM"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.STONE_SWORD"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.STONE_PICKAXE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.STONE_SHOVEL"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.STONE_AXE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_CARROT"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_SWORD"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_PICKAXE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_AXE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_SHOVEL"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_HELMET"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_CHESTPLATE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_LEGGINGS"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_BOOTS"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GOLDEN_HORSE_ARMOR"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.LEATHER"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.SADDLE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GLOWSTONE_DUST"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.EGG"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.TURTLE_HELMET"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.TOTEM_OF_UNDYING"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.EXPERIENCE_BOTTLE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.CHORUS_FRUIT"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.DYE#15"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.FLINT"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GUNPOWDER"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.WITHER_ROSE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.SHULKER_SHELL"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.ELYTRA"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.DRAGON_EGG"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Blocks.WEB"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.FIREWORKS"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.FIRE_CHARGE"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GHAST_TEAR"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.BEETROOT_SOUP"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.SNOWBALL"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.FISH#3"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.LAVA_BUCKET"
+            },
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.SLIME_BALL"
+            },
+            "weight": 1
+          }
+        ]
+      }
+    ],
+    "name": "blocks/lucky_block",
+    "namespace": "mod"
+  }
+}

@@ -191,6 +191,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lucky_block"
+    },
+    {
+      "name": "LuckyBlockLT",
+      "type": "loottable",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucky_block_lt"
     }
   ],
   "variable_elements": [],
