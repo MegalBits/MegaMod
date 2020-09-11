@@ -19,10 +19,10 @@
     "luminance": 0.0,
     "unbreakable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "PLANT"
     },
     "customDrop": {
-      "value": ""
+      "value": "Items.BEETROOT"
     },
     "dropAmount": 1,
     "forceTicking": false,
@@ -37,7 +37,7 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 5,
+    "frequencyOnChunks": 3,
     "spawnWorldTypes": [
       "Surface"
     ],

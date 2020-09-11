@@ -35,7 +35,7 @@ public class HeartFlowerMobplayerCollidesWithPlantProcedure extends MegamodmainM
 			}
 		}.check((LivingEntity) entity)))) {
 			if (entity instanceof LivingEntity)
-				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 60, (int) 2, (false), (false)));
+				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.REGENERATION, (int) 60, (int) 2, (false), (true)));
 		}
 	}
 }
