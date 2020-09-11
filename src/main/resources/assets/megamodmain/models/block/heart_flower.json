@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "megamodmain:blocks/heart_flower",
+    "particle": "megamodmain:blocks/heart_flower"
+  }
+}
