@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherrack",
-          "weight": 1
+          "weight": 25
         },
         {
           "type": "minecraft:item",

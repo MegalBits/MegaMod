@@ -21,7 +21,7 @@
         ]
       },
       {
-        "minrolls": 0,
+        "minrolls": 1,
         "maxrolls": 1,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
@@ -32,7 +32,7 @@
             "item": {
               "value": "Blocks.AIR"
             },
-            "weight": 3
+            "weight": 50
           },
           {
             "type": "item",
