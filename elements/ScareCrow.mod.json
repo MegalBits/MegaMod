@@ -5,11 +5,11 @@
     "structure": "scarecrow",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 10000,
+    "spawnProbability": 2000,
     "minCountPerChunk": 1,
-    "maxCountPerChunk": 4,
+    "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": 0,
+    "spawnHeightOffset": 1,
     "spawnWorldTypes": [
       "Surface"
     ],

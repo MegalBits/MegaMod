@@ -213,6 +213,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "scare_crow"
+    },
+    {
+      "name": "SmallTree",
+      "type": "structure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "small_tree"
     }
   ],
   "variable_elements": [],
