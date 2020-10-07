@@ -16,7 +16,7 @@
             "item": {
               "value": "Blocks.NETHERRACK"
             },
-            "weight": 25
+            "weight": 100
           },
           {
             "type": "item",

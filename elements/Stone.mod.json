@@ -32,7 +32,7 @@
             "item": {
               "value": "Blocks.AIR"
             },
-            "weight": 70
+            "weight": 200
           },
           {
             "type": "item",
