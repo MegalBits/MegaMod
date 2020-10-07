@@ -2,10 +2,10 @@
   "_fv": 10,
   "_type": "structure",
   "definition": {
-    "structure": "scarecrowimproved",
+    "structure": "sprucebush",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 6000,
+    "spawnProbability": 10000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
@@ -16,6 +16,9 @@
     "restrictionBlocks": [
       {
         "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.DIRT#2"
       }
     ],
     "restrictionBiomes": [],

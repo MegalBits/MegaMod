@@ -5,7 +5,7 @@
     "structure": "smalltree",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 5000,
+    "spawnProbability": 15000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
@@ -13,33 +13,12 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBlocks": [],
-    "restrictionBiomes": [
+    "restrictionBlocks": [
       {
-        "value": "plains"
-      },
-      {
-        "value": "forest_hills"
-      },
-      {
-        "value": "forest"
-      },
-      {
-        "value": "mountains"
-      },
-      {
-        "value": "snowy_tundra"
-      },
-      {
-        "value": "snowy_mountains"
-      },
-      {
-        "value": "jungle"
-      },
-      {
-        "value": "jungle_hills"
+        "value": "Blocks.GRASS"
       }
     ],
+    "restrictionBiomes": [],
     "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

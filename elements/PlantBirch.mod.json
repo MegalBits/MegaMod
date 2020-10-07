@@ -2,14 +2,14 @@
   "_fv": 10,
   "_type": "structure",
   "definition": {
-    "structure": "scarecrowimproved",
+    "structure": "plant_birch",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 6000,
+    "spawnProbability": 15000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": 1,
+    "spawnHeightOffset": 0,
     "spawnWorldTypes": [
       "Surface"
     ],

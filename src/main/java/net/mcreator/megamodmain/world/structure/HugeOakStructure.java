@@ -31,9 +31,9 @@ import net.mcreator.megamodmain.MegamodmainModElements;
 import java.util.Random;
 
 @MegamodmainModElements.ModElement.Tag
-public class ScareCrowStructure extends MegamodmainModElements.ModElement {
-	public ScareCrowStructure(MegamodmainModElements instance) {
-		super(instance, 62);
+public class HugeOakStructure extends MegamodmainModElements.ModElement {
+	public HugeOakStructure(MegamodmainModElements instance) {
+		super(instance, 73);
 	}
 
 	@Override
@@ -69,7 +69,7 @@ public class ScareCrowStructure extends MegamodmainModElements.ModElement {
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("megamodmain", "scarecrowimproved"));
+								.getTemplateDefaulted(new ResourceLocation("megamodmain", "hugeoak"));
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
@@ -80,6 +80,11 @@ public class ScareCrowStructure extends MegamodmainModElements.ModElement {
 			}
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
+			boolean biomeCriteria = false;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("forest")))
+				biomeCriteria = true;
+			if (!biomeCriteria)
+				continue;
 			biome.addFeature(GenerationStage.Decoration.SURFACE_STRUCTURES, feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
 		}

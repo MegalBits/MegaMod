@@ -222,6 +222,96 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "small_tree"
+    },
+    {
+      "name": "OakBush",
+      "type": "structure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oak_bush"
+    },
+    {
+      "name": "SpruceBush",
+      "type": "structure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spruce_bush"
+    },
+    {
+      "name": "BirchBush",
+      "type": "structure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "birch_bush"
+    },
+    {
+      "name": "AcaciaBush",
+      "type": "structure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "acacia_bush"
+    },
+    {
+      "name": "PlantOak",
+      "type": "structure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plant_oak"
+    },
+    {
+      "name": "PlantBirch",
+      "type": "structure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plant_birch"
+    },
+    {
+      "name": "PlantSpruce",
+      "type": "structure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plant_spruce"
+    },
+    {
+      "name": "PlantAcacia",
+      "type": "structure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plant_acacia"
+    },
+    {
+      "name": "PlantWither",
+      "type": "structure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plant_wither"
+    },
+    {
+      "name": "HugeOak",
+      "type": "structure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "huge_oak"
     }
   ],
   "variable_elements": [],

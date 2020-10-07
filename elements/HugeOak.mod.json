@@ -2,7 +2,7 @@
   "_fv": 10,
   "_type": "structure",
   "definition": {
-    "structure": "scarecrowimproved",
+    "structure": "hugeoak",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 6000,
@@ -18,7 +18,11 @@
         "value": "Blocks.GRASS"
       }
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "forest"
+      }
+    ],
     "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

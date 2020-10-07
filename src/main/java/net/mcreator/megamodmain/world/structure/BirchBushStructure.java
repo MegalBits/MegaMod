@@ -31,9 +31,9 @@ import net.mcreator.megamodmain.MegamodmainModElements;
 import java.util.Random;
 
 @MegamodmainModElements.ModElement.Tag
-public class ScareCrowStructure extends MegamodmainModElements.ModElement {
-	public ScareCrowStructure(MegamodmainModElements instance) {
-		super(instance, 62);
+public class BirchBushStructure extends MegamodmainModElements.ModElement {
+	public BirchBushStructure(MegamodmainModElements instance) {
+		super(instance, 66);
 	}
 
 	@Override
@@ -49,7 +49,7 @@ public class ScareCrowStructure extends MegamodmainModElements.ModElement {
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 6000) {
+				if ((random.nextInt(1000000) + 1) <= 10000) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
@@ -69,7 +69,7 @@ public class ScareCrowStructure extends MegamodmainModElements.ModElement {
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("megamodmain", "scarecrowimproved"));
+								.getTemplateDefaulted(new ResourceLocation("megamodmain", "birchbush"));
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)

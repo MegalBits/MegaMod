@@ -31,9 +31,9 @@ import net.mcreator.megamodmain.MegamodmainModElements;
 import java.util.Random;
 
 @MegamodmainModElements.ModElement.Tag
-public class ScareCrowStructure extends MegamodmainModElements.ModElement {
-	public ScareCrowStructure(MegamodmainModElements instance) {
-		super(instance, 62);
+public class PlantSpruceStructure extends MegamodmainModElements.ModElement {
+	public PlantSpruceStructure(MegamodmainModElements instance) {
+		super(instance, 70);
 	}
 
 	@Override
@@ -49,7 +49,7 @@ public class ScareCrowStructure extends MegamodmainModElements.ModElement {
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 6000) {
+				if ((random.nextInt(1000000) + 1) <= 15000) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
@@ -64,12 +64,12 @@ public class ScareCrowStructure extends MegamodmainModElements.ModElement {
 							continue;
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
-						BlockPos spawnTo = new BlockPos(i, j + 1, k);
+						BlockPos spawnTo = new BlockPos(i, j + 0, k);
 						int x = spawnTo.getX();
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("megamodmain", "scarecrowimproved"));
+								.getTemplateDefaulted(new ResourceLocation("megamodmain", "plant_spruce"));
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
