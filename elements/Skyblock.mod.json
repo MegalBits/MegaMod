@@ -2,27 +2,19 @@
   "_fv": 10,
   "_type": "structure",
   "definition": {
-    "structure": "hugeoak",
+    "structure": "skyblock",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 6000,
+    "spawnProbability": 1300,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
-    "spawnLocation": "Ground",
-    "spawnHeightOffset": 1,
+    "spawnLocation": "Air",
+    "spawnHeightOffset": 12,
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBlocks": [
-      {
-        "value": "Blocks.GRASS"
-      }
-    ],
-    "restrictionBiomes": [
-      {
-        "value": "forest"
-      }
-    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [],
     "ignoreBlocks": "STRUCTURE_BLOCK"
   }
 }

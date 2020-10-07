@@ -305,13 +305,13 @@
       "registry_name": "plant_wither"
     },
     {
-      "name": "HugeOak",
+      "name": "Skyblock",
       "type": "structure",
       "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "huge_oak"
+      "registry_name": "skyblock"
     }
   ],
   "variable_elements": [],

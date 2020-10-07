@@ -23,16 +23,14 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.Mirror;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.BlockState;
 
 import net.mcreator.megamodmain.MegamodmainModElements;
 
 import java.util.Random;
 
 @MegamodmainModElements.ModElement.Tag
-public class HugeOakStructure extends MegamodmainModElements.ModElement {
-	public HugeOakStructure(MegamodmainModElements instance) {
+public class SkyblockStructure extends MegamodmainModElements.ModElement {
+	public SkyblockStructure(MegamodmainModElements instance) {
 		super(instance, 73);
 	}
 
@@ -49,27 +47,21 @@ public class HugeOakStructure extends MegamodmainModElements.ModElement {
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 6000) {
+				if ((random.nextInt(1000000) + 1) <= 1300) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
 						int k = ck + random.nextInt(16);
 						int j = world.getHeight(Heightmap.Type.OCEAN_FLOOR_WG, i, k);
-						j -= 1;
-						BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
-						boolean blockCriteria = false;
-						if (blockAt.getBlock() == Blocks.GRASS_BLOCK.getDefaultState().getBlock())
-							blockCriteria = true;
-						if (!blockCriteria)
-							continue;
+						j += random.nextInt(50) + 16;
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
-						BlockPos spawnTo = new BlockPos(i, j + 1, k);
+						BlockPos spawnTo = new BlockPos(i, j + 12, k);
 						int x = spawnTo.getX();
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("megamodmain", "hugeoak"));
+								.getTemplateDefaulted(new ResourceLocation("megamodmain", "skyblock"));
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
@@ -80,12 +72,7 @@ public class HugeOakStructure extends MegamodmainModElements.ModElement {
 			}
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("forest")))
-				biomeCriteria = true;
-			if (!biomeCriteria)
-				continue;
-			biome.addFeature(GenerationStage.Decoration.SURFACE_STRUCTURES, feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
+			biome.addFeature(GenerationStage.Decoration.RAW_GENERATION, feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
 		}
 	}
