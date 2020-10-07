@@ -312,6 +312,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "skyblock"
+    },
+    {
+      "name": "Stone",
+      "type": "loottable",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone"
+    },
+    {
+      "name": "Netherrack",
+      "type": "loottable",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherrack"
     }
   ],
   "variable_elements": [],
