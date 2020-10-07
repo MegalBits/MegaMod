@@ -12,12 +12,15 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:air",
-          "weight": 50
+          "weight": 70
         },
         {
           "type": "minecraft:item",
