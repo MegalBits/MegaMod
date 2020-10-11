@@ -33,7 +33,7 @@ import java.util.Random;
 @MegamodmainModElements.ModElement.Tag
 public class SmallTreeStructure extends MegamodmainModElements.ModElement {
 	public SmallTreeStructure(MegamodmainModElements instance) {
-		super(instance, 63);
+		super(instance, 25);
 	}
 
 	@Override

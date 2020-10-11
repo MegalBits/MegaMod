@@ -31,7 +31,7 @@ import java.util.Random;
 @MegamodmainModElements.ModElement.Tag
 public class SkyblockStructure extends MegamodmainModElements.ModElement {
 	public SkyblockStructure(MegamodmainModElements instance) {
-		super(instance, 73);
+		super(instance, 35);
 	}
 
 	@Override

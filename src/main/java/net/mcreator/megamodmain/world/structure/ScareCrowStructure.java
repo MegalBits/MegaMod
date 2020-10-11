@@ -33,7 +33,7 @@ import java.util.Random;
 @MegamodmainModElements.ModElement.Tag
 public class ScareCrowStructure extends MegamodmainModElements.ModElement {
 	public ScareCrowStructure(MegamodmainModElements instance) {
-		super(instance, 62);
+		super(instance, 24);
 	}
 
 	@Override

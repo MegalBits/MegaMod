@@ -4,7 +4,7 @@
     {
       "name": "GoldenFeatherRightClickedInAir",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -25,7 +25,7 @@
     {
       "name": "GoldenFeather",
       "type": "item",
-      "sortid": 7,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -34,7 +34,7 @@
     {
       "name": "GoldenFeatherCraft",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -43,7 +43,7 @@
     {
       "name": "DiamondFeatherRightClickedInAir",
       "type": "procedure",
-      "sortid": 47,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -64,7 +64,7 @@
     {
       "name": "DiamondFeather",
       "type": "item",
-      "sortid": 9,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -73,7 +73,7 @@
     {
       "name": "DiamondFeatherCraft",
       "type": "recipe",
-      "sortid": 48,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -82,7 +82,7 @@
     {
       "name": "Special",
       "type": "tab",
-      "sortid": 49,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -91,7 +91,7 @@
     {
       "name": "IronFeather",
       "type": "item",
-      "sortid": 6,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -100,7 +100,7 @@
     {
       "name": "IronFeatherRightClickedInAir",
       "type": "procedure",
-      "sortid": 50,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "IronFeatherCraft",
       "type": "recipe",
-      "sortid": 51,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -130,7 +130,7 @@
     {
       "name": "LapisFeather",
       "type": "item",
-      "sortid": 8,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +139,7 @@
     {
       "name": "LapisFeatherRightClickedInAir",
       "type": "procedure",
-      "sortid": 58,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -160,7 +160,7 @@
     {
       "name": "LapisFeatherCraft",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -169,7 +169,7 @@
     {
       "name": "RabbitStaffRightClickedInAir",
       "type": "procedure",
-      "sortid": 60,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -190,7 +190,7 @@
     {
       "name": "RabbitStaff",
       "type": "item",
-      "sortid": 60,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -199,7 +199,7 @@
     {
       "name": "RabbitStaffCraft",
       "type": "recipe",
-      "sortid": 61,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -208,7 +208,7 @@
     {
       "name": "ScareCrow",
       "type": "structure",
-      "sortid": 62,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -217,7 +217,7 @@
     {
       "name": "SmallTree",
       "type": "structure",
-      "sortid": 63,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -226,7 +226,7 @@
     {
       "name": "OakBush",
       "type": "structure",
-      "sortid": 64,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -235,7 +235,7 @@
     {
       "name": "SpruceBush",
       "type": "structure",
-      "sortid": 65,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -244,7 +244,7 @@
     {
       "name": "BirchBush",
       "type": "structure",
-      "sortid": 66,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -253,7 +253,7 @@
     {
       "name": "AcaciaBush",
       "type": "structure",
-      "sortid": 67,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -262,7 +262,7 @@
     {
       "name": "PlantOak",
       "type": "structure",
-      "sortid": 68,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -271,7 +271,7 @@
     {
       "name": "PlantBirch",
       "type": "structure",
-      "sortid": 69,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -280,7 +280,7 @@
     {
       "name": "PlantSpruce",
       "type": "structure",
-      "sortid": 70,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -289,7 +289,7 @@
     {
       "name": "PlantAcacia",
       "type": "structure",
-      "sortid": 71,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -298,7 +298,7 @@
     {
       "name": "PlantWither",
       "type": "structure",
-      "sortid": 72,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -307,7 +307,7 @@
     {
       "name": "Skyblock",
       "type": "structure",
-      "sortid": 73,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -316,7 +316,7 @@
     {
       "name": "Stone",
       "type": "loottable",
-      "sortid": 74,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -325,7 +325,7 @@
     {
       "name": "Netherrack",
       "type": "loottable",
-      "sortid": 75,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -334,7 +334,7 @@
     {
       "name": "WoodenPicksword",
       "type": "tool",
-      "sortid": 76,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -343,7 +343,7 @@
     {
       "name": "StonePicksword",
       "type": "tool",
-      "sortid": 77,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -352,7 +352,7 @@
     {
       "name": "WoodenPickswordCraft",
       "type": "recipe",
-      "sortid": 78,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -361,7 +361,7 @@
     {
       "name": "StonePickswordCraft",
       "type": "recipe",
-      "sortid": 79,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -370,7 +370,7 @@
     {
       "name": "IronDagger",
       "type": "tool",
-      "sortid": 80,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -379,7 +379,7 @@
     {
       "name": "DiamondDagger",
       "type": "tool",
-      "sortid": 81,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -388,7 +388,7 @@
     {
       "name": "GoldDagger",
       "type": "tool",
-      "sortid": 82,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -397,7 +397,7 @@
     {
       "name": "StoneDagger",
       "type": "tool",
-      "sortid": 83,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -406,11 +406,56 @@
     {
       "name": "WoodenDagger",
       "type": "tool",
-      "sortid": 84,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "wooden_dagger"
+    },
+    {
+      "name": "WoodenDaggerCraft",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wooden_dagger_craft"
+    },
+    {
+      "name": "StoneDaggerCraft",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stone_dagger_craft"
+    },
+    {
+      "name": "IronDaggerCraft",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_dagger_craft"
+    },
+    {
+      "name": "GoldDaggerCraft",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gold_dagger_craft"
+    },
+    {
+      "name": "DiamondDaggerCraft",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_dagger_craft"
     }
   ],
   "variable_elements": [],

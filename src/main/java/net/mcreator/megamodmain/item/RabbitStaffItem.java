@@ -23,7 +23,7 @@ public class RabbitStaffItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:rabbit_staff")
 	public static final Item block = null;
 	public RabbitStaffItem(MegamodmainModElements instance) {
-		super(instance, 60);
+		super(instance, 5);
 	}
 
 	@Override

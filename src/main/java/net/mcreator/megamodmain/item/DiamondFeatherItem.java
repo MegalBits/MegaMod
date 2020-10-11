@@ -23,7 +23,7 @@ public class DiamondFeatherItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:diamond_feather")
 	public static final Item block = null;
 	public DiamondFeatherItem(MegamodmainModElements instance) {
-		super(instance, 9);
+		super(instance, 4);
 	}
 
 	@Override

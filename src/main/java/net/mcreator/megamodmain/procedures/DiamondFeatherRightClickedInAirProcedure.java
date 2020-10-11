@@ -16,7 +16,7 @@ import java.util.Collection;
 @MegamodmainModElements.ModElement.Tag
 public class DiamondFeatherRightClickedInAirProcedure extends MegamodmainModElements.ModElement {
 	public DiamondFeatherRightClickedInAirProcedure(MegamodmainModElements instance) {
-		super(instance, 47);
+		super(instance, 15);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

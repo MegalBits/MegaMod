@@ -18,7 +18,7 @@ public class WoodenPickswordItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:wooden_picksword")
 	public static final Item block = null;
 	public WoodenPickswordItem(MegamodmainModElements instance) {
-		super(instance, 76);
+		super(instance, 6);
 	}
 
 	@Override

@@ -33,7 +33,7 @@ import java.util.Random;
 @MegamodmainModElements.ModElement.Tag
 public class OakBushStructure extends MegamodmainModElements.ModElement {
 	public OakBushStructure(MegamodmainModElements instance) {
-		super(instance, 64);
+		super(instance, 26);
 	}
 
 	@Override

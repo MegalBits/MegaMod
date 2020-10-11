@@ -23,7 +23,7 @@ public class LapisFeatherItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:lapis_feather")
 	public static final Item block = null;
 	public LapisFeatherItem(MegamodmainModElements instance) {
-		super(instance, 8);
+		super(instance, 3);
 	}
 
 	@Override

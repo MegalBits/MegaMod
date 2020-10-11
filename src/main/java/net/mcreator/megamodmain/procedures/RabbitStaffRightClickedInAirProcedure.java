@@ -13,7 +13,7 @@ import java.util.Map;
 @MegamodmainModElements.ModElement.Tag
 public class RabbitStaffRightClickedInAirProcedure extends MegamodmainModElements.ModElement {
 	public RabbitStaffRightClickedInAirProcedure(MegamodmainModElements instance) {
-		super(instance, 60);
+		super(instance, 22);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

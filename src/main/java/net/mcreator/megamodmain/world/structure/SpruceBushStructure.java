@@ -33,7 +33,7 @@ import java.util.Random;
 @MegamodmainModElements.ModElement.Tag
 public class SpruceBushStructure extends MegamodmainModElements.ModElement {
 	public SpruceBushStructure(MegamodmainModElements instance) {
-		super(instance, 65);
+		super(instance, 27);
 	}
 
 	@Override

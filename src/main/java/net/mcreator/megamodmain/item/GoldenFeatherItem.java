@@ -23,7 +23,7 @@ public class GoldenFeatherItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:golden_feather")
 	public static final Item block = null;
 	public GoldenFeatherItem(MegamodmainModElements instance) {
-		super(instance, 45);
+		super(instance, 2);
 	}
 
 	@Override

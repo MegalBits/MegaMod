@@ -23,7 +23,7 @@ public class IronFeatherItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:iron_feather")
 	public static final Item block = null;
 	public IronFeatherItem(MegamodmainModElements instance) {
-		super(instance, 50);
+		super(instance, 1);
 	}
 
 	@Override
