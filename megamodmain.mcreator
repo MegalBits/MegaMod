@@ -465,6 +465,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "stevelands"
+    },
+    {
+      "name": "SteveLandsLighterCraft",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steve_lands_lighter_craft"
     }
   ],
   "variable_elements": [],
