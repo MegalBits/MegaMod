@@ -51,82 +51,100 @@
         "entity": {
           "value": "EntityChicken"
         },
-        "minGroup": 4,
-        "maxGroup": 4,
+        "minGroup": 1,
+        "maxGroup": 1,
         "weight": 20,
-        "spawnType": "creature"
+        "spawnType": "ambient"
       },
       {
         "entity": {
           "value": "EntityCow"
         },
-        "minGroup": 4,
-        "maxGroup": 4,
+        "minGroup": 1,
+        "maxGroup": 1,
         "weight": 20,
-        "spawnType": "creature"
+        "spawnType": "ambient"
       },
       {
         "entity": {
           "value": "EntityHorse"
         },
-        "minGroup": 4,
-        "maxGroup": 4,
+        "minGroup": 1,
+        "maxGroup": 1,
         "weight": 20,
-        "spawnType": "creature"
+        "spawnType": "ambient"
       },
       {
         "entity": {
           "value": "EntityLlama"
         },
-        "minGroup": 4,
-        "maxGroup": 4,
+        "minGroup": 1,
+        "maxGroup": 1,
         "weight": 20,
-        "spawnType": "creature"
+        "spawnType": "ambient"
       },
       {
         "entity": {
           "value": "EntityRabbit"
         },
-        "minGroup": 4,
-        "maxGroup": 4,
+        "minGroup": 1,
+        "maxGroup": 1,
         "weight": 20,
-        "spawnType": "creature"
+        "spawnType": "ambient"
       },
       {
         "entity": {
           "value": "EntitySheep"
         },
-        "minGroup": 4,
-        "maxGroup": 4,
+        "minGroup": 1,
+        "maxGroup": 1,
         "weight": 20,
-        "spawnType": "creature"
+        "spawnType": "ambient"
       },
       {
         "entity": {
           "value": "EntityCreeper"
         },
-        "minGroup": 4,
-        "maxGroup": 4,
+        "minGroup": 1,
+        "maxGroup": 1,
         "weight": 20,
-        "spawnType": "monster"
+        "spawnType": "ambient"
       },
       {
         "entity": {
           "value": "EntityZombie"
         },
-        "minGroup": 4,
-        "maxGroup": 4,
+        "minGroup": 1,
+        "maxGroup": 1,
         "weight": 20,
-        "spawnType": "monster"
+        "spawnType": "ambient"
       },
       {
         "entity": {
           "value": "EntitySkeleton"
         },
-        "minGroup": 4,
-        "maxGroup": 4,
+        "minGroup": 1,
+        "maxGroup": 1,
         "weight": 20,
-        "spawnType": "monster"
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Steve"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 120,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Steve1"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 120,
+        "spawnType": "ambient"
       }
     ]
   }

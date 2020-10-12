@@ -20,6 +20,8 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
+import net.mcreator.megamodmain.entity.SteveEntity;
+import net.mcreator.megamodmain.entity.Steve1Entity;
 import net.mcreator.megamodmain.MegamodmainModElements;
 
 import com.google.common.collect.Lists;
@@ -79,15 +81,17 @@ public class SteveLandBiome extends MegamodmainModElements.ModElement {
 							.withConfiguration(new SphereReplaceConfig(Blocks.GRAVEL.getDefaultState(), 6, 2,
 									Lists.newArrayList(Blocks.GRASS_BLOCK.getDefaultState(), Blocks.DIRT.getDefaultState())))
 							.withPlacement(Placement.COUNT_TOP_SOLID.configure(new FrequencyConfig(1))));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.CHICKEN, 20, 4, 4));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.COW, 20, 4, 4));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.HORSE, 20, 4, 4));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.LLAMA, 20, 4, 4));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.RABBIT, 20, 4, 4));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.SHEEP, 20, 4, 4));
-			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.CREEPER, 20, 4, 4));
-			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ZOMBIE, 20, 4, 4));
-			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SKELETON, 20, 4, 4));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.CHICKEN, 20, 1, 1));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.COW, 20, 1, 1));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.HORSE, 20, 1, 1));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.LLAMA, 20, 1, 1));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.RABBIT, 20, 1, 1));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.SHEEP, 20, 1, 1));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.CREEPER, 20, 1, 1));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.ZOMBIE, 20, 1, 1));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.SKELETON, 20, 1, 1));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(SteveEntity.entity, 120, 1, 1));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(Steve1Entity.entity, 120, 1, 1));
 		}
 	}
 }

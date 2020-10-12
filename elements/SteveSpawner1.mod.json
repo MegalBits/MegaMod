@@ -13,7 +13,11 @@
     "spawnWorldTypes": [
       "CUSTOM:Stevelands"
     ],
-    "restrictionBlocks": [],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.GRASS"
+      }
+    ],
     "restrictionBiomes": [],
     "ignoreBlocks": "STRUCTURE_BLOCK"
   }

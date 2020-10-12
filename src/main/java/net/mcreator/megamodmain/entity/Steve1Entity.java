@@ -25,6 +25,7 @@ import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.monster.ZombieEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
@@ -43,7 +44,6 @@ import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.client.renderer.entity.model.BipedModel;
 import net.minecraft.client.renderer.entity.layers.BipedArmorLayer;
 import net.minecraft.client.renderer.entity.BipedRenderer;
-import net.minecraft.block.material.Material;
 
 import net.mcreator.megamodmain.MegamodmainModElements;
 
@@ -57,7 +57,7 @@ public class Steve1Entity extends MegamodmainModElements.ModElement {
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
+		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.AMBIENT).setShouldReceiveVelocityUpdates(true)
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("steve_1")
 						.setRegistryName("steve_1");
 		elements.entities.add(() -> entity);
@@ -72,11 +72,10 @@ public class Steve1Entity extends MegamodmainModElements.ModElement {
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
-			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 60, 1, 1));
+			biome.getSpawns(EntityClassification.AMBIENT).add(new Biome.SpawnListEntry(entity, 60, 1, 1));
 		}
-		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos,
-						random) -> (world.getBlockState(pos.down()).getMaterial() == Material.ORGANIC && world.getLightSubtracted(pos, 0) > 8));
+		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.NO_RESTRICTIONS,
+				Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, MobEntity::canSpawnOn);
 		DungeonHooks.addDungeonMob(entity, 180);
 	}
 
@@ -119,7 +118,7 @@ public class Steve1Entity extends MegamodmainModElements.ModElement {
 		protected void registerGoals() {
 			super.registerGoals();
 			this.targetSelector.addGoal(1, new NearestAttackableTargetGoal(this, AnimalEntity.class, false, false));
-			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, SteveEntity.CustomEntity.class, false, false));
+			this.targetSelector.addGoal(2, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, false));
 			this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, MobEntity.class, false, false));
 			this.goalSelector.addGoal(4, new MeleeAttackGoal(this, 1.2, false));
 			this.goalSelector.addGoal(5, new RandomWalkingGoal(this, 1));
