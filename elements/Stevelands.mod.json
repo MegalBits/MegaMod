@@ -21,7 +21,7 @@
     "enablePortal": true,
     "biomesInDimension": [
       {
-        "value": "plains"
+        "value": "CUSTOM:SteveLand"
       }
     ],
     "worldGenType": "Normal world gen",

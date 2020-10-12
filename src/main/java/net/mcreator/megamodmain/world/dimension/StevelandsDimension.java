@@ -121,7 +121,7 @@ public class StevelandsDimension extends MegamodmainModElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("plains")),};
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("megamodmain:steve_land")),};
 	}
 
 	@Override
