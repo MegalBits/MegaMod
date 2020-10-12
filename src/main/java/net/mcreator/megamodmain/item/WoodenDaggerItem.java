@@ -18,7 +18,7 @@ public class WoodenDaggerItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:wooden_dagger")
 	public static final Item block = null;
 	public WoodenDaggerItem(MegamodmainModElements instance) {
-		super(instance, 84);
+		super(instance, 8);
 	}
 
 	@Override

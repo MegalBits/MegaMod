@@ -415,7 +415,7 @@
     {
       "name": "WoodenDaggerCraft",
       "type": "recipe",
-      "sortid": 85,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -424,7 +424,7 @@
     {
       "name": "StoneDaggerCraft",
       "type": "recipe",
-      "sortid": 86,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -433,7 +433,7 @@
     {
       "name": "IronDaggerCraft",
       "type": "recipe",
-      "sortid": 87,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -442,7 +442,7 @@
     {
       "name": "GoldDaggerCraft",
       "type": "recipe",
-      "sortid": 88,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -451,11 +451,20 @@
     {
       "name": "DiamondDaggerCraft",
       "type": "recipe",
-      "sortid": 89,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_dagger_craft"
+    },
+    {
+      "name": "Stevelands",
+      "type": "dimension",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stevelands"
     }
   ],
   "variable_elements": [],
@@ -469,6 +478,7 @@
       "itemGroup.tabspecial": "Special",
       "item.megamodmain.iron_feather": "Iron Feather",
       "item.megamodmain.wooden_picksword": "Wooden Picksword",
+      "item.megamodmain.stevelands": "Stone and Steel",
       "item.megamodmain.iron_dagger": "Iron Dagger",
       "item.megamodmain.diamond_feather": "Diamond Feather",
       "item.megamodmain.diamond_dagger": "Diamond Dagger",

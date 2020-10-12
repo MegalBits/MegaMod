@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "megamodmain:block/stevelands_portal_ew"
+    },
+    "axis=x": {
+      "model": "megamodmain:block/stevelands_portal_ns"
+    }
+  }
+}
