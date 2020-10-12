@@ -501,6 +501,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steve_1"
+    },
+    {
+      "name": "SteveSpawner",
+      "type": "structure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steve_spawner"
+    },
+    {
+      "name": "SteveSpawner1",
+      "type": "structure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steve_spawner_1"
     }
   ],
   "variable_elements": [],
