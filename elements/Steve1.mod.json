@@ -2,7 +2,7 @@
   "_fv": 10,
   "_type": "mob",
   "definition": {
-    "mobName": "Steve_1",
+    "mobName": "Steve_2",
     "mobLabel": "Steve",
     "mobModelName": "Biped",
     "mobModelTexture": "steve.png",
@@ -27,7 +27,7 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": "Items.WOODEN_SWORD"
+      "value": "Items.STICK"
     },
     "equipmentOffHand": {
       "value": ""
@@ -36,10 +36,10 @@
       "value": ""
     },
     "equipmentBody": {
-      "value": ""
+      "value": "Items.LEATHER_CHESTPLATE"
     },
     "equipmentLeggings": {
-      "value": ""
+      "value": "Items.LEATHER_LEGGINGS"
     },
     "equipmentBoots": {
       "value": ""

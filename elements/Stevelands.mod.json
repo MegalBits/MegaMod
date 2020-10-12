@@ -24,9 +24,9 @@
         "value": "CUSTOM:SteveLand"
       }
     ],
-    "worldGenType": "Normal world gen",
+    "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "Blocks.GRASS"
+      "value": "Blocks.DIRT#0"
     },
     "fluidBlock": {
       "value": "Blocks.WATER"

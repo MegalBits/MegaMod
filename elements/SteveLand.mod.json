@@ -25,8 +25,8 @@
     "treeFruits": {
       "value": ""
     },
-    "treesPerChunk": 3,
-    "grassPerChunk": 4,
+    "treesPerChunk": 1,
+    "grassPerChunk": 6,
     "flowersPerChunk": 4,
     "mushroomsPerChunk": 0,
     "bigMushroomsChunk": 0,
@@ -107,7 +107,7 @@
         },
         "minGroup": 1,
         "maxGroup": 1,
-        "weight": 20,
+        "weight": 200,
         "spawnType": "monster"
       },
       {
@@ -116,7 +116,7 @@
         },
         "minGroup": 1,
         "maxGroup": 1,
-        "weight": 20,
+        "weight": 200,
         "spawnType": "creature"
       }
     ]

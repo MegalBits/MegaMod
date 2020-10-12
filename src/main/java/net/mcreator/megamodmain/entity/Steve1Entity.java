@@ -48,20 +48,20 @@ import net.minecraft.block.material.Material;
 import net.mcreator.megamodmain.MegamodmainModElements;
 
 @MegamodmainModElements.ModElement.Tag
-public class SteveEntity extends MegamodmainModElements.ModElement {
+public class Steve1Entity extends MegamodmainModElements.ModElement {
 	public static EntityType entity = null;
-	public SteveEntity(MegamodmainModElements instance) {
-		super(instance, 47);
+	public Steve1Entity(MegamodmainModElements instance) {
+		super(instance, 49);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("steve")
-						.setRegistryName("steve");
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 1.8f)).build("steve_1")
+						.setRegistryName("steve_1");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -16777216, -16777216, new Item.Properties().group(null)).setRegistryName("steve"));
+		elements.items.add(() -> new SpawnEggItem(entity, -16777216, -16777216, new Item.Properties().group(null)).setRegistryName("steve_1"));
 	}
 
 	@Override
@@ -106,7 +106,9 @@ public class SteveEntity extends MegamodmainModElements.ModElement {
 			setCustomName(new StringTextComponent("Steve"));
 			setCustomNameVisible(true);
 			enablePersistence();
-			this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(Items.WOODEN_SWORD, (int) (1)));
+			this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(Items.STICK, (int) (1)));
+			this.setItemStackToSlot(EquipmentSlotType.CHEST, new ItemStack(Items.LEATHER_CHESTPLATE, (int) (1)));
+			this.setItemStackToSlot(EquipmentSlotType.LEGS, new ItemStack(Items.LEATHER_LEGGINGS, (int) (1)));
 		}
 
 		@Override

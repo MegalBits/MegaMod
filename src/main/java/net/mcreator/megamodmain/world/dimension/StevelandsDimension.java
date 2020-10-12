@@ -25,16 +25,13 @@ import net.minecraft.world.gen.layer.traits.IC0Transformer;
 import net.minecraft.world.gen.layer.ZoomLayer;
 import net.minecraft.world.gen.layer.Layer;
 import net.minecraft.world.gen.layer.IslandLayer;
-import net.minecraft.world.gen.feature.ProbabilityConfig;
-import net.minecraft.world.gen.carver.CaveWorldCarver;
 import net.minecraft.world.gen.area.LazyArea;
 import net.minecraft.world.gen.area.IAreaFactory;
-import net.minecraft.world.gen.OverworldGenSettings;
-import net.minecraft.world.gen.OverworldChunkGenerator;
 import net.minecraft.world.gen.LazyAreaLayerContext;
 import net.minecraft.world.gen.INoiseRandom;
 import net.minecraft.world.gen.IExtendedNoiseRandom;
-import net.minecraft.world.gen.GenerationStage;
+import net.minecraft.world.gen.EndGenerationSettings;
+import net.minecraft.world.gen.EndChunkGenerator;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.dimension.Dimension;
@@ -731,22 +728,18 @@ public class StevelandsDimension extends MegamodmainModElements.ModElement {
 		}
 	}
 
-	public static class ChunkProviderModded extends OverworldChunkGenerator {
+	public static class ChunkProviderModded extends EndChunkGenerator {
 		public ChunkProviderModded(IWorld world, BiomeProvider provider) {
-			super(world, provider, new OverworldGenSettings() {
+			super(world, provider, new EndGenerationSettings() {
 				public BlockState getDefaultBlock() {
-					return Blocks.GRASS_BLOCK.getDefaultState();
+					return Blocks.DIRT.getDefaultState();
 				}
 
 				public BlockState getDefaultFluid() {
 					return Blocks.WATER.getDefaultState();
 				}
 			});
-			this.randomSeed.skip(5349);
-		}
-
-		@Override
-		public void spawnMobs(ServerWorld worldIn, boolean spawnHostileMobs, boolean spawnPeacefulMobs) {
+			this.randomSeed.skip(3946);
 		}
 	}
 
@@ -759,22 +752,9 @@ public class StevelandsDimension extends MegamodmainModElements.ModElement {
 
 	public static class BiomeProviderCustom extends BiomeProvider {
 		private Layer genBiomes;
-		private static boolean biomesPatched = false;
 		public BiomeProviderCustom(World world) {
 			super(new HashSet<Biome>(Arrays.asList(dimensionBiomes)));
 			this.genBiomes = getBiomeLayer(world.getSeed());
-			if (!biomesPatched) {
-				for (Biome biome : this.biomes) {
-					biome.addCarver(GenerationStage.Carving.AIR, Biome.createCarver(new CaveWorldCarver(ProbabilityConfig::deserialize, 256) {
-						{
-							carvableBlocks = ImmutableSet.of(Blocks.GRASS_BLOCK.getDefaultState().getBlock(),
-									biome.getSurfaceBuilder().getConfig().getTop().getBlock(),
-									biome.getSurfaceBuilder().getConfig().getUnder().getBlock());
-						}
-					}, new ProbabilityConfig(0.14285715f)));
-				}
-				biomesPatched = true;
-			}
 		}
 
 		public Biome getNoiseBiome(int x, int y, int z) {
