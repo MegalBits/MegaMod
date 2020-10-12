@@ -18,7 +18,6 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
-import net.mcreator.megamodmain.entity.SteveEntity;
 import net.mcreator.megamodmain.MegamodmainModElements;
 
 import com.google.common.collect.ImmutableList;
@@ -68,8 +67,9 @@ public class SteveLandBiome extends MegamodmainModElements.ModElement {
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.LLAMA, 20, 4, 4));
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.RABBIT, 20, 4, 4));
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.SHEEP, 20, 4, 4));
-			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(SteveEntity.entity, 200, 1, 1));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(SteveEntity.entity, 200, 1, 1));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.CREEPER, 20, 4, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.ZOMBIE, 20, 4, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.SKELETON, 20, 4, 4));
 		}
 	}
 }

@@ -103,21 +103,30 @@
       },
       {
         "entity": {
-          "value": "CUSTOM:Steve"
+          "value": "EntityCreeper"
         },
-        "minGroup": 1,
-        "maxGroup": 1,
-        "weight": 200,
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
         "spawnType": "monster"
       },
       {
         "entity": {
-          "value": "CUSTOM:Steve"
+          "value": "EntityZombie"
         },
-        "minGroup": 1,
-        "maxGroup": 1,
-        "weight": 200,
-        "spawnType": "creature"
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySkeleton"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 20,
+        "spawnType": "monster"
       }
     ]
   }

@@ -27,7 +27,7 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": "Items.STICK"
+      "value": "Items.WOODEN_HOE"
     },
     "equipmentOffHand": {
       "value": ""
@@ -48,7 +48,7 @@
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 3,
     "movementSpeed": 0.3,
-    "armorBaseValue": 0.0,
+    "armorBaseValue": 4.0,
     "trackingRange": 64,
     "health": 10,
     "xpAmount": 0,
@@ -103,8 +103,8 @@
     },
     "rangedItemType": "Default item",
     "spawnThisMob": true,
-    "doesDespawnWhenIdle": false,
-    "spawningProbability": 30,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 60,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,

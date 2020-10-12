@@ -72,7 +72,7 @@ public class Steve1Entity extends MegamodmainModElements.ModElement {
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
-			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 30, 1, 1));
+			biome.getSpawns(EntityClassification.CREATURE).add(new Biome.SpawnListEntry(entity, 60, 1, 1));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos,
@@ -105,8 +105,7 @@ public class Steve1Entity extends MegamodmainModElements.ModElement {
 			setNoAI(false);
 			setCustomName(new StringTextComponent("Steve"));
 			setCustomNameVisible(true);
-			enablePersistence();
-			this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(Items.STICK, (int) (1)));
+			this.setItemStackToSlot(EquipmentSlotType.MAINHAND, new ItemStack(Items.WOODEN_HOE, (int) (1)));
 			this.setItemStackToSlot(EquipmentSlotType.CHEST, new ItemStack(Items.LEATHER_CHESTPLATE, (int) (1)));
 			this.setItemStackToSlot(EquipmentSlotType.LEGS, new ItemStack(Items.LEATHER_LEGGINGS, (int) (1)));
 		}
@@ -134,11 +133,6 @@ public class Steve1Entity extends MegamodmainModElements.ModElement {
 			return CreatureAttribute.UNDEFINED;
 		}
 
-		@Override
-		public boolean canDespawn(double distanceToClosestPlayer) {
-			return false;
-		}
-
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
 			super.dropSpecialItems(source, looting, recentlyHitIn);
 			this.entityDropItem(new ItemStack(Items.ROTTEN_FLESH, (int) (1)));
@@ -162,7 +156,7 @@ public class Steve1Entity extends MegamodmainModElements.ModElement {
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
 				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10);
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
-				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
+				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(4);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)
 				this.getAttributes().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE);
 			this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(3);
