@@ -1,0 +1,60 @@
+newmtl Material_01
+Ka 1.0 1.0 1.0
+Kd 0.693872 0.0 0.003547
+Ks 0.5 0.5 0.5
+Ns 225.0
+d 1.0
+newmtl Material_02
+Ka 1.0 1.0 1.0
+Kd 0.947307 0.871367 0.006995
+Ks 0.5 0.5 0.5
+Ns 687.7239
+d 1.0
+newmtl Material_03
+Ka 1.0 1.0 1.0
+Kd 0.030713 0.109462 0.590619
+Ks 0.5 0.5 0.5
+Ns 225.0
+d 1.0
+newmtl Material_04
+Ka 1.0 1.0 1.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+Ns 225.0
+d 1.0
+newmtl Material_05
+Ka 1.0 1.0 1.0
+Kd 0.938686 0.469635 0.202352
+Ks 0.5 0.5 0.5
+Ns 225.0
+d 1.0
+newmtl Material_06
+Ka 1.0 1.0 1.0
+Kd 0.0 0.0 0.0
+Ks 0.5 0.5 0.5
+Ns 225.0
+d 1.0
+newmtl Material_07
+Ka 1.0 1.0 1.0
+Kd 0.0 0.0 0.0
+Ks 0.5 0.5 0.5
+Ns 225.0
+d 1.0
+newmtl Material_08
+Ka 1.0 1.0 1.0
+Kd 0.0 0.0 0.0
+Ks 0.5 0.5 0.5
+Ns 225.0
+d 1.0
+newmtl Material_09
+Ka 1.0 1.0 1.0
+Kd 0.082282 0.012962 0.005372
+Ks 0.5 0.5 0.5
+Ns 225.0
+d 1.0
+newmtl Material_10
+Ka 1.0 1.0 1.0
+Kd 0.8 0.8 0.8
+Ks 0.5 0.5 0.5
+Ns 225.0
+d 1.0

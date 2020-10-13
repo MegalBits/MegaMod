@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "megamodmain:blocks/goldgrass",
+    "particle": "megamodmain:blocks/goldgrass"
+  }
+}

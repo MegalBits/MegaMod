@@ -519,6 +519,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "steve_spawner_1"
+    },
+    {
+      "name": "GoldenGrass",
+      "type": "plant",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_grass"
+    },
+    {
+      "name": "GoldenGrassL",
+      "type": "loottable",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "golden_grass_l"
     }
   ],
   "variable_elements": [],
@@ -542,6 +560,7 @@
       "item.megamodmain.lapis_feather": "Lapis Feather",
       "item.megamodmain.steve_1": "Steve_2 Spawn Egg",
       "entity.megamodmain.steve_1": "Steve_2",
+      "block.megamodmain.golden_grass": "Golden Grass",
       "item.megamodmain.wooden_dagger": "Wooden Dagger"
     }
   },
