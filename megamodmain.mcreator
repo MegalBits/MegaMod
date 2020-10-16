@@ -458,85 +458,51 @@
       "registry_name": "diamond_dagger_craft"
     },
     {
-      "name": "Stevelands",
-      "type": "dimension",
+      "name": "LuckyGrass",
+      "type": "plant",
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "stevelands"
+      "registry_name": "lucky_grass"
     },
     {
-      "name": "SteveLandsLighterCraft",
-      "type": "recipe",
+      "name": "LuckyGrassLoadUpdateTick",
+      "type": "procedure",
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "steve_lands_lighter_craft"
+      "registry_name": "lucky_grass_load_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     },
     {
-      "name": "Steve",
-      "type": "mob",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "steve"
-    },
-    {
-      "name": "SteveLand",
-      "type": "biome",
-      "sortid": 48,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "steve_land"
-    },
-    {
-      "name": "Steve1",
-      "type": "mob",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "steve_1"
-    },
-    {
-      "name": "SteveSpawner",
-      "type": "structure",
-      "sortid": 50,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "steve_spawner"
-    },
-    {
-      "name": "SteveSpawner1",
-      "type": "structure",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "steve_spawner_1"
-    },
-    {
-      "name": "GoldenGrass",
+      "name": "LuckyGrassLoad",
       "type": "plant",
-      "sortid": 52,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "golden_grass"
-    },
-    {
-      "name": "GoldenGrassL",
-      "type": "loottable",
-      "sortid": 53,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "golden_grass_l"
+      "registry_name": "lucky_grass_load"
     }
   ],
   "variable_elements": [],
@@ -544,23 +510,19 @@
   "language_map": {
     "en_us": {
       "item.megamodmain.stone_picksword": "Wooden Picksword",
+      "block.megamodmain.lucky_grass_load": "Lucky Grass Load",
       "item.megamodmain.stone_dagger": "Stone Dagger",
       "item.megamodmain.golden_feather": "Golden Feather",
       "item.megamodmain.gold_dagger": "Golden Dagger",
+      "block.megamodmain.lucky_grass": "Lucky Grass",
       "itemGroup.tabspecial": "Special",
       "item.megamodmain.iron_feather": "Iron Feather",
       "item.megamodmain.wooden_picksword": "Wooden Picksword",
-      "item.megamodmain.stevelands": "Stone and Steel",
       "item.megamodmain.iron_dagger": "Iron Dagger",
       "item.megamodmain.diamond_feather": "Diamond Feather",
       "item.megamodmain.diamond_dagger": "Diamond Dagger",
-      "entity.megamodmain.steve": "Steve_1",
-      "item.megamodmain.steve": "Steve_1 Spawn Egg",
       "item.megamodmain.rabbit_staff": "Rabbit Staff",
       "item.megamodmain.lapis_feather": "Lapis Feather",
-      "item.megamodmain.steve_1": "Steve_2 Spawn Egg",
-      "entity.megamodmain.steve_1": "Steve_2",
-      "block.megamodmain.golden_grass": "Golden Grass",
       "item.megamodmain.wooden_dagger": "Wooden Dagger"
     }
   },

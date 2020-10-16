@@ -6,26 +6,26 @@
     "texture": "goldgrass",
     "customModelName": "Cross model",
     "plantType": "normal",
-    "staticPlantGenerationType": "Flower",
-    "growapableSpawnType": "Plains",
+    "staticPlantGenerationType": "Grass",
+    "growapableSpawnType": "Cave",
     "growapableMaxHeight": 3,
-    "name": "Golden Grass",
+    "name": "Lucky Grass",
     "specialInfo": [],
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:Special"
     },
-    "hardness": 0.1,
-    "resistance": 0.1,
+    "hardness": 1.0,
+    "resistance": 0.3,
     "luminance": 0.0,
     "unbreakable": false,
     "soundOnStep": {
-      "value": "METAL"
+      "value": "STONE"
     },
     "customDrop": {
       "value": ""
     },
     "dropAmount": 1,
-    "forceTicking": false,
+    "forceTicking": true,
     "emissiveRendering": false,
     "hasTileEntity": false,
     "isReplaceable": false,
@@ -37,10 +37,8 @@
     "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
-    "frequencyOnChunks": 0,
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [],
     "restrictionBiomes": []
   }
 }

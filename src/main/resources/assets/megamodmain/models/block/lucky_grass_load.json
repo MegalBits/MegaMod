@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "megamodmain:blocks/eyes_mustace_and_shoes",
+    "particle": "megamodmain:blocks/eyes_mustace_and_shoes"
+  }
+}
