@@ -53,7 +53,7 @@
         },
         "minGroup": 4,
         "maxGroup": 4,
-        "weight": 20,
+        "weight": 7,
         "spawnType": "creature"
       },
       {
@@ -62,7 +62,7 @@
         },
         "minGroup": 4,
         "maxGroup": 4,
-        "weight": 20,
+        "weight": 6,
         "spawnType": "monster"
       },
       {
@@ -71,7 +71,7 @@
         },
         "minGroup": 4,
         "maxGroup": 4,
-        "weight": 20,
+        "weight": 3,
         "spawnType": "monster"
       },
       {
@@ -80,7 +80,7 @@
         },
         "minGroup": 4,
         "maxGroup": 4,
-        "weight": 20,
+        "weight": 3,
         "spawnType": "creature"
       },
       {
@@ -89,7 +89,7 @@
         },
         "minGroup": 4,
         "maxGroup": 4,
-        "weight": 20,
+        "weight": 3,
         "spawnType": "creature"
       },
       {
@@ -98,7 +98,7 @@
         },
         "minGroup": 4,
         "maxGroup": 4,
-        "weight": 20,
+        "weight": 8,
         "spawnType": "monster"
       },
       {
@@ -107,7 +107,34 @@
         },
         "minGroup": 4,
         "maxGroup": 4,
-        "weight": 20,
+        "weight": 8,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntityRavager"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 2,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityRavager"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 2,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityRavager"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 3,
         "spawnType": "ambient"
       }
     ]
