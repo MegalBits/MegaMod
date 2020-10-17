@@ -456,6 +456,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "diamond_dagger_craft"
+    },
+    {
+      "name": "MagnifyingGlassRightClickedInAir",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnifying_glass_right_clicked_in_air",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagnifyingGlass",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnifying_glass"
     }
   ],
   "variable_elements": [],
@@ -474,6 +500,7 @@
       "item.megamodmain.diamond_dagger": "Diamond Dagger",
       "item.megamodmain.rabbit_staff": "Rabbit Staff",
       "item.megamodmain.lapis_feather": "Lapis Feather",
+      "item.megamodmain.magnifying_glass": "Magnifying Glass",
       "item.megamodmain.wooden_dagger": "Wooden Dagger"
     }
   },
