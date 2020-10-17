@@ -482,6 +482,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "magnifying_glass"
+    },
+    {
+      "name": "MagnifyingGlassCraft",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magnifying_glass_craft"
+    },
+    {
+      "name": "Cave",
+      "type": "biome",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cave"
     }
   ],
   "variable_elements": [],
