@@ -500,6 +500,51 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "cave"
+    },
+    {
+      "name": "WoodStone",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_stone"
+    },
+    {
+      "name": "WoodStoneL",
+      "type": "loottable",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_stone_l"
+    },
+    {
+      "name": "MiniChestGui",
+      "type": "gui",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mini_chest_gui"
+    },
+    {
+      "name": "MiniChest",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mini_chest"
+    },
+    {
+      "name": "MiniChestCraft",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mini_chest_craft"
     }
   ],
   "variable_elements": [],
@@ -515,9 +560,11 @@
       "item.megamodmain.wooden_picksword": "Wooden Picksword",
       "item.megamodmain.iron_dagger": "Iron Dagger",
       "item.megamodmain.diamond_feather": "Diamond Feather",
+      "item.megamodmain.mini_chest": "Mini Chest",
       "item.megamodmain.diamond_dagger": "Diamond Dagger",
       "item.megamodmain.rabbit_staff": "Rabbit Staff",
       "item.megamodmain.lapis_feather": "Lapis Feather",
+      "block.megamodmain.wood_stone": "Woodstone",
       "item.megamodmain.magnifying_glass": "Magnifying Glass",
       "item.megamodmain.wooden_dagger": "Wooden Dagger"
     }

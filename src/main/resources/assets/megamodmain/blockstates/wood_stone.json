@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "megamodmain:block/wood_stone"
+    },
+    "facing=east": {
+      "model": "megamodmain:block/wood_stone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "megamodmain:block/wood_stone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "megamodmain:block/wood_stone",
+      "y": 270
+    }
+  }
+}
