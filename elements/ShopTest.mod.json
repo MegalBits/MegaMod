@@ -1,0 +1,12 @@
+{
+  "_fv": 10,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 1000,
+    "height": 500,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": []
+  }
+}
