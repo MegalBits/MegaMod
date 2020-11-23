@@ -6,7 +6,7 @@
     "texture": "backpack",
     "customModelName": "Normal",
     "name": "Backpack",
-    "rarity": "UNCOMMON",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "TOOLS"
     },
@@ -26,7 +26,7 @@
     "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "BackpackGui",
-    "inventorySize": 25,
+    "inventorySize": 27,
     "inventoryStackSize": 64
   }
 }

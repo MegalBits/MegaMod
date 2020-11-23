@@ -69,7 +69,7 @@ public class BackpackItem extends MegamodmainModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.TOOLS).maxStackSize(1).rarity(Rarity.UNCOMMON));
+			super(new Item.Properties().group(ItemGroup.TOOLS).maxStackSize(1).rarity(Rarity.COMMON));
 			setRegistryName("backpack");
 		}
 
@@ -158,7 +158,7 @@ public class BackpackItem extends MegamodmainModElements.ModElement {
 		}
 
 		private ItemStackHandler createItemHandler() {
-			return new ItemStackHandler(25) {
+			return new ItemStackHandler(27) {
 				@Override
 				public int getSlotLimit(int slot) {
 					return 64;

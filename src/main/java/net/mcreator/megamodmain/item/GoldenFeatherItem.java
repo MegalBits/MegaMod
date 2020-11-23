@@ -33,7 +33,7 @@ public class GoldenFeatherItem extends MegamodmainModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(SpecialItemGroup.tab).maxDamage(10).rarity(Rarity.RARE));
+			super(new Item.Properties().group(SpecialItemGroup.tab).maxDamage(10).rarity(Rarity.UNCOMMON));
 			setRegistryName("golden_feather");
 		}
 

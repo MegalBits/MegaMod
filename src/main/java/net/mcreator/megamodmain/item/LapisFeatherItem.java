@@ -33,7 +33,7 @@ public class LapisFeatherItem extends MegamodmainModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(SpecialItemGroup.tab).maxDamage(3).rarity(Rarity.RARE));
+			super(new Item.Properties().group(SpecialItemGroup.tab).maxDamage(3).rarity(Rarity.UNCOMMON));
 			setRegistryName("lapis_feather");
 		}
 
