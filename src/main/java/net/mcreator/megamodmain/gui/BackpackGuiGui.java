@@ -81,7 +81,7 @@ public class BackpackGuiGui extends MegamodmainModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(27);
+			this.internal = new ItemStackHandler(24);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -119,12 +119,6 @@ public class BackpackGuiGui extends MegamodmainModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 17) {
-			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 7, 35) {
-			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 7, 53) {
-			}));
 			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 25, 17) {
 			}));
 			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 25, 35) {
@@ -167,12 +161,6 @@ public class BackpackGuiGui extends MegamodmainModElements.ModElement {
 			}));
 			this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 133, 53) {
 			}));
-			this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 151, 53) {
-			}));
-			this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 151, 35) {
-			}));
-			this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 151, 17) {
-			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
@@ -198,18 +186,18 @@ public class BackpackGuiGui extends MegamodmainModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 27) {
-					if (!this.mergeItemStack(itemstack1, 27, this.inventorySlots.size(), true)) {
+				if (index < 21) {
+					if (!this.mergeItemStack(itemstack1, 21, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 27, false)) {
-					if (index < 27 + 27) {
-						if (!this.mergeItemStack(itemstack1, 27 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 21, false)) {
+					if (index < 21 + 27) {
+						if (!this.mergeItemStack(itemstack1, 21 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 27, 27 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 21, 21 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
