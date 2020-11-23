@@ -158,7 +158,7 @@ public class BackpackItem extends MegamodmainModElements.ModElement {
 		}
 
 		private ItemStackHandler createItemHandler() {
-			return new ItemStackHandler(27) {
+			return new ItemStackHandler(24) {
 				@Override
 				public int getSlotLimit(int slot) {
 					return 64;

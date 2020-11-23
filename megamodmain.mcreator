@@ -554,6 +554,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "backpack_craft"
+    },
+    {
+      "name": "Bags",
+      "type": "tag",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bags"
     }
   ],
   "variable_elements": [],
@@ -565,8 +574,8 @@
       "item.megamodmain.golden_feather": "Golden Feather",
       "item.megamodmain.gold_dagger": "Golden Dagger",
       "itemGroup.tabspecial": "Special",
-      "item.megamodmain.iron_feather": "Iron Feather",
       "item.megamodmain.wooden_picksword": "Wooden Picksword",
+      "item.megamodmain.iron_feather": "Iron Feather",
       "item.megamodmain.iron_dagger": "Iron Dagger",
       "item.megamodmain.backpack": "Backpack",
       "item.megamodmain.diamond_feather": "Diamond Feather",
