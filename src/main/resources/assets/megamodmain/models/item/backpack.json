@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "megamodmain:items/coin"
+    "layer0": "megamodmain:items/backpack"
   }
 }

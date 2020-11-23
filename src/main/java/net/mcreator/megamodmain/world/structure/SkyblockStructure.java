@@ -56,7 +56,7 @@ public class SkyblockStructure extends MegamodmainModElements.ModElement {
 						j += random.nextInt(50) + 16;
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
-						BlockPos spawnTo = new BlockPos(i, j + 12, k);
+						BlockPos spawnTo = new BlockPos(i + 0, j + 12, k + 0);
 						int x = spawnTo.getX();
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();

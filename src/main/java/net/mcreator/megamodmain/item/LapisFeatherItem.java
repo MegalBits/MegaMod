@@ -6,6 +6,7 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.world.World;
 import net.minecraft.util.Hand;
 import net.minecraft.util.ActionResult;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
@@ -32,7 +33,7 @@ public class LapisFeatherItem extends MegamodmainModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(SpecialItemGroup.tab).maxDamage(3));
+			super(new Item.Properties().group(SpecialItemGroup.tab).maxDamage(3).rarity(Rarity.RARE));
 			setRegistryName("lapis_feather");
 		}
 

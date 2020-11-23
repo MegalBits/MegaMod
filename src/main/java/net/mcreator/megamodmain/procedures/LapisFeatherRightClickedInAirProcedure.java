@@ -21,19 +21,21 @@ public class LapisFeatherRightClickedInAirProcedure extends MegamodmainModElemen
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure LapisFeatherRightClickedInAir!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure LapisFeatherRightClickedInAir!");
 			return;
 		}
 		if (dependencies.get("itemstack") == null) {
-			System.err.println("Failed to load dependency itemstack for procedure LapisFeatherRightClickedInAir!");
+			if (!dependencies.containsKey("itemstack"))
+				System.err.println("Failed to load dependency itemstack for procedure LapisFeatherRightClickedInAir!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		if ((!(new Object() {
-			boolean check(LivingEntity _entity) {
+			boolean check(Entity _entity) {
 				if (_entity instanceof LivingEntity) {
-					Collection<EffectInstance> effects = _entity.getActivePotionEffects();
+					Collection<EffectInstance> effects = ((LivingEntity) _entity).getActivePotionEffects();
 					for (EffectInstance effect : effects) {
 						if (effect.getPotion() == Effects.NIGHT_VISION)
 							return true;
@@ -41,7 +43,7 @@ public class LapisFeatherRightClickedInAirProcedure extends MegamodmainModElemen
 				}
 				return false;
 			}
-		}.check((LivingEntity) entity)))) {
+		}.check(entity)))) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 100, (int) 0, (false), (false)));
 			if (entity instanceof PlayerEntity)

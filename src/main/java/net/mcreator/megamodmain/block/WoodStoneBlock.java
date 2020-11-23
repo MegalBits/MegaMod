@@ -76,6 +76,7 @@ public class WoodStoneBlock extends MegamodmainModElements.ModElement {
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
+			;
 			if (context.getFace() == Direction.UP || context.getFace() == Direction.DOWN)
 				return this.getDefaultState().with(FACING, Direction.NORTH);
 			return this.getDefaultState().with(FACING, context.getFace());

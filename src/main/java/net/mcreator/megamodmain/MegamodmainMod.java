@@ -17,6 +17,9 @@
  */
 package net.mcreator.megamodmain;
 
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
 import net.minecraftforge.fml.network.simple.SimpleChannel;
 import net.minecraftforge.fml.network.NetworkRegistry;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -41,6 +44,7 @@ import java.util.function.Supplier;
 
 @Mod("megamodmain")
 public class MegamodmainMod {
+	public static final Logger LOGGER = LogManager.getLogger(MegamodmainMod.class);
 	private static final String PROTOCOL_VERSION = "1";
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation("megamodmain", "megamodmain"),
 			() -> PROTOCOL_VERSION, PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);

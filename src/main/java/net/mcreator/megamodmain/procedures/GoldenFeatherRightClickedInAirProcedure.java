@@ -21,19 +21,21 @@ public class GoldenFeatherRightClickedInAirProcedure extends MegamodmainModEleme
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure GoldenFeatherRightClickedInAir!");
+			if (!dependencies.containsKey("entity"))
+				System.err.println("Failed to load dependency entity for procedure GoldenFeatherRightClickedInAir!");
 			return;
 		}
 		if (dependencies.get("itemstack") == null) {
-			System.err.println("Failed to load dependency itemstack for procedure GoldenFeatherRightClickedInAir!");
+			if (!dependencies.containsKey("itemstack"))
+				System.err.println("Failed to load dependency itemstack for procedure GoldenFeatherRightClickedInAir!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");
 		if ((!(new Object() {
-			boolean check(LivingEntity _entity) {
+			boolean check(Entity _entity) {
 				if (_entity instanceof LivingEntity) {
-					Collection<EffectInstance> effects = _entity.getActivePotionEffects();
+					Collection<EffectInstance> effects = ((LivingEntity) _entity).getActivePotionEffects();
 					for (EffectInstance effect : effects) {
 						if (effect.getPotion() == Effects.LEVITATION)
 							return true;
@@ -41,7 +43,7 @@ public class GoldenFeatherRightClickedInAirProcedure extends MegamodmainModEleme
 				}
 				return false;
 			}
-		}.check((LivingEntity) entity)))) {
+		}.check(entity)))) {
 			if (entity instanceof LivingEntity)
 				((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.LEVITATION, (int) 5, (int) 14, (false), (false)));
 			if (entity instanceof PlayerEntity)

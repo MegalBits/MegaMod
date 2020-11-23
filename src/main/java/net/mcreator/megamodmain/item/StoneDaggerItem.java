@@ -18,7 +18,7 @@ public class StoneDaggerItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:stone_dagger")
 	public static final Item block = null;
 	public StoneDaggerItem(MegamodmainModElements instance) {
-		super(instance, 83);
+		super(instance, 9);
 	}
 
 	@Override

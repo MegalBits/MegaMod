@@ -1,19 +1,23 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "minichest",
+    "texture": "backpack",
     "customModelName": "Normal",
-    "name": "Mini Chest",
+    "name": "Backpack",
+    "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "TOOLS"
     },
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
     "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
     "destroyAnyBlock": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
@@ -21,8 +25,8 @@
     "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": false,
-    "guiBoundTo": "MiniChestGui",
-    "inventorySize": 1,
-    "inventoryStackSize": 16
+    "guiBoundTo": "BackpackGui",
+    "inventorySize": 25,
+    "inventoryStackSize": 64
   }
 }

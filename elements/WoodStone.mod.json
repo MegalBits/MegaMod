@@ -1,5 +1,5 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "block",
   "definition": {
     "texture": "oakstone",
@@ -12,6 +12,7 @@
     "customModelName": "Single texture",
     "rotationMode": 3,
     "emissiveRendering": false,
+    "displayFluidOverlay": false,
     "itemTexture": "",
     "hasTransparency": false,
     "connectedSides": false,
@@ -27,6 +28,7 @@
     "hardness": 0.7999999999999999,
     "resistance": 7.0,
     "hasGravity": false,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "BUILDING_BLOCKS"
     },
@@ -35,6 +37,7 @@
       "value": ""
     },
     "dropAmount": 1,
+    "useLootTableForDrops": false,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,

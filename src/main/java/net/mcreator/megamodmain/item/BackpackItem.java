@@ -5,10 +5,15 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.fml.network.NetworkHooks;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.item.ItemTossEvent;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.ICapabilitySerializable;
 import net.minecraftforge.common.capabilities.ICapabilityProvider;
 import net.minecraftforge.common.capabilities.Capability;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.World;
 import net.minecraft.util.text.StringTextComponent;
@@ -19,6 +24,7 @@ import net.minecraft.util.Direction;
 import net.minecraft.util.ActionResult;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.nbt.CompoundNBT;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -27,9 +33,10 @@ import net.minecraft.inventory.container.Container;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.Minecraft;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.megamodmain.gui.MiniChestGuiGui;
+import net.mcreator.megamodmain.gui.BackpackGuiGui;
 import net.mcreator.megamodmain.MegamodmainModElements;
 
 import javax.annotation.Nullable;
@@ -38,11 +45,22 @@ import javax.annotation.Nonnull;
 import io.netty.buffer.Unpooled;
 
 @MegamodmainModElements.ModElement.Tag
-public class MiniChestItem extends MegamodmainModElements.ModElement {
-	@ObjectHolder("megamodmain:mini_chest")
+public class BackpackItem extends MegamodmainModElements.ModElement {
+	@ObjectHolder("megamodmain:backpack")
 	public static final Item block = null;
-	public MiniChestItem(MegamodmainModElements instance) {
-		super(instance, 50);
+	public BackpackItem(MegamodmainModElements instance) {
+		super(instance, 51);
+		MinecraftForge.EVENT_BUS.register(this);
+	}
+
+	@SubscribeEvent
+	@OnlyIn(Dist.CLIENT)
+	public void onItemDropped(ItemTossEvent event) {
+		if (event.getEntityItem().getItem().getItem() == block) {
+			if (Minecraft.getInstance().currentScreen instanceof BackpackGuiGui.GuiWindow) {
+				Minecraft.getInstance().player.closeScreen();
+			}
+		}
 	}
 
 	@Override
@@ -51,8 +69,8 @@ public class MiniChestItem extends MegamodmainModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1));
-			setRegistryName("mini_chest");
+			super(new Item.Properties().group(ItemGroup.TOOLS).maxStackSize(1).rarity(Rarity.UNCOMMON));
+			setRegistryName("backpack");
 		}
 
 		@Override
@@ -81,7 +99,7 @@ public class MiniChestItem extends MegamodmainModElements.ModElement {
 				NetworkHooks.openGui((ServerPlayerEntity) entity, new INamedContainerProvider() {
 					@Override
 					public ITextComponent getDisplayName() {
-						return new StringTextComponent("Mini Chest");
+						return new StringTextComponent("Backpack");
 					}
 
 					@Override
@@ -89,7 +107,7 @@ public class MiniChestItem extends MegamodmainModElements.ModElement {
 						PacketBuffer packetBuffer = new PacketBuffer(Unpooled.buffer());
 						packetBuffer.writeBlockPos(new BlockPos(x, y, z));
 						packetBuffer.writeByte(hand == Hand.MAIN_HAND ? 0 : 1);
-						return new MiniChestGuiGui.GuiContainerMod(id, inventory, packetBuffer);
+						return new BackpackGuiGui.GuiContainerMod(id, inventory, packetBuffer);
 					}
 				}, buf -> {
 					buf.writeBlockPos(new BlockPos(x, y, z));
@@ -140,10 +158,10 @@ public class MiniChestItem extends MegamodmainModElements.ModElement {
 		}
 
 		private ItemStackHandler createItemHandler() {
-			return new ItemStackHandler(1) {
+			return new ItemStackHandler(25) {
 				@Override
 				public int getSlotLimit(int slot) {
-					return 16;
+					return 64;
 				}
 
 				@Override

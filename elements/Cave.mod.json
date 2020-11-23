@@ -1,14 +1,14 @@
 {
-  "_fv": 10,
+  "_fv": 13,
   "_type": "biome",
   "definition": {
+    "name": "Cave",
     "groundBlock": {
       "value": "Blocks.STONE#0"
     },
     "undergroundBlock": {
       "value": "Blocks.STONE#0"
     },
-    "generateLakes": true,
     "treeType": 0,
     "vanillaTreeType": "Default",
     "minHeight": 5,
@@ -26,7 +26,8 @@
       "value": ""
     },
     "treesPerChunk": 0,
-    "grassPerChunk": 0,
+    "grassPerChunk": 3,
+    "seagrassPerChunk": 0,
     "flowersPerChunk": 0,
     "mushroomsPerChunk": 3,
     "bigMushroomsChunk": 0,
@@ -45,7 +46,25 @@
     "parent": {
       "value": "No parent"
     },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "plains",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "oceanRuinType": "COLD",
     "biomeDictionaryTypes": [],
+    "defaultFeatures": [
+      "Caves",
+      "MonsterRooms",
+      "Structures",
+      "Ores",
+      "Lakes"
+    ],
     "spawnEntries": [
       {
         "entity": {

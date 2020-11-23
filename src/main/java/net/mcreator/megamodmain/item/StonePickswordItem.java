@@ -18,7 +18,7 @@ public class StonePickswordItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:stone_picksword")
 	public static final Item block = null;
 	public StonePickswordItem(MegamodmainModElements instance) {
-		super(instance, 77);
+		super(instance, 7);
 	}
 
 	@Override
