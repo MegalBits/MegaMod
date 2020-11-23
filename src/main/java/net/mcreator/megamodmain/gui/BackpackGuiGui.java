@@ -119,59 +119,59 @@ public class BackpackGuiGui extends MegamodmainModElements.ModElement {
 					}
 				}
 			}
-			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 26) {
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 17) {
 			}));
-			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 7, 44) {
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 7, 35) {
 			}));
-			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 7, 62) {
+			this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 7, 53) {
 			}));
-			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 25, 26) {
+			this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 25, 17) {
 			}));
-			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 25, 44) {
+			this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 25, 35) {
 			}));
-			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 25, 62) {
+			this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 25, 53) {
 			}));
-			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 43, 26) {
+			this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 43, 17) {
 			}));
-			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 43, 44) {
+			this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 43, 35) {
 			}));
-			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 43, 62) {
+			this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 43, 53) {
 			}));
-			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 61, 26) {
+			this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 61, 17) {
 			}));
-			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 61, 44) {
+			this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 61, 35) {
 			}));
-			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 61, 62) {
+			this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 61, 53) {
 			}));
-			this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 79, 26) {
+			this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 79, 17) {
 			}));
-			this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 79, 44) {
+			this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 79, 35) {
 			}));
-			this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 79, 62) {
+			this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 79, 53) {
 			}));
-			this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 97, 26) {
+			this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 97, 17) {
 			}));
-			this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 97, 44) {
+			this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 97, 35) {
 			}));
-			this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 97, 62) {
+			this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 97, 53) {
 			}));
-			this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 115, 26) {
+			this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 115, 17) {
 			}));
-			this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 115, 44) {
+			this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 115, 35) {
 			}));
-			this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 115, 62) {
+			this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 115, 53) {
 			}));
-			this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 133, 26) {
+			this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 133, 17) {
 			}));
-			this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 133, 44) {
+			this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 133, 35) {
 			}));
-			this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 133, 62) {
+			this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 133, 53) {
 			}));
-			this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 151, 62) {
+			this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 151, 53) {
 			}));
-			this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 151, 44) {
+			this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 151, 35) {
 			}));
-			this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 151, 26) {
+			this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 151, 17) {
 			}));
 			int si;
 			int sj;
@@ -383,6 +383,7 @@ public class BackpackGuiGui extends MegamodmainModElements.ModElement {
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
 			this.font.drawString("Backpack", 6, 7, -12829636);
+			this.font.drawString("Inventory", 6, 70, -12829636);
 		}
 
 		@Override
