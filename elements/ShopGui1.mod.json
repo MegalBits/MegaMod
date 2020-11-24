@@ -82,6 +82,9 @@
         "type": "button",
         "data": {
           "text": "Buy",
+          "onClick": {
+            "name": "BuySand"
+          },
           "width": 50,
           "height": 20,
           "name": "Buy",
@@ -93,6 +96,9 @@
         "type": "button",
         "data": {
           "text": "Buy",
+          "onClick": {
+            "name": "BuyGravel"
+          },
           "width": 50,
           "height": 20,
           "name": "Buy",
@@ -104,6 +110,9 @@
         "type": "button",
         "data": {
           "text": "Buy",
+          "onClick": {
+            "name": "BuyPumpkin"
+          },
           "width": 50,
           "height": 20,
           "name": "Buy",
@@ -115,6 +124,9 @@
         "type": "button",
         "data": {
           "text": "Buy",
+          "onClick": {
+            "name": "BuyMelon"
+          },
           "width": 50,
           "height": 20,
           "name": "Buy",
@@ -199,7 +211,7 @@
           "use1Xscale": false,
           "name": "dirt.png",
           "x": 15,
-          "y": 36
+          "y": 37
         }
       },
       {
@@ -209,7 +221,7 @@
           "use1Xscale": false,
           "name": "stone.png",
           "x": 15,
-          "y": 63
+          "y": 64
         }
       },
       {
@@ -219,7 +231,7 @@
           "use1Xscale": false,
           "name": "oak_log.png",
           "x": 15,
-          "y": 90
+          "y": 91
         }
       },
       {
@@ -229,7 +241,7 @@
           "use1Xscale": false,
           "name": "melon_side.png",
           "x": 15,
-          "y": 171
+          "y": 199
         }
       },
       {
@@ -239,7 +251,7 @@
           "use1Xscale": false,
           "name": "pumpkin_side.png",
           "x": 15,
-          "y": 198
+          "y": 172
         }
       },
       {
@@ -249,7 +261,7 @@
           "use1Xscale": false,
           "name": "gravel.png",
           "x": 15,
-          "y": 144
+          "y": 145
         }
       },
       {
@@ -259,7 +271,7 @@
           "use1Xscale": false,
           "name": "sand.png",
           "x": 15,
-          "y": 117
+          "y": 118
         }
       },
       {
@@ -278,12 +290,12 @@
       {
         "type": "label",
         "data": {
-          "text": "15",
+          "text": "10",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "15",
+          "name": "10",
           "x": 105,
           "y": 63
         }
@@ -337,7 +349,7 @@
           },
           "name": "40",
           "x": 105,
-          "y": 171
+          "y": 197
         }
       },
       {
@@ -350,7 +362,7 @@
           },
           "name": "30",
           "x": 105,
-          "y": 198
+          "y": 170
         }
       },
       {

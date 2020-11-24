@@ -36,7 +36,11 @@ import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.megamodmain.procedures.BuyStoneProcedure;
+import net.mcreator.megamodmain.procedures.BuySandProcedure;
+import net.mcreator.megamodmain.procedures.BuyPumpkinProcedure;
+import net.mcreator.megamodmain.procedures.BuyMelonProcedure;
 import net.mcreator.megamodmain.procedures.BuyLogProcedure;
+import net.mcreator.megamodmain.procedures.BuyGravelProcedure;
 import net.mcreator.megamodmain.procedures.BuyDirtProcedure;
 import net.mcreator.megamodmain.MegamodmainModElements;
 import net.mcreator.megamodmain.MegamodmainMod;
@@ -336,19 +340,19 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/cahs.png"));
 			this.blit(this.guiLeft + 94, this.guiTop + 194, 0, 0, 8, 8, 8, 8);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/dirt.png"));
-			this.blit(this.guiLeft + 13, this.guiTop + 33, 0, 0, 16, 16, 16, 16);
+			this.blit(this.guiLeft + 13, this.guiTop + 34, 0, 0, 16, 16, 16, 16);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/stone.png"));
-			this.blit(this.guiLeft + 13, this.guiTop + 60, 0, 0, 16, 16, 16, 16);
+			this.blit(this.guiLeft + 13, this.guiTop + 61, 0, 0, 16, 16, 16, 16);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/oak_log.png"));
-			this.blit(this.guiLeft + 13, this.guiTop + 87, 0, 0, 16, 16, 16, 16);
+			this.blit(this.guiLeft + 13, this.guiTop + 88, 0, 0, 16, 16, 16, 16);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/melon_side.png"));
-			this.blit(this.guiLeft + 13, this.guiTop + 168, 0, 0, 16, 16, 16, 16);
+			this.blit(this.guiLeft + 13, this.guiTop + 196, 0, 0, 16, 16, 16, 16);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/pumpkin_side.png"));
-			this.blit(this.guiLeft + 13, this.guiTop + 195, 0, 0, 16, 16, 16, 16);
+			this.blit(this.guiLeft + 13, this.guiTop + 169, 0, 0, 16, 16, 16, 16);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/gravel.png"));
-			this.blit(this.guiLeft + 13, this.guiTop + 141, 0, 0, 16, 16, 16, 16);
+			this.blit(this.guiLeft + 13, this.guiTop + 142, 0, 0, 16, 16, 16, 16);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/sand.png"));
-			this.blit(this.guiLeft + 13, this.guiTop + 114, 0, 0, 16, 16, 16, 16);
+			this.blit(this.guiLeft + 13, this.guiTop + 115, 0, 0, 16, 16, 16, 16);
 		}
 
 		@Override
@@ -370,12 +374,12 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 			this.font.drawString("Inventory", 250, 134, -12829636);
 			this.font.drawString("Shop", 4, 5, -12829636);
 			this.font.drawString("10", 103, 33, -12829636);
-			this.font.drawString("15", 103, 60, -12829636);
+			this.font.drawString("10", 103, 60, -12829636);
 			this.font.drawString("10", 103, 87, -12829636);
 			this.font.drawString("10", 103, 114, -12829636);
 			this.font.drawString("10", 103, 141, -12829636);
-			this.font.drawString("40", 103, 168, -12829636);
-			this.font.drawString("30", 103, 195, -12829636);
+			this.font.drawString("40", 103, 194, -12829636);
+			this.font.drawString("30", 103, 167, -12829636);
 			this.font.drawString("$", 232, 205, -12829636);
 		}
 
@@ -525,6 +529,34 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				BuyLogProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 3) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				BuySandProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 4) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				BuyGravelProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 5) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				BuyPumpkinProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 6) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				BuyMelonProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

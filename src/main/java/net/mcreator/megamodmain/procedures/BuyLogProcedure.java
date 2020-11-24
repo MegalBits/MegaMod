@@ -79,6 +79,74 @@ public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 				}
 			}
+			if ((!((new Object() {
+				public int getAmount(int sltid) {
+					if (entity instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) entity).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+								if (stack != null)
+									return stack.getCount();
+							}
+						}
+					}
+					return 0;
+				}
+			}.getAmount((int) (0))) > 9))) {
+				if (((new Object() {
+					public ItemStack getItemStack(int sltid) {
+						Entity _ent = entity;
+						if (_ent instanceof ServerPlayerEntity) {
+							Container _current = ((ServerPlayerEntity) _ent).openContainer;
+							if (_current instanceof Supplier) {
+								Object invobj = ((Supplier) _current).get();
+								if (invobj instanceof Map) {
+									return ((Slot) ((Map) invobj).get(sltid)).getStack();
+								}
+							}
+						}
+						return ItemStack.EMPTY;
+					}
+				}.getItemStack((int) (0))).getItem() == new ItemStack(CashItem.block, (int) (1)).getItem())) {
+					if (((new Object() {
+						public int getAmount(int sltid) {
+							if (entity instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) entity).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+										if (stack != null)
+											return stack.getCount();
+									}
+								}
+							}
+							return 0;
+						}
+					}.getAmount((int) (1))) > 9)) {
+						{
+							Entity _ent = entity;
+							if (_ent instanceof ServerPlayerEntity) {
+								Container _current = ((ServerPlayerEntity) _ent).openContainer;
+								if (_current instanceof Supplier) {
+									Object invobj = ((Supplier) _current).get();
+									if (invobj instanceof Map) {
+										((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (10));
+										_current.detectAndSendChanges();
+									}
+								}
+							}
+						}
+						if (entity instanceof PlayerEntity) {
+							ItemStack _setstack = new ItemStack(Blocks.OAK_LOG, (int) (1));
+							_setstack.setCount((int) 1);
+							ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
+						}
+					}
+				}
+			}
 		}
 	}
 }
