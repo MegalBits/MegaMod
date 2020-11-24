@@ -3,6 +3,7 @@ package net.mcreator.megamodmain.gui;
 
 import org.lwjgl.opengl.GL11;
 
+import net.minecraftforge.items.SlotItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.CapabilityItemHandler;
@@ -34,6 +35,7 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.megamodmain.procedures.BuyDirtProcedure;
 import net.mcreator.megamodmain.MegamodmainModElements;
 import net.mcreator.megamodmain.MegamodmainMod;
 
@@ -81,7 +83,7 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(0);
+			this.internal = new ItemStackHandler(1);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -119,6 +121,8 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 					}
 				}
 			}
+			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 232, 206) {
+			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
@@ -144,18 +148,18 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 0) {
-					if (!this.mergeItemStack(itemstack1, 0, this.inventorySlots.size(), true)) {
+				if (index < 1) {
+					if (!this.mergeItemStack(itemstack1, 1, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 0, false)) {
-					if (index < 0 + 27) {
-						if (!this.mergeItemStack(itemstack1, 0 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 1, false)) {
+					if (index < 1 + 27) {
+						if (!this.mergeItemStack(itemstack1, 1 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 0, 0 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 1, 1 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -363,6 +367,14 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
 			this.font.drawString("Inventory", 250, 134, -12829636);
 			this.font.drawString("Shop", 4, 5, -12829636);
+			this.font.drawString("10", 103, 33, -12829636);
+			this.font.drawString("15", 103, 60, -12829636);
+			this.font.drawString("10", 103, 87, -12829636);
+			this.font.drawString("10", 103, 114, -12829636);
+			this.font.drawString("10", 103, 141, -12829636);
+			this.font.drawString("40", 103, 168, -12829636);
+			this.font.drawString("30", 103, 195, -12829636);
+			this.font.drawString("$", 231, 204, -12829636);
 		}
 
 		@Override
@@ -492,6 +504,13 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				BuyDirtProcedure.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(PlayerEntity entity, int slotID, int changeType, int meta, int x, int y, int z) {

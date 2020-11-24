@@ -40,6 +40,9 @@
         "type": "button",
         "data": {
           "text": "Buy",
+          "onClick": {
+            "name": "BuyDirt"
+          },
           "width": 50,
           "height": 20,
           "name": "Buy",
@@ -251,6 +254,124 @@
           "name": "sand.png",
           "x": 15,
           "y": 117
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "10",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "10",
+          "x": 105,
+          "y": 36
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "15",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "15",
+          "x": 105,
+          "y": 63
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "10",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "10",
+          "x": 105,
+          "y": 90
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "10",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "10",
+          "x": 105,
+          "y": 117
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "10",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "10",
+          "x": 105,
+          "y": 144
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "40",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "40",
+          "x": 105,
+          "y": 171
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "30",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "30",
+          "x": 105,
+          "y": 198
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 233,
+          "y": 208
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "$",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "$",
+          "x": 233,
+          "y": 207
         }
       }
     ]

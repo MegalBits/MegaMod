@@ -370,8 +370,8 @@ public class BackpackGuiGui extends MegamodmainModElements.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int mouseX, int mouseY) {
-			this.font.drawString("Backpack", 6, 7, -12829636);
-			this.font.drawString("Inventory", 6, 70, -12829636);
+			this.font.drawString("Backpack", 4, 5, -12829636);
+			this.font.drawString("Inventory", 6, 72, -12829636);
 		}
 
 		@Override
