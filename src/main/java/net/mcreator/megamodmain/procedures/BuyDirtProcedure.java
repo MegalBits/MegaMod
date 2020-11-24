@@ -60,9 +60,18 @@ public class BuyDirtProcedure extends MegamodmainModElements.ModElement {
 					return 0;
 				}
 			}.getAmount((int) (0))) > 9)) {
-				if (entity instanceof PlayerEntity) {
-					ItemStack _stktoremove = new ItemStack(CashItem.block, (int) (1));
-					((PlayerEntity) entity).inventory.clearMatchingItems(p -> _stktoremove.getItem() == p.getItem(), (int) 10);
+				{
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
+						if (_current instanceof Supplier) {
+							Object invobj = ((Supplier) _current).get();
+							if (invobj instanceof Map) {
+								((Slot) ((Map) invobj).get((int) (0))).decrStackSize((int) (10));
+								_current.detectAndSendChanges();
+							}
+						}
+					}
 				}
 				if (entity instanceof PlayerEntity) {
 					ItemStack _setstack = new ItemStack(Blocks.DIRT, (int) (1));

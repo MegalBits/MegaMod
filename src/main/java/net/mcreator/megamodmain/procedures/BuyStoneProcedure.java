@@ -60,11 +60,6 @@ public class BuyStoneProcedure extends MegamodmainModElements.ModElement {
 					return 0;
 				}
 			}.getAmount((int) (0))) > 14)) {
-				if (entity instanceof PlayerEntity) {
-					ItemStack _setstack = new ItemStack(Blocks.STONE, (int) (1));
-					_setstack.setCount((int) 1);
-					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
-				}
 				{
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {
@@ -77,6 +72,11 @@ public class BuyStoneProcedure extends MegamodmainModElements.ModElement {
 							}
 						}
 					}
+				}
+				if (entity instanceof PlayerEntity) {
+					ItemStack _setstack = new ItemStack(Blocks.STONE, (int) (1));
+					_setstack.setCount((int) 1);
+					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 				}
 			}
 		}
