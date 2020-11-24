@@ -388,8 +388,35 @@
             "falpha": 0.0
           },
           "name": "$",
-          "x": 234,
-          "y": 208
+          "x": 235,
+          "y": 209
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 233,
+          "y": 186
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "$",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "$",
+          "x": 235,
+          "y": 187
         }
       }
     ]

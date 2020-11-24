@@ -164,7 +164,7 @@ public class ShopItem extends MegamodmainModElements.ModElement {
 		}
 
 		private ItemStackHandler createItemHandler() {
-			return new ItemStackHandler(1) {
+			return new ItemStackHandler(2) {
 				@Override
 				public int getSlotLimit(int slot) {
 					return 64;

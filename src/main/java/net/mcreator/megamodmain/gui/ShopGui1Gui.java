@@ -89,7 +89,7 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 			super(containerType, id);
 			this.entity = inv.player;
 			this.world = inv.player.world;
-			this.internal = new ItemStackHandler(1);
+			this.internal = new ItemStackHandler(2);
 			BlockPos pos = null;
 			if (extraData != null) {
 				pos = extraData.readBlockPos();
@@ -129,6 +129,8 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 			}
 			this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 232, 206) {
 			}));
+			this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 232, 184) {
+			}));
 			int si;
 			int sj;
 			for (si = 0; si < 3; ++si)
@@ -154,18 +156,18 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 			if (slot != null && slot.getHasStack()) {
 				ItemStack itemstack1 = slot.getStack();
 				itemstack = itemstack1.copy();
-				if (index < 1) {
-					if (!this.mergeItemStack(itemstack1, 1, this.inventorySlots.size(), true)) {
+				if (index < 2) {
+					if (!this.mergeItemStack(itemstack1, 2, this.inventorySlots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 					slot.onSlotChange(itemstack1, itemstack);
-				} else if (!this.mergeItemStack(itemstack1, 0, 1, false)) {
-					if (index < 1 + 27) {
-						if (!this.mergeItemStack(itemstack1, 1 + 27, this.inventorySlots.size(), true)) {
+				} else if (!this.mergeItemStack(itemstack1, 0, 2, false)) {
+					if (index < 2 + 27) {
+						if (!this.mergeItemStack(itemstack1, 2 + 27, this.inventorySlots.size(), true)) {
 							return ItemStack.EMPTY;
 						}
 					} else {
-						if (!this.mergeItemStack(itemstack1, 1, 1 + 27, false)) {
+						if (!this.mergeItemStack(itemstack1, 2, 2 + 27, false)) {
 							return ItemStack.EMPTY;
 						}
 					}
@@ -380,7 +382,8 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 			this.font.drawString("10", 103, 141, -12829636);
 			this.font.drawString("40", 103, 194, -12829636);
 			this.font.drawString("30", 103, 167, -12829636);
-			this.font.drawString("$", 232, 205, -12829636);
+			this.font.drawString("$", 233, 206, -12829636);
+			this.font.drawString("$", 233, 184, -12829636);
 		}
 
 		@Override

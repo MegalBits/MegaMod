@@ -26,7 +26,7 @@
     "specialInfo": [],
     "hasGlow": true,
     "guiBoundTo": "ShopGui1",
-    "inventorySize": 1,
+    "inventorySize": 2,
     "inventoryStackSize": 64
   }
 }
