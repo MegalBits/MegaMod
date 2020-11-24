@@ -35,6 +35,8 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.megamodmain.procedures.BuyStoneProcedure;
+import net.mcreator.megamodmain.procedures.BuyLogProcedure;
 import net.mcreator.megamodmain.procedures.BuyDirtProcedure;
 import net.mcreator.megamodmain.MegamodmainModElements;
 import net.mcreator.megamodmain.MegamodmainMod;
@@ -374,7 +376,7 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 			this.font.drawString("10", 103, 141, -12829636);
 			this.font.drawString("40", 103, 168, -12829636);
 			this.font.drawString("30", 103, 195, -12829636);
-			this.font.drawString("$", 231, 204, -12829636);
+			this.font.drawString("$", 232, 205, -12829636);
 		}
 
 		@Override
@@ -509,6 +511,20 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				BuyDirtProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				BuyStoneProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 2) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				BuyLogProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

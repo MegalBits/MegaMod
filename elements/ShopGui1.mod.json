@@ -54,6 +54,9 @@
         "type": "button",
         "data": {
           "text": "Buy",
+          "onClick": {
+            "name": "BuyStone"
+          },
           "width": 50,
           "height": 20,
           "name": "Buy",
@@ -65,6 +68,9 @@
         "type": "button",
         "data": {
           "text": "Buy",
+          "onClick": {
+            "name": "BuyLog"
+          },
           "width": 50,
           "height": 20,
           "name": "Buy",
@@ -370,8 +376,8 @@
             "falpha": 0.0
           },
           "name": "$",
-          "x": 233,
-          "y": 207
+          "x": 234,
+          "y": 208
         }
       }
     ]
