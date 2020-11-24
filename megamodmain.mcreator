@@ -563,6 +563,159 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bags"
+    },
+    {
+      "name": "Shop",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shop"
+    },
+    {
+      "name": "StartingLoottable",
+      "type": "loottable",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "starting_loottable"
+    },
+    {
+      "name": "StartingItems",
+      "type": "achievement",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "starting_items"
+    },
+    {
+      "name": "ShopCraft",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shop_craft"
+    },
+    {
+      "name": "Cash",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cash"
+    },
+    {
+      "name": "CreeperL",
+      "type": "loottable",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creeper_l"
+    },
+    {
+      "name": "ZombieL",
+      "type": "loottable",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zombie_l"
+    },
+    {
+      "name": "SkeletonL",
+      "type": "loottable",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skeleton_l"
+    },
+    {
+      "name": "SpiderL",
+      "type": "loottable",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spider_l"
+    },
+    {
+      "name": "EndermanL",
+      "type": "loottable",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enderman_l"
+    },
+    {
+      "name": "HuskL",
+      "type": "loottable",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "husk_l"
+    },
+    {
+      "name": "StrayL",
+      "type": "loottable",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stray_l"
+    },
+    {
+      "name": "CaveSpiderL",
+      "type": "loottable",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cave_spider_l"
+    },
+    {
+      "name": "SlimeL",
+      "type": "loottable",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slime_l"
+    },
+    {
+      "name": "WitherL",
+      "type": "loottable",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wither_l"
+    },
+    {
+      "name": "EnderDragonL",
+      "type": "loottable",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ender_dragon_l"
+    },
+    {
+      "name": "ShopGui1",
+      "type": "gui",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "shop_gui_1"
     }
   ],
   "variable_elements": [],
@@ -570,10 +723,12 @@
   "language_map": {
     "en_us": {
       "item.megamodmain.stone_picksword": "Wooden Picksword",
+      "advancements.starting_items.descr": "You joined the world!",
       "item.megamodmain.stone_dagger": "Stone Dagger",
       "item.megamodmain.golden_feather": "Golden Feather",
       "item.megamodmain.gold_dagger": "Golden Dagger",
       "itemGroup.tabspecial": "Special",
+      "advancements.starting_items.title": "Free Stuff!",
       "item.megamodmain.wooden_picksword": "Wooden Picksword",
       "item.megamodmain.iron_feather": "Iron Feather",
       "item.megamodmain.iron_dagger": "Iron Dagger",
@@ -584,7 +739,9 @@
       "biome.megamodmain.cave": "Cave",
       "item.megamodmain.lapis_feather": "Lapis Feather",
       "block.megamodmain.wood_stone": "Woodstone",
+      "item.megamodmain.shop": "Shop",
       "item.megamodmain.magnifying_glass": "Magnifying Glass",
+      "item.megamodmain.cash": "Cash",
       "item.megamodmain.wooden_dagger": "Wooden Dagger"
     }
   },

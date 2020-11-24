@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "starting_items": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "loot": [
+      "megamodmain:starting_loottable"
+    ]
+  }
+}

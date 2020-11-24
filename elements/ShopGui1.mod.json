@@ -1,0 +1,258 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 423,
+    "height": 235,
+    "inventoryOffsetX": 120,
+    "inventoryOffsetY": 30,
+    "renderBgLayer": true,
+    "doesPauseGame": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Inventory",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Inventory",
+          "x": 252,
+          "y": 137
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Shop",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Shop",
+          "x": 6,
+          "y": 8
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "width": 50,
+          "height": 20,
+          "name": "Buy",
+          "x": 42,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "width": 50,
+          "height": 20,
+          "name": "Buy",
+          "x": 42,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "width": 50,
+          "height": 20,
+          "name": "Buy",
+          "x": 42,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "width": 50,
+          "height": 20,
+          "name": "Buy",
+          "x": 42,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "width": 50,
+          "height": 20,
+          "name": "Buy",
+          "x": 42,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "width": 50,
+          "height": 20,
+          "name": "Buy",
+          "x": 42,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Buy",
+          "width": 50,
+          "height": 20,
+          "name": "Buy",
+          "x": 42,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cahs.png",
+          "use1Xscale": true,
+          "name": "cahs.png",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cahs.png",
+          "use1Xscale": true,
+          "name": "cahs.png",
+          "x": 96,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cahs.png",
+          "use1Xscale": true,
+          "name": "cahs.png",
+          "x": 96,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cahs.png",
+          "use1Xscale": true,
+          "name": "cahs.png",
+          "x": 96,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cahs.png",
+          "use1Xscale": true,
+          "name": "cahs.png",
+          "x": 96,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cahs.png",
+          "use1Xscale": true,
+          "name": "cahs.png",
+          "x": 96,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cahs.png",
+          "use1Xscale": true,
+          "name": "cahs.png",
+          "x": 96,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dirt.png",
+          "use1Xscale": false,
+          "name": "dirt.png",
+          "x": 15,
+          "y": 36
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "stone.png",
+          "use1Xscale": false,
+          "name": "stone.png",
+          "x": 15,
+          "y": 63
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "oak_log.png",
+          "use1Xscale": false,
+          "name": "oak_log.png",
+          "x": 15,
+          "y": 90
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "melon_side.png",
+          "use1Xscale": false,
+          "name": "melon_side.png",
+          "x": 15,
+          "y": 171
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pumpkin_side.png",
+          "use1Xscale": false,
+          "name": "pumpkin_side.png",
+          "x": 15,
+          "y": 198
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "gravel.png",
+          "use1Xscale": false,
+          "name": "gravel.png",
+          "x": 15,
+          "y": 144
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sand.png",
+          "use1Xscale": false,
+          "name": "sand.png",
+          "x": 15,
+          "y": 117
+        }
+      }
+    ]
+  }
+}
