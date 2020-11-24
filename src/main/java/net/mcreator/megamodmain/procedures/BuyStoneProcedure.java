@@ -30,36 +30,36 @@ public class BuyStoneProcedure extends MegamodmainModElements.ModElement {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (((new Object() {
-			public ItemStack getItemStack(int sltid) {
-				Entity _ent = entity;
-				if (_ent instanceof ServerPlayerEntity) {
-					Container _current = ((ServerPlayerEntity) _ent).openContainer;
+			public int getAmount(int sltid) {
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
 					if (_current instanceof Supplier) {
 						Object invobj = ((Supplier) _current).get();
 						if (invobj instanceof Map) {
-							return ((Slot) ((Map) invobj).get(sltid)).getStack();
+							ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+							if (stack != null)
+								return stack.getCount();
 						}
 					}
 				}
-				return ItemStack.EMPTY;
+				return 0;
 			}
-		}.getItemStack((int) (0))).getItem() == new ItemStack(CashItem.block, (int) (1)).getItem())) {
+		}.getAmount((int) (0))) > 14)) {
 			if (((new Object() {
-				public int getAmount(int sltid) {
-					if (entity instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) entity).openContainer;
+				public ItemStack getItemStack(int sltid) {
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
 						if (_current instanceof Supplier) {
 							Object invobj = ((Supplier) _current).get();
 							if (invobj instanceof Map) {
-								ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-								if (stack != null)
-									return stack.getCount();
+								return ((Slot) ((Map) invobj).get(sltid)).getStack();
 							}
 						}
 					}
-					return 0;
+					return ItemStack.EMPTY;
 				}
-			}.getAmount((int) (0))) > 14)) {
+			}.getItemStack((int) (0))).getItem() == new ItemStack(CashItem.block, (int) (1)).getItem())) {
 				{
 					Entity _ent = entity;
 					if (_ent instanceof ServerPlayerEntity) {
@@ -79,71 +79,71 @@ public class BuyStoneProcedure extends MegamodmainModElements.ModElement {
 					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 				}
 			}
-			if ((!((new Object() {
-				public int getAmount(int sltid) {
-					if (entity instanceof ServerPlayerEntity) {
-						Container _current = ((ServerPlayerEntity) entity).openContainer;
+		}
+		if ((!((new Object() {
+			public int getAmount(int sltid) {
+				if (entity instanceof ServerPlayerEntity) {
+					Container _current = ((ServerPlayerEntity) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+							if (stack != null)
+								return stack.getCount();
+						}
+					}
+				}
+				return 0;
+			}
+		}.getAmount((int) (0))) > 14))) {
+			if (((new Object() {
+				public ItemStack getItemStack(int sltid) {
+					Entity _ent = entity;
+					if (_ent instanceof ServerPlayerEntity) {
+						Container _current = ((ServerPlayerEntity) _ent).openContainer;
 						if (_current instanceof Supplier) {
 							Object invobj = ((Supplier) _current).get();
 							if (invobj instanceof Map) {
-								ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-								if (stack != null)
-									return stack.getCount();
+								return ((Slot) ((Map) invobj).get(sltid)).getStack();
 							}
 						}
 					}
-					return 0;
+					return ItemStack.EMPTY;
 				}
-			}.getAmount((int) (0))) > 14))) {
+			}.getItemStack((int) (0))).getItem() == new ItemStack(CashItem.block, (int) (1)).getItem())) {
 				if (((new Object() {
-					public ItemStack getItemStack(int sltid) {
+					public int getAmount(int sltid) {
+						if (entity instanceof ServerPlayerEntity) {
+							Container _current = ((ServerPlayerEntity) entity).openContainer;
+							if (_current instanceof Supplier) {
+								Object invobj = ((Supplier) _current).get();
+								if (invobj instanceof Map) {
+									ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
+									if (stack != null)
+										return stack.getCount();
+								}
+							}
+						}
+						return 0;
+					}
+				}.getAmount((int) (1))) > 14)) {
+					{
 						Entity _ent = entity;
 						if (_ent instanceof ServerPlayerEntity) {
 							Container _current = ((ServerPlayerEntity) _ent).openContainer;
 							if (_current instanceof Supplier) {
 								Object invobj = ((Supplier) _current).get();
 								if (invobj instanceof Map) {
-									return ((Slot) ((Map) invobj).get(sltid)).getStack();
+									((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (15));
+									_current.detectAndSendChanges();
 								}
 							}
 						}
-						return ItemStack.EMPTY;
 					}
-				}.getItemStack((int) (0))).getItem() == new ItemStack(CashItem.block, (int) (1)).getItem())) {
-					if (((new Object() {
-						public int getAmount(int sltid) {
-							if (entity instanceof ServerPlayerEntity) {
-								Container _current = ((ServerPlayerEntity) entity).openContainer;
-								if (_current instanceof Supplier) {
-									Object invobj = ((Supplier) _current).get();
-									if (invobj instanceof Map) {
-										ItemStack stack = ((Slot) ((Map) invobj).get(sltid)).getStack();;
-										if (stack != null)
-											return stack.getCount();
-									}
-								}
-							}
-							return 0;
-						}
-					}.getAmount((int) (1))) > 14)) {
-						{
-							Entity _ent = entity;
-							if (_ent instanceof ServerPlayerEntity) {
-								Container _current = ((ServerPlayerEntity) _ent).openContainer;
-								if (_current instanceof Supplier) {
-									Object invobj = ((Supplier) _current).get();
-									if (invobj instanceof Map) {
-										((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (15));
-										_current.detectAndSendChanges();
-									}
-								}
-							}
-						}
-						if (entity instanceof PlayerEntity) {
-							ItemStack _setstack = new ItemStack(Blocks.STONE, (int) (1));
-							_setstack.setCount((int) 1);
-							ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
-						}
+					if (entity instanceof PlayerEntity) {
+						ItemStack _setstack = new ItemStack(Blocks.STONE, (int) (1));
+						_setstack.setCount((int) 1);
+						ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 					}
 				}
 			}
