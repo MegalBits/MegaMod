@@ -93,7 +93,7 @@ public class MobboEntity extends MegamodmainModElements.ModElement {
 			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(0), 0.5f) {
 				@Override
 				public ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("megamodmain:textures/2020_08_17_mobbo-15081788.png");
+					return new ResourceLocation("megamodmain:textures/mobbo.png");
 				}
 			};
 			customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));
@@ -127,7 +127,14 @@ public class MobboEntity extends MegamodmainModElements.ModElement {
 			this.targetSelector.addGoal(4, new HurtByTargetGoal(this));
 			this.goalSelector.addGoal(5, new LookRandomlyGoal(this));
 			this.goalSelector.addGoal(6, new SwimGoal(this));
-			this.goalSelector.addGoal(7, new BreakBlockGoal(Blocks.OAK_PLANKS.getDefaultState().getBlock(), this, 1, (int) 999));
+			this.goalSelector.addGoal(7, new BreakBlockGoal(Blocks.GRASS_BLOCK.getDefaultState().getBlock(), this, 2, (int) 10));
+			this.goalSelector.addGoal(8, new BreakBlockGoal(Blocks.DIRT.getDefaultState().getBlock(), this, 2, (int) 10));
+			this.goalSelector.addGoal(9, new BreakBlockGoal(Blocks.STONE.getDefaultState().getBlock(), this, 2, (int) 10));
+			this.goalSelector.addGoal(10, new BreakBlockGoal(Blocks.OAK_LOG.getDefaultState().getBlock(), this, 2, (int) 10));
+			this.goalSelector.addGoal(11, new BreakBlockGoal(Blocks.OAK_LEAVES.getDefaultState().getBlock(), this, 2, (int) 10));
+			this.goalSelector.addGoal(12, new BreakBlockGoal(Blocks.SAND.getDefaultState().getBlock(), this, 2, (int) 10));
+			this.goalSelector.addGoal(13, new BreakBlockGoal(Blocks.SANDSTONE.getDefaultState().getBlock(), this, 2, (int) 10));
+			this.goalSelector.addGoal(14, new BreakBlockGoal(Blocks.SMOOTH_SANDSTONE.getDefaultState().getBlock(), this, 2, (int) 10));
 			this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10) {
 				@Override
 				public boolean shouldContinueExecuting() {
