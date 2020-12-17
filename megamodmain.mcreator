@@ -835,15 +835,6 @@
           }
         ]
       }
-    },
-    {
-      "name": "Mobbo",
-      "type": "mob",
-      "sortid": 75,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "mobbo"
     }
   ],
   "variable_elements": [],
@@ -851,8 +842,6 @@
   "language_map": {
     "en_us": {
       "item.megamodmain.stone_picksword": "Wooden Picksword",
-      "item.megamodmain.mobbo_spawn_egg": "Mobbo Spawn Egg",
-      "entity.megamodmain.mobbo": "Mobbo",
       "advancements.starting_items.descr": "You joined the world!",
       "item.megamodmain.stone_dagger": "Stone Dagger",
       "item.megamodmain.golden_feather": "Golden Feather",
