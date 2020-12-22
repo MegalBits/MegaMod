@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "megamodmain:blocks/ancient_debris_top",
+    "up": "megamodmain:blocks/ancient_debris_top",
+    "north": "megamodmain:blocks/ancient_debris_side",
+    "east": "megamodmain:blocks/ancient_debris_side",
+    "south": "megamodmain:blocks/ancient_debris_side",
+    "west": "megamodmain:blocks/ancient_debris_side",
+    "particle": "megamodmain:blocks/ancient_debris_top"
+  }
+}

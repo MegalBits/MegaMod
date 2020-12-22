@@ -2,14 +2,14 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "buttons",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "texture": "ancient_debris_top",
+    "textureTop": "ancient_debris_top",
+    "textureLeft": "ancient_debris_side",
+    "textureFront": "ancient_debris_side",
+    "textureRight": "ancient_debris_side",
+    "textureBack": "ancient_debris_side",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -24,18 +24,18 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Lucky Block",
+    "name": "Ancient Debris",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 2.5,
+    "resistance": 19.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Special"
+      "value": "BUILDING_BLOCKS"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "Blocks.AIR"
+      "value": ""
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -45,7 +45,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "MISCELLANEOUS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -63,11 +63,11 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "METAL"
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
+    "breakHarvestLevel": 4,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -92,19 +92,27 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "LuckyblockData"
-    },
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Nether"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
+        "value": "Blocks.QUARTZ_ORE"
+      },
+      {
+        "value": "Blocks.MAGMA"
+      },
+      {
+        "value": "Blocks.NETHERRACK"
+      },
+      {
+        "value": "Blocks.SOUL_SAND"
       }
     ],
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 64
+    "frequencyPerChunks": 20,
+    "frequencyOnChunk": 1,
+    "minGenerateHeight": 3,
+    "maxGenerateHeight": 200
   }
 }

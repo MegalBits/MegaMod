@@ -1,5 +1,5 @@
 {
-  "parent": "megamodmain:block/lucky_block",
+  "parent": "megamodmain:block/ancient_debris",
   "display": {
     "thirdperson": {
       "rotation": [

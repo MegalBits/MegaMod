@@ -29,9 +29,9 @@ import net.mcreator.megamodmain.MegamodmainModElements;
 import java.util.Random;
 
 @MegamodmainModElements.ModElement.Tag
-public class LavaTrapStructure extends MegamodmainModElements.ModElement {
-	public LavaTrapStructure(MegamodmainModElements instance) {
-		super(instance, 78);
+public class TntspawnStructure extends MegamodmainModElements.ModElement {
+	public TntspawnStructure(MegamodmainModElements instance) {
+		super(instance, 87);
 	}
 
 	@Override
@@ -47,7 +47,7 @@ public class LavaTrapStructure extends MegamodmainModElements.ModElement {
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 0) {
+				if ((random.nextInt(1000000) + 1) <= 100000) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
@@ -61,7 +61,7 @@ public class LavaTrapStructure extends MegamodmainModElements.ModElement {
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("megamodmain", "lavatrap"));
+								.getTemplateDefaulted(new ResourceLocation("megamodmain", "tntexplosion"));
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
