@@ -873,12 +873,124 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lucky_block"
+    },
+    {
+      "name": "Trap",
+      "type": "structure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trap"
+    },
+    {
+      "name": "FireWork",
+      "type": "structure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fire_work"
+    },
+    {
+      "name": "LavaTrap",
+      "type": "structure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lava_trap"
+    },
+    {
+      "name": "Luckyblockitems",
+      "type": "mob",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "luckyblockitems"
+    },
+    {
+      "name": "LuckyblockitemsL",
+      "type": "loottable",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "luckyblockitems_l"
+    },
+    {
+      "name": "Luckblockitems2",
+      "type": "mob",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "luckblockitems_2"
+    },
+    {
+      "name": "Luckblockitems2l",
+      "type": "loottable",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "luckblockitems_2l"
+    },
+    {
+      "name": "Luckblock",
+      "type": "mob",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "luckblock"
+    },
+    {
+      "name": "LuckblockL",
+      "type": "loottable",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "luckblock_l"
+    },
+    {
+      "name": "Deadbush",
+      "type": "structure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deadbush"
+    },
+    {
+      "name": "Anviltrap",
+      "type": "structure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anviltrap"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.megamodmain.luckblockitems_2_spawn_egg": "Luckyblockitems Spawn Egg",
+      "item.megamodmain.luckyblockitems_spawn_egg": "Luckyblockitems Spawn Egg",
+      "item.megamodmain.wooden_picksword": "Wooden Picksword",
+      "item.megamodmain.iron_dagger": "Iron Dagger",
+      "item.megamodmain.backpack": "Backpack",
+      "item.megamodmain.diamond_feather": "Diamond Feather",
+      "entity.megamodmain.luckblock": "Luckyblockitems",
+      "item.megamodmain.diamond_dagger": "Diamond Dagger",
+      "item.megamodmain.luckblock_spawn_egg": "Luckyblockitems Spawn Egg",
+      "block.megamodmain.wood_stone": "Woodstone",
+      "block.megamodmain.lucky_block": "Lucky Block",
+      "item.megamodmain.wooden_dagger": "Wooden Dagger",
+      "entity.megamodmain.luckblockitems_2": "Luckyblockitems",
       "item.megamodmain.stone_picksword": "Wooden Picksword",
       "advancements.starting_items.descr": "You joined the world!",
       "item.megamodmain.stone_dagger": "Stone Dagger",
@@ -886,21 +998,14 @@
       "item.megamodmain.gold_dagger": "Golden Dagger",
       "itemGroup.tabspecial": "Special",
       "advancements.starting_items.title": "Free Stuff!",
-      "item.megamodmain.wooden_picksword": "Wooden Picksword",
       "item.megamodmain.iron_feather": "Iron Feather",
-      "item.megamodmain.iron_dagger": "Iron Dagger",
-      "item.megamodmain.backpack": "Backpack",
-      "item.megamodmain.diamond_feather": "Diamond Feather",
-      "item.megamodmain.diamond_dagger": "Diamond Dagger",
       "item.megamodmain.rabbit_staff": "Rabbit Staff",
       "biome.megamodmain.cave": "Cave",
       "item.megamodmain.lapis_feather": "Lapis Feather",
-      "block.megamodmain.wood_stone": "Woodstone",
       "item.megamodmain.shop": "Shop",
-      "block.megamodmain.lucky_block": "Lucky Block",
+      "entity.megamodmain.luckyblockitems": "Luckyblockitems",
       "item.megamodmain.magnifying_glass": "Magnifying Glass",
-      "item.megamodmain.cash": "Cash",
-      "item.megamodmain.wooden_dagger": "Wooden Dagger"
+      "item.megamodmain.cash": "Cash"
     }
   },
   "workspaceSettings": {
