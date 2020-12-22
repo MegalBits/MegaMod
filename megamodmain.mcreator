@@ -835,6 +835,44 @@
           }
         ]
       }
+    },
+    {
+      "name": "LuckyblockData",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "luckyblock_data",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LuckyBlock",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lucky_block"
     }
   ],
   "variable_elements": [],
@@ -859,6 +897,7 @@
       "item.megamodmain.lapis_feather": "Lapis Feather",
       "block.megamodmain.wood_stone": "Woodstone",
       "item.megamodmain.shop": "Shop",
+      "block.megamodmain.lucky_block": "Lucky Block",
       "item.megamodmain.magnifying_glass": "Magnifying Glass",
       "item.megamodmain.cash": "Cash",
       "item.megamodmain.wooden_dagger": "Wooden Dagger"
