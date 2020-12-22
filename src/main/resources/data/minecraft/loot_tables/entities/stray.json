@@ -10,7 +10,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bone",
-          "weight": 300,
+          "weight": 500,
           "functions": [
             {
               "function": "set_count",
@@ -29,7 +29,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:arrow",
-          "weight": 100,
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",

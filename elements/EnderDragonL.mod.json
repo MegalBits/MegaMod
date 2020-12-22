@@ -16,7 +16,7 @@
             "item": {
               "value": "Items.DRAGON_BREATH"
             },
-            "weight": 23,
+            "weight": 40,
             "minCount": 1,
             "maxCount": 17,
             "minEnchantmentLevel": 0,
@@ -30,7 +30,7 @@
             "item": {
               "value": "Items.SKULL#5"
             },
-            "weight": 7,
+            "weight": 5,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

@@ -1,0 +1,16 @@
+{
+  "group": "megamodmain",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "megamodmain:netherite_ingot"
+    },
+    {
+      "item": "minecraft:diamond_leggings"
+    }
+  ],
+  "result": {
+    "item": "megamodmain:netherite_leggings",
+    "count": 1
+  }
+}

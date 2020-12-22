@@ -133,7 +133,7 @@
         "entity": {
           "value": "EntityRavager"
         },
-        "minGroup": 4,
+        "minGroup": 1,
         "maxGroup": 4,
         "weight": 2,
         "spawnType": "monster"
@@ -142,7 +142,7 @@
         "entity": {
           "value": "EntityRavager"
         },
-        "minGroup": 4,
+        "minGroup": 1,
         "maxGroup": 4,
         "weight": 2,
         "spawnType": "creature"
@@ -151,7 +151,7 @@
         "entity": {
           "value": "EntityRavager"
         },
-        "minGroup": 4,
+        "minGroup": 1,
         "maxGroup": 4,
         "weight": 3,
         "spawnType": "ambient"

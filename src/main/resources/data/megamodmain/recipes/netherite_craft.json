@@ -1,0 +1,39 @@
+{
+  "group": "megamodmain",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "megamodmain:netherite_scrap"
+    },
+    "1": {
+      "item": "megamodmain:netherite_scrap"
+    },
+    "2": {
+      "item": "megamodmain:netherite_scrap"
+    },
+    "3": {
+      "item": "megamodmain:netherite_scrap"
+    },
+    "4": {
+      "item": "minecraft:gold_ingot"
+    },
+    "5": {
+      "item": "minecraft:gold_ingot"
+    },
+    "6": {
+      "item": "minecraft:gold_ingot"
+    },
+    "7": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "megamodmain:netherite_ingot",
+    "count": 1
+  }
+}

@@ -83,9 +83,9 @@ public class CaveBiome extends MegamodmainModElements.ModElement {
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.CREEPER, 3, 4, 4));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.CREEPER, 8, 4, 4));
 			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.CREEPER, 8, 4, 4));
-			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.RAVAGER, 2, 4, 4));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.RAVAGER, 2, 4, 4));
-			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.RAVAGER, 3, 4, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.RAVAGER, 2, 1, 4));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.RAVAGER, 2, 1, 4));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.RAVAGER, 3, 1, 4));
 		}
 	}
 }

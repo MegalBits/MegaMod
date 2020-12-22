@@ -17,7 +17,7 @@
               "value": "Items.SLIME_BALL"
             },
             "weight": 7,
-            "minCount": 1,
+            "minCount": 0,
             "maxCount": 4,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,

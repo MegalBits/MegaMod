@@ -16,7 +16,7 @@
             "item": {
               "value": "Items.BONE"
             },
-            "weight": 300,
+            "weight": 500,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
@@ -30,7 +30,7 @@
             "item": {
               "value": "Items.ARROW"
             },
-            "weight": 100,
+            "weight": 200,
             "minCount": 1,
             "maxCount": 4,
             "minEnchantmentLevel": 0,

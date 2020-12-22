@@ -38,7 +38,7 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 33,
+    "maxDamage": 35,
     "damageValueHelmet": 3,
     "damageValueBody": 8,
     "damageValueLeggings": 6,
@@ -48,6 +48,10 @@
     "equipSound": {
       "value": "item.armor.equip_diamond"
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:NetheriteIngot"
+      }
+    ]
   }
 }

@@ -1,0 +1,16 @@
+{
+  "group": "megamodmain",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "megamodmain:netherite_ingot"
+    },
+    {
+      "item": "minecraft:diamond_shovel"
+    }
+  ],
+  "result": {
+    "item": "megamodmain:netherite_shovel",
+    "count": 1
+  }
+}

@@ -40,8 +40,8 @@
               "value": "CUSTOM:Cash"
             },
             "weight": 1,
-            "minCount": 0,
-            "maxCount": 35,
+            "minCount": 1,
+            "maxCount": 50,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -63,8 +63,8 @@
               "value": "Items.MUSHROOM_STEW"
             },
             "weight": 1,
-            "minCount": 0,
-            "maxCount": 2,
+            "minCount": 1,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
