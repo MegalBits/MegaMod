@@ -16,12 +16,12 @@
             "item": {
               "value": "Items.ARROW"
             },
-            "weight": 1,
+            "weight": 23,
             "minCount": 1,
             "maxCount": 4,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
+            "affectedByFortune": true,
             "explosionDecay": false,
             "silkTouchMode": 0
           },
@@ -30,9 +30,23 @@
             "item": {
               "value": "Items.BONE"
             },
-            "weight": 3,
+            "weight": 36,
             "minCount": 1,
             "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": true,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.SPECTRAL_ARROW"
+            },
+            "weight": 4,
+            "minCount": 1,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

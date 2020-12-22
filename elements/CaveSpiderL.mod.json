@@ -16,12 +16,12 @@
             "item": {
               "value": "Items.STRING"
             },
-            "weight": 3,
+            "weight": 22,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
+            "affectedByFortune": true,
             "explosionDecay": false,
             "silkTouchMode": 0
           },
@@ -29,6 +29,20 @@
             "type": "item",
             "item": {
               "value": "Items.SPIDER_EYE"
+            },
+            "weight": 11,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": true,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.SLIME_BALL"
             },
             "weight": 1,
             "minCount": 1,

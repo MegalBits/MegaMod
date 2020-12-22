@@ -21,7 +21,7 @@
             "maxCount": 2,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
+            "affectedByFortune": true,
             "explosionDecay": false,
             "silkTouchMode": 0
           },
@@ -30,7 +30,7 @@
             "item": {
               "value": "Items.ENDER_EYE"
             },
-            "weight": 1,
+            "weight": 2,
             "minCount": 0,
             "maxCount": 1,
             "minEnchantmentLevel": 0,

@@ -5,8 +5,8 @@
     "type": "Generic",
     "pools": [
       {
-        "minrolls": 1,
-        "maxrolls": 1,
+        "minrolls": 2,
+        "maxrolls": 2,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
@@ -16,9 +16,23 @@
             "item": {
               "value": "Items.DRAGON_BREATH"
             },
-            "weight": 1,
+            "weight": 23,
             "minCount": 1,
-            "maxCount": 3,
+            "maxCount": 17,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": true,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.SKULL#5"
+            },
+            "weight": 7,
+            "minCount": 1,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

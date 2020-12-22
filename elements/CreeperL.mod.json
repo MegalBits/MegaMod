@@ -16,9 +16,23 @@
             "item": {
               "value": "Items.GUNPOWDER"
             },
-            "weight": 1,
+            "weight": 50,
             "minCount": 1,
             "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": true,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.FEATHER"
+            },
+            "weight": 34,
+            "minCount": 0,
+            "maxCount": 2,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

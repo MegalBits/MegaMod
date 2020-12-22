@@ -2,18 +2,37 @@
   "type": "minecraft:generic",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 2,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:dragon_breath",
-          "weight": 1,
+          "weight": 23,
           "functions": [
             {
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 17
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_head",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
               }
             }
           ]
