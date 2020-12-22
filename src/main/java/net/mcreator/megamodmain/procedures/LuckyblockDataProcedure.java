@@ -59,6 +59,9 @@ public class LuckyblockDataProcedure extends MegamodmainModElements.ModElement {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		IWorld world = (IWorld) dependencies.get("world");
+		if (world instanceof World && !world.getWorld().isRemote) {
+			world.getWorld().createExplosion(null, (int) x, (int) y, (int) z, (float) 0, Explosion.Mode.BREAK);
+		}
 		if ((Math.random() == 0)) {
 			if ((Math.random() == 0)) {
 				if ((Math.random() == 0)) {

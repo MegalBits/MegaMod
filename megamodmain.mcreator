@@ -847,6 +847,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -983,8 +987,8 @@
       "item.megamodmain.wooden_picksword": "Wooden Picksword",
       "item.megamodmain.iron_dagger": "Iron Dagger",
       "item.megamodmain.backpack": "Backpack",
-      "entity.megamodmain.luckblock": "Luckyblockitems",
       "item.megamodmain.diamond_feather": "Diamond Feather",
+      "entity.megamodmain.luckblock": "Luckyblockitems",
       "item.megamodmain.diamond_dagger": "Diamond Dagger",
       "item.megamodmain.luckblock_spawn_egg": "Luckyblockitems Spawn Egg",
       "block.megamodmain.wood_stone": "Woodstone",
