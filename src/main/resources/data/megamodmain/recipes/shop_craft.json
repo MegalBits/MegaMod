@@ -1,14 +1,24 @@
 {
   "group": "megamodmain",
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
       "item": "minecraft:gold_ingot"
     },
-    {
-      "item": "minecraft:diamond"
+    "1": {
+      "item": "minecraft:gold_ingot"
+    },
+    "2": {
+      "item": "minecraft:gold_ingot"
+    },
+    "3": {
+      "item": "minecraft:gold_ingot"
     }
-  ],
+  },
   "result": {
     "item": "megamodmain:shop",
     "count": 1

@@ -7,22 +7,22 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": "Items.GOLD_INGOT"
       },
       {
-        "value": "Items.DIAMOND"
+        "value": "Items.GOLD_INGOT"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.GOLD_INGOT"
       },
       {
-        "value": ""
+        "value": "Items.GOLD_INGOT"
       },
       {
         "value": ""

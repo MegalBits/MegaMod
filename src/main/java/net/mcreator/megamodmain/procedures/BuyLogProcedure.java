@@ -110,7 +110,7 @@ public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 					}
 					return ItemStack.EMPTY;
 				}
-			}.getItemStack((int) (0))).getItem() == new ItemStack(CashItem.block, (int) (1)).getItem())) {
+			}.getItemStack((int) (1))).getItem() == new ItemStack(CashItem.block, (int) (1)).getItem())) {
 				if (((new Object() {
 					public int getAmount(int sltid) {
 						if (entity instanceof ServerPlayerEntity) {
