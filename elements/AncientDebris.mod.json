@@ -98,19 +98,22 @@
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.QUARTZ_ORE"
-      },
-      {
-        "value": "Blocks.MAGMA"
-      },
-      {
         "value": "Blocks.NETHERRACK"
       },
       {
         "value": "Blocks.SOUL_SAND"
+      },
+      {
+        "value": "Blocks.GLOWSTONE"
+      },
+      {
+        "value": "Blocks.QUARTZ_ORE"
+      },
+      {
+        "value": "Blocks.MAGMA"
       }
     ],
-    "frequencyPerChunks": 20,
+    "frequencyPerChunks": 30,
     "frequencyOnChunk": 1,
     "minGenerateHeight": 3,
     "maxGenerateHeight": 200

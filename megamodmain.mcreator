@@ -1039,6 +1039,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "end_tower"
+    },
+    {
+      "name": "AdvancmentRoot",
+      "type": "achievement",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "advancment_root"
     }
   ],
   "variable_elements": [],
@@ -1051,8 +1060,8 @@
       "item.megamodmain.netherite_chestplate": "Netherite Chestplate",
       "item.megamodmain.iron_dagger": "Iron Dagger",
       "item.megamodmain.backpack": "Backpack",
-      "item.megamodmain.netherite_helmet": "Netherite Helmet",
       "item.megamodmain.diamond_feather": "Diamond Feather",
+      "item.megamodmain.netherite_helmet": "Netherite Helmet",
       "item.megamodmain.diamond_dagger": "Diamond Dagger",
       "item.megamodmain.netherite_pickaxe": "Netherite Pickaxe",
       "block.megamodmain.wood_stone": "Woodstone",
@@ -1067,6 +1076,7 @@
       "itemGroup.tabspecial": "Special",
       "advancements.starting_items.title": "Free Stuff!",
       "item.megamodmain.iron_feather": "Iron Feather",
+      "advancements.advancment_root.descr": "join the world for the first time",
       "block.megamodmain.ancient_debris": "Ancient Debris",
       "item.megamodmain.rabbit_staff": "Rabbit Staff",
       "item.megamodmain.netherite_sword": "Netherite Sword",
@@ -1074,6 +1084,7 @@
       "item.megamodmain.lapis_feather": "Lapis Feather",
       "item.megamodmain.netherite_axe": "Netherite Axe",
       "item.megamodmain.netherite_shovel": "Netherite Shovel",
+      "advancements.advancment_root.title": "Starting out",
       "item.megamodmain.shop": "Shop",
       "item.megamodmain.magnifying_glass": "Magnifying Glass",
       "item.megamodmain.cash": "Cash",
