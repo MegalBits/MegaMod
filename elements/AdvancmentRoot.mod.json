@@ -7,7 +7,7 @@
     "achievementIcon": {
       "value": "Items.APPLE"
     },
-    "background": "Default",
+    "background": "obsidian.png",
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
