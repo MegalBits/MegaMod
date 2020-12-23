@@ -1039,70 +1039,6 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "end_tower"
-    },
-    {
-      "name": "FireballSlingerBulletHitsBlock",
-      "type": "procedure",
-      "sortid": 109,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fireball_slinger_bullet_hits_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "FireballSlinger",
-      "type": "gun",
-      "sortid": 109,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "fireball_slinger"
-    },
-    {
-      "name": "Herobrine",
-      "type": "mob",
-      "sortid": 109,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "herobrine"
-    },
-    {
-      "name": "HerobrineOnEntityTickUpdate",
-      "type": "procedure",
-      "sortid": 110,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "herobrine_on_entity_tick_update",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -1120,10 +1056,7 @@
       "item.megamodmain.diamond_dagger": "Diamond Dagger",
       "item.megamodmain.netherite_pickaxe": "Netherite Pickaxe",
       "block.megamodmain.wood_stone": "Woodstone",
-      "entity.megamodmain.herobrine": "Herobrine",
-      "item.megamodmain.fireball_slinger": "Fireball Slinger",
       "item.megamodmain.wooden_dagger": "Wooden Dagger",
-      "item.megamodmain.herobrine_spawn_egg": "Herobrine Spawn Egg",
       "item.megamodmain.stone_picksword": "Wooden Picksword",
       "advancements.starting_items.descr": "You joined the world!",
       "item.megamodmain.stone_dagger": "Stone Dagger",
