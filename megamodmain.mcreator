@@ -1039,6 +1039,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "end_tower"
+    },
+    {
+      "name": "Mineshaft",
+      "type": "structure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mineshaft"
     }
   ],
   "variable_elements": [],
