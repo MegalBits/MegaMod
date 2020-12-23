@@ -1,0 +1,46 @@
+{
+  "_fv": 13,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "coin",
+    "customModelName": "Normal",
+    "name": "Fireball Slinger",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": true,
+    "usageCount": 99999,
+    "actionSound": {
+      "value": "entity.blaze.shoot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 5.0,
+    "bulletPower": 0.5,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 20,
+    "bulletParticles": false,
+    "bulletIgnitesFire": true,
+    "bulletItemTexture": {
+      "value": "Items.FIRE_CHARGE"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "FireballSlingerBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "FireballSlingerBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "FireballSlingerBulletHitsBlock"
+    }
+  }
+}

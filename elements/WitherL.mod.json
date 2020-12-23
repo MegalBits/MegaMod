@@ -78,7 +78,7 @@
             },
             "weight": 2,
             "minCount": 0,
-            "maxCount": 4,
+            "maxCount": 3,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
