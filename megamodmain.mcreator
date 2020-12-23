@@ -1030,6 +1030,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "n_sword_craft"
+    },
+    {
+      "name": "EndTower",
+      "type": "structure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "end_tower"
     }
   ],
   "variable_elements": [],
