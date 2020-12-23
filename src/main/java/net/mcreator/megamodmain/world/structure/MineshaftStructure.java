@@ -47,7 +47,7 @@ public class MineshaftStructure extends MegamodmainModElements.ModElement {
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 1000000) {
+				if ((random.nextInt(1000000) + 1) <= 8000) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
@@ -56,16 +56,16 @@ public class MineshaftStructure extends MegamodmainModElements.ModElement {
 						j -= 1;
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
-						BlockPos spawnTo = new BlockPos(i + 0, j + -28, k + 0);
+						BlockPos spawnTo = new BlockPos(i + 0, j + -27, k + 0);
 						int x = spawnTo.getX();
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("megamodmain", "mineshaft"));
+								.getTemplateDefaulted(new ResourceLocation("megamodmain", "mineshaft2"));
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
-								.addProcessor(BlockIgnoreStructureProcessor.STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false));
+								.addProcessor(BlockIgnoreStructureProcessor.AIR).setChunk(null).setIgnoreEntities(false));
 					}
 				}
 				return true;
