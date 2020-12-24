@@ -31,9 +31,9 @@ import net.mcreator.megamodmain.MegamodmainModElements;
 import java.util.Random;
 
 @MegamodmainModElements.ModElement.Tag
-public class MineshaftStructure extends MegamodmainModElements.ModElement {
-	public MineshaftStructure(MegamodmainModElements instance) {
-		super(instance, 109);
+public class Temple3Structure extends MegamodmainModElements.ModElement {
+	public Temple3Structure(MegamodmainModElements instance) {
+		super(instance, 111);
 	}
 
 	@Override
@@ -49,7 +49,7 @@ public class MineshaftStructure extends MegamodmainModElements.ModElement {
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
-				if ((random.nextInt(1000000) + 1) <= 8000) {
+				if ((random.nextInt(1000000) + 1) <= 5000) {
 					int count = random.nextInt(1) + 1;
 					for (int a = 0; a < count; a++) {
 						int i = ci + random.nextInt(16);
@@ -58,20 +58,18 @@ public class MineshaftStructure extends MegamodmainModElements.ModElement {
 						j -= 1;
 						BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
 						boolean blockCriteria = false;
-						if (blockAt.getBlock() == Blocks.GRASS_BLOCK.getDefaultState().getBlock())
-							blockCriteria = true;
-						if (blockAt.getBlock() == Blocks.DIRT.getDefaultState().getBlock())
+						if (blockAt.getBlock() == Blocks.SAND.getDefaultState().getBlock())
 							blockCriteria = true;
 						if (!blockCriteria)
 							continue;
 						Rotation rotation = Rotation.values()[random.nextInt(3)];
 						Mirror mirror = Mirror.values()[random.nextInt(2)];
-						BlockPos spawnTo = new BlockPos(i + 0, j + -27, k + 0);
+						BlockPos spawnTo = new BlockPos(i + 0, j + 0, k + 0);
 						int x = spawnTo.getX();
 						int y = spawnTo.getY();
 						int z = spawnTo.getZ();
 						Template template = ((ServerWorld) world.getWorld()).getSaveHandler().getStructureTemplateManager()
-								.getTemplateDefaulted(new ResourceLocation("megamodmain", "mineshaft2"));
+								.getTemplateDefaulted(new ResourceLocation("megamodmain", "temple3"));
 						if (template == null)
 							return false;
 						template.addBlocksToWorld(world, spawnTo, new PlacementSettings().setRotation(rotation).setRandom(random).setMirror(mirror)
@@ -82,6 +80,11 @@ public class MineshaftStructure extends MegamodmainModElements.ModElement {
 			}
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
+			boolean biomeCriteria = false;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("desert")))
+				biomeCriteria = true;
+			if (!biomeCriteria)
+				continue;
 			biome.addFeature(GenerationStage.Decoration.SURFACE_STRUCTURES, feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG)));
 		}
