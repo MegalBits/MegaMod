@@ -13,7 +13,6 @@ import net.minecraft.world.gen.placement.ChanceConfig;
 import net.minecraft.world.gen.feature.structure.VillageConfig;
 import net.minecraft.world.gen.feature.structure.OceanRuinStructure;
 import net.minecraft.world.gen.feature.structure.OceanRuinConfig;
-import net.minecraft.world.gen.feature.structure.MineshaftStructure;
 import net.minecraft.world.gen.feature.structure.MineshaftConfig;
 import net.minecraft.world.gen.feature.SphereReplaceConfig;
 import net.minecraft.world.gen.feature.IFeatureConfig;
@@ -25,6 +24,7 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
+import net.mcreator.megamodmain.world.structure.MineshaftStructure;
 import net.mcreator.megamodmain.MegamodmainModElements;
 
 import com.google.common.collect.Lists;
@@ -78,14 +78,14 @@ public class CaveBiome extends MegamodmainModElements.ModElement {
 							.withPlacement(Placement.COUNT_TOP_SOLID.configure(new FrequencyConfig(4))));
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.BAT, 7, 4, 4));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.BAT, 6, 4, 4));
-			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.IRON_GOLEM, 3, 4, 4));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.IRON_GOLEM, 3, 4, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.IRON_GOLEM, 3, 4, 1));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.IRON_GOLEM, 3, 4, 1));
 			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.CREEPER, 3, 4, 4));
 			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.CREEPER, 8, 4, 4));
 			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.CREEPER, 8, 4, 4));
-			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.RAVAGER, 2, 1, 4));
-			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.RAVAGER, 2, 1, 4));
-			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.RAVAGER, 3, 1, 4));
+			this.addSpawn(EntityClassification.MONSTER, new Biome.SpawnListEntry(EntityType.RAVAGER, 2, 1, 2));
+			this.addSpawn(EntityClassification.CREATURE, new Biome.SpawnListEntry(EntityType.RAVAGER, 2, 1, 2));
+			this.addSpawn(EntityClassification.AMBIENT, new Biome.SpawnListEntry(EntityType.RAVAGER, 3, 1, 2));
 		}
 	}
 }
