@@ -493,15 +493,6 @@
       "registry_name": "magnifying_glass_craft"
     },
     {
-      "name": "Cave",
-      "type": "biome",
-      "sortid": 47,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cave"
-    },
-    {
       "name": "WoodStone",
       "type": "block",
       "sortid": 48,
@@ -1084,6 +1075,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pillager_house"
+    },
+    {
+      "name": "NetheriteBlock",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherite_block"
+    },
+    {
+      "name": "Well",
+      "type": "structure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "well"
+    },
+    {
+      "name": "NBlockCraft",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "n_block_craft"
+    },
+    {
+      "name": "NBlockUncraft",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "n_block_uncraft"
     }
   ],
   "variable_elements": [],
@@ -1096,8 +1123,8 @@
       "item.megamodmain.netherite_chestplate": "Netherite Chestplate",
       "item.megamodmain.iron_dagger": "Iron Dagger",
       "item.megamodmain.backpack": "Backpack",
-      "item.megamodmain.diamond_feather": "Diamond Feather",
       "item.megamodmain.netherite_helmet": "Netherite Helmet",
+      "item.megamodmain.diamond_feather": "Diamond Feather",
       "item.megamodmain.diamond_dagger": "Diamond Dagger",
       "item.megamodmain.netherite_pickaxe": "Netherite Pickaxe",
       "block.megamodmain.wood_stone": "Woodstone",
@@ -1112,10 +1139,10 @@
       "itemGroup.tabspecial": "Special",
       "advancements.starting_items.title": "Free Stuff!",
       "item.megamodmain.iron_feather": "Iron Feather",
+      "block.megamodmain.netherite_block": "Ancient Debris",
       "block.megamodmain.ancient_debris": "Ancient Debris",
       "item.megamodmain.rabbit_staff": "Rabbit Staff",
       "item.megamodmain.netherite_sword": "Netherite Sword",
-      "biome.megamodmain.cave": "Cave",
       "item.megamodmain.lapis_feather": "Lapis Feather",
       "item.megamodmain.netherite_axe": "Netherite Axe",
       "item.megamodmain.netherite_shovel": "Netherite Shovel",

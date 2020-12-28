@@ -2,12 +2,12 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "ancient_debris_top",
-    "textureTop": "ancient_debris_top",
-    "textureLeft": "ancient_debris_side",
-    "textureFront": "ancient_debris_side",
-    "textureRight": "ancient_debris_side",
-    "textureBack": "ancient_debris_side",
+    "texture": "netherite_block",
+    "textureTop": "netherite_block",
+    "textureLeft": "netherite_block",
+    "textureFront": "netherite_block",
+    "textureRight": "netherite_block",
+    "textureBack": "netherite_block",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -26,8 +26,8 @@
     "Mz": 1.0,
     "name": "Ancient Debris",
     "specialInfo": [],
-    "hardness": 2.5,
-    "resistance": 19.0,
+    "hardness": 3.0,
+    "resistance": 20.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -92,27 +92,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Nether"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.NETHERRACK"
-      },
-      {
-        "value": "Blocks.SOUL_SAND"
-      },
-      {
-        "value": "Blocks.GLOWSTONE"
-      },
-      {
-        "value": "Blocks.QUARTZ_ORE"
-      },
-      {
-        "value": "Blocks.MAGMA"
-      }
-    ],
+    "blocksToReplace": [],
     "frequencyPerChunks": 30,
     "frequencyOnChunk": 1,
     "minGenerateHeight": 3,

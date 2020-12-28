@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "megamodmain:blocks/netherite_block",
+    "up": "megamodmain:blocks/netherite_block",
+    "north": "megamodmain:blocks/netherite_block",
+    "east": "megamodmain:blocks/netherite_block",
+    "south": "megamodmain:blocks/netherite_block",
+    "west": "megamodmain:blocks/netherite_block",
+    "particle": "megamodmain:blocks/netherite_block"
+  }
+}

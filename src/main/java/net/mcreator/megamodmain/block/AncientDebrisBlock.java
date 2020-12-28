@@ -50,7 +50,7 @@ public class AncientDebrisBlock extends MegamodmainModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.METAL).hardnessAndResistance(2.5f, 19f).lightValue(0)
-					.harvestLevel(4).harvestTool(ToolType.PICKAXE));
+					.harvestLevel(3).harvestTool(ToolType.PICKAXE));
 			setRegistryName("ancient_debris");
 		}
 

@@ -1,0 +1,16 @@
+{
+  "group": "megamodmain",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "megamodmain:netherite_block"
+    }
+  },
+  "result": {
+    "item": "megamodmain:netherite_ingot",
+    "count": 9
+  }
+}
