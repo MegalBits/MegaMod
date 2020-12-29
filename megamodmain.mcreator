@@ -1111,6 +1111,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "n_block_uncraft"
+    },
+    {
+      "name": "Gravel",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "gravel"
+    },
+    {
+      "name": "Wool",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wool"
+    },
+    {
+      "name": "Netherwart",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "netherwart"
     }
   ],
   "variable_elements": [],
