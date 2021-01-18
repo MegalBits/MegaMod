@@ -18,11 +18,11 @@
             },
             "weight": 40,
             "minCount": 1,
-            "maxCount": 17,
+            "maxCount": 20,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": true,
-            "explosionDecay": false,
+            "explosionDecay": true,
             "silkTouchMode": 0
           },
           {
@@ -36,7 +36,7 @@
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
-            "explosionDecay": false,
+            "explosionDecay": true,
             "silkTouchMode": 0
           }
         ]
