@@ -53,9 +53,7 @@ public class CobblestoneItem extends MegamodmainModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(Blocks.OAK_PLANKS, (int) (1)), new ItemStack(Blocks.SPRUCE_PLANKS, (int) (1)),
-						new ItemStack(Blocks.BIRCH_PLANKS, (int) (1)), new ItemStack(Blocks.JUNGLE_PLANKS, (int) (1)),
-						new ItemStack(Blocks.ACACIA_PLANKS, (int) (1)), new ItemStack(Blocks.DARK_OAK_PLANKS, (int) (1)));
+				return Ingredient.fromStacks(new ItemStack(Blocks.COBBLESTONE, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -3,21 +3,21 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "wooden_helmet",
+    "textureHelmet": "cobble_helmet",
     "enableBody": true,
-    "textureBody": "wooden_chestplate",
+    "textureBody": "cobble_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "wooden_leggings",
+    "textureLeggings": "cobble_leggings",
     "enableBoots": true,
-    "textureBoots": "wooden_boots",
+    "textureBoots": "cobble_boots",
     "creativeTab": {
       "value": "COMBAT"
     },
     "armorTextureFile": "cobble_",
-    "helmetName": "Wooden Helmet",
-    "bodyName": "Wooden Chestplate",
-    "leggingsName": "Wooden Leggings",
-    "bootsName": "Wooden Boots",
+    "helmetName": "Cobblestone Helmet",
+    "bodyName": "Cobblestone Chestplate",
+    "leggingsName": "Cobblestone Leggings",
+    "bootsName": "Cobblestone Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -50,22 +50,7 @@
     },
     "repairItems": [
       {
-        "value": "Blocks.PLANKS#0"
-      },
-      {
-        "value": "Blocks.PLANKS#1"
-      },
-      {
-        "value": "Blocks.PLANKS#2"
-      },
-      {
-        "value": "Blocks.PLANKS#3"
-      },
-      {
-        "value": "Blocks.PLANKS#4"
-      },
-      {
-        "value": "Blocks.PLANKS#5"
+        "value": "Blocks.COBBLESTONE"
       }
     ]
   }

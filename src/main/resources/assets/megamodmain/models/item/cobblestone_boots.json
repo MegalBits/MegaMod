@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "megamodmain:items/wooden_boots"
+    "layer0": "megamodmain:items/cobble_boots"
   }
 }
