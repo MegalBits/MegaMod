@@ -20,28 +20,28 @@ import net.minecraft.block.Blocks;
 import net.mcreator.megamodmain.MegamodmainModElements;
 
 @MegamodmainModElements.ModElement.Tag
-public class WoodenItem extends MegamodmainModElements.ModElement {
-	@ObjectHolder("megamodmain:wooden_helmet")
+public class CobblestoneItem extends MegamodmainModElements.ModElement {
+	@ObjectHolder("megamodmain:cobblestone_helmet")
 	public static final Item helmet = null;
-	@ObjectHolder("megamodmain:wooden_chestplate")
+	@ObjectHolder("megamodmain:cobblestone_chestplate")
 	public static final Item body = null;
-	@ObjectHolder("megamodmain:wooden_leggings")
+	@ObjectHolder("megamodmain:cobblestone_leggings")
 	public static final Item legs = null;
-	@ObjectHolder("megamodmain:wooden_boots")
+	@ObjectHolder("megamodmain:cobblestone_boots")
 	public static final Item boots = null;
-	public WoodenItem(MegamodmainModElements instance) {
-		super(instance, 123);
+	public CobblestoneItem(MegamodmainModElements instance) {
+		super(instance, 128);
 	}
 
 	@Override
 	public void initElements() {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 10;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 15;
 			}
 
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{1, 1, 1, 1}[slot.getIndex()];
+				return new int[]{1, 2, 2, 1}[slot.getIndex()];
 			}
 
 			public int getEnchantability() {
@@ -49,7 +49,7 @@ public class WoodenItem extends MegamodmainModElements.ModElement {
 			}
 
 			public net.minecraft.util.SoundEvent getSoundEvent() {
-				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.wood.fall"));
+				return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.stone.fall"));
 			}
 
 			public Ingredient getRepairMaterial() {
@@ -60,36 +60,36 @@ public class WoodenItem extends MegamodmainModElements.ModElement {
 
 			@OnlyIn(Dist.CLIENT)
 			public String getName() {
-				return "wooden";
+				return "cobblestone";
 			}
 
 			public float getToughness() {
-				return 0.3f;
+				return 0.5f;
 			}
 		};
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "megamodmain:textures/models/armor/wooden__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "megamodmain:textures/models/armor/cobble__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("wooden_helmet"));
+		}.setRegistryName("cobblestone_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "megamodmain:textures/models/armor/wooden__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "megamodmain:textures/models/armor/cobble__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("wooden_chestplate"));
+		}.setRegistryName("cobblestone_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "megamodmain:textures/models/armor/wooden__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "megamodmain:textures/models/armor/cobble__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("wooden_leggings"));
+		}.setRegistryName("cobblestone_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "megamodmain:textures/models/armor/wooden__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "megamodmain:textures/models/armor/cobble__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
-		}.setRegistryName("wooden_boots"));
+		}.setRegistryName("cobblestone_boots"));
 	}
 }

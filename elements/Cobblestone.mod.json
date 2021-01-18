@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "COMBAT"
     },
-    "armorTextureFile": "wooden_",
+    "armorTextureFile": "cobble_",
     "helmetName": "Wooden Helmet",
     "bodyName": "Wooden Chestplate",
     "leggingsName": "Wooden Leggings",
@@ -38,15 +38,15 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 10,
+    "maxDamage": 15,
     "damageValueHelmet": 1,
-    "damageValueBody": 1,
-    "damageValueLeggings": 1,
+    "damageValueBody": 2,
+    "damageValueLeggings": 2,
     "damageValueBoots": 1,
     "enchantability": 1,
-    "toughness": 0.3,
+    "toughness": 0.5,
     "equipSound": {
-      "value": "block.wood.fall"
+      "value": "block.stone.fall"
     },
     "repairItems": [
       {
