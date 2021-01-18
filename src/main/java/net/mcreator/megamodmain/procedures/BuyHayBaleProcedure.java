@@ -17,15 +17,15 @@ import java.util.function.Supplier;
 import java.util.Map;
 
 @MegamodmainModElements.ModElement.Tag
-public class BuyLogProcedure extends MegamodmainModElements.ModElement {
-	public BuyLogProcedure(MegamodmainModElements instance) {
-		super(instance, 70);
+public class BuyHayBaleProcedure extends MegamodmainModElements.ModElement {
+	public BuyHayBaleProcedure(MegamodmainModElements instance) {
+		super(instance, 135);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure BuyLog!");
+				System.err.println("Failed to load dependency entity for procedure BuyHayBale!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -44,7 +44,7 @@ public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 				}
 				return 0;
 			}
-		}.getAmount((int) (0))) > 9)) {
+		}.getAmount((int) (0))) > 29)) {
 			if (((new Object() {
 				public ItemStack getItemStack(int sltid) {
 					Entity _ent = entity;
@@ -67,14 +67,14 @@ public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 						if (_current instanceof Supplier) {
 							Object invobj = ((Supplier) _current).get();
 							if (invobj instanceof Map) {
-								((Slot) ((Map) invobj).get((int) (0))).decrStackSize((int) (15));
+								((Slot) ((Map) invobj).get((int) (0))).decrStackSize((int) (30));
 								_current.detectAndSendChanges();
 							}
 						}
 					}
 				}
 				if (entity instanceof PlayerEntity) {
-					ItemStack _setstack = new ItemStack(Blocks.OAK_LOG, (int) (1));
+					ItemStack _setstack = new ItemStack(Blocks.HAY_BLOCK, (int) (1));
 					_setstack.setCount((int) 1);
 					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 				}
@@ -95,7 +95,7 @@ public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 				}
 				return 0;
 			}
-		}.getAmount((int) (0))) > 9))) {
+		}.getAmount((int) (0))) > 29))) {
 			if (((new Object() {
 				public ItemStack getItemStack(int sltid) {
 					Entity _ent = entity;
@@ -126,7 +126,7 @@ public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 						}
 						return 0;
 					}
-				}.getAmount((int) (1))) > 9)) {
+				}.getAmount((int) (1))) > 29)) {
 					{
 						Entity _ent = entity;
 						if (_ent instanceof ServerPlayerEntity) {
@@ -134,14 +134,14 @@ public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 							if (_current instanceof Supplier) {
 								Object invobj = ((Supplier) _current).get();
 								if (invobj instanceof Map) {
-									((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (15));
+									((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (30));
 									_current.detectAndSendChanges();
 								}
 							}
 						}
 					}
 					if (entity instanceof PlayerEntity) {
-						ItemStack _setstack = new ItemStack(Blocks.OAK_LOG, (int) (1));
+						ItemStack _setstack = new ItemStack(Blocks.HAY_BLOCK, (int) (1));
 						_setstack.setCount((int) 1);
 						ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 					}

@@ -17,15 +17,15 @@ import java.util.function.Supplier;
 import java.util.Map;
 
 @MegamodmainModElements.ModElement.Tag
-public class BuyLogProcedure extends MegamodmainModElements.ModElement {
-	public BuyLogProcedure(MegamodmainModElements instance) {
-		super(instance, 70);
+public class BuyIceProcedure extends MegamodmainModElements.ModElement {
+	public BuyIceProcedure(MegamodmainModElements instance) {
+		super(instance, 140);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
 			if (!dependencies.containsKey("entity"))
-				System.err.println("Failed to load dependency entity for procedure BuyLog!");
+				System.err.println("Failed to load dependency entity for procedure BuyIce!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -67,14 +67,14 @@ public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 						if (_current instanceof Supplier) {
 							Object invobj = ((Supplier) _current).get();
 							if (invobj instanceof Map) {
-								((Slot) ((Map) invobj).get((int) (0))).decrStackSize((int) (15));
+								((Slot) ((Map) invobj).get((int) (0))).decrStackSize((int) (10));
 								_current.detectAndSendChanges();
 							}
 						}
 					}
 				}
 				if (entity instanceof PlayerEntity) {
-					ItemStack _setstack = new ItemStack(Blocks.OAK_LOG, (int) (1));
+					ItemStack _setstack = new ItemStack(Blocks.ICE, (int) (1));
 					_setstack.setCount((int) 1);
 					ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 				}
@@ -134,14 +134,14 @@ public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 							if (_current instanceof Supplier) {
 								Object invobj = ((Supplier) _current).get();
 								if (invobj instanceof Map) {
-									((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (15));
+									((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (10));
 									_current.detectAndSendChanges();
 								}
 							}
 						}
 					}
 					if (entity instanceof PlayerEntity) {
-						ItemStack _setstack = new ItemStack(Blocks.OAK_LOG, (int) (1));
+						ItemStack _setstack = new ItemStack(Blocks.ICE, (int) (1));
 						_setstack.setCount((int) 1);
 						ItemHandlerHelper.giveItemToPlayer(((PlayerEntity) entity), _setstack);
 					}

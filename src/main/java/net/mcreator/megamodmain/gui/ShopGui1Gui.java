@@ -35,13 +35,20 @@ import net.minecraft.client.gui.screen.inventory.ContainerScreen;
 import net.minecraft.client.gui.ScreenManager;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.megamodmain.procedures.BuyWoolProcedure;
+import net.mcreator.megamodmain.procedures.BuyTerracottaProcedure;
 import net.mcreator.megamodmain.procedures.BuyStoneProcedure;
 import net.mcreator.megamodmain.procedures.BuySandProcedure;
 import net.mcreator.megamodmain.procedures.BuyPumpkinProcedure;
+import net.mcreator.megamodmain.procedures.BuyObsidianProcedure;
 import net.mcreator.megamodmain.procedures.BuyMelonProcedure;
 import net.mcreator.megamodmain.procedures.BuyLogProcedure;
+import net.mcreator.megamodmain.procedures.BuyIceProcedure;
+import net.mcreator.megamodmain.procedures.BuyHayBaleProcedure;
 import net.mcreator.megamodmain.procedures.BuyGravelProcedure;
+import net.mcreator.megamodmain.procedures.BuyGlassProcedure;
 import net.mcreator.megamodmain.procedures.BuyDirtProcedure;
+import net.mcreator.megamodmain.procedures.BuyConcretePowderProcedure;
 import net.mcreator.megamodmain.MegamodmainModElements;
 import net.mcreator.megamodmain.MegamodmainMod;
 
@@ -355,6 +362,34 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 			this.blit(this.guiLeft + 13, this.guiTop + 142, 0, 0, 16, 16, 16, 16);
 			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/sand.png"));
 			this.blit(this.guiLeft + 13, this.guiTop + 115, 0, 0, 16, 16, 16, 16);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/obsidian.png"));
+			this.blit(this.guiLeft + 121, this.guiTop + 196, 0, 0, 16, 16, 16, 16);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/cahs.png"));
+			this.blit(this.guiLeft + 202, this.guiTop + 194, 0, 0, 8, 8, 8, 8);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/cahs.png"));
+			this.blit(this.guiLeft + 202, this.guiTop + 167, 0, 0, 8, 8, 8, 8);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/cahs.png"));
+			this.blit(this.guiLeft + 202, this.guiTop + 140, 0, 0, 8, 8, 8, 8);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/cahs.png"));
+			this.blit(this.guiLeft + 202, this.guiTop + 113, 0, 0, 8, 8, 8, 8);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/cahs.png"));
+			this.blit(this.guiLeft + 202, this.guiTop + 86, 0, 0, 8, 8, 8, 8);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/cahs.png"));
+			this.blit(this.guiLeft + 202, this.guiTop + 59, 0, 0, 8, 8, 8, 8);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/cahs.png"));
+			this.blit(this.guiLeft + 202, this.guiTop + 32, 0, 0, 8, 8, 8, 8);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/hay_block_side.png"));
+			this.blit(this.guiLeft + 121, this.guiTop + 169, 0, 0, 16, 16, 16, 16);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/glass.png"));
+			this.blit(this.guiLeft + 121, this.guiTop + 142, 0, 0, 16, 16, 16, 16);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/white_wool.png"));
+			this.blit(this.guiLeft + 121, this.guiTop + 61, 0, 0, 16, 16, 16, 16);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/white_concrete_powder.png"));
+			this.blit(this.guiLeft + 121, this.guiTop + 88, 0, 0, 16, 16, 16, 16);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/white_terracotta.png"));
+			this.blit(this.guiLeft + 121, this.guiTop + 115, 0, 0, 16, 16, 16, 16);
+			Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("megamodmain:textures/frosted_ice_0.png"));
+			this.blit(this.guiLeft + 121, this.guiTop + 34, 0, 0, 16, 16, 16, 16);
 		}
 
 		@Override
@@ -377,13 +412,20 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 			this.font.drawString("Shop", 4, 5, -12829636);
 			this.font.drawString("10", 103, 33, -12829636);
 			this.font.drawString("10", 103, 60, -12829636);
-			this.font.drawString("10", 103, 87, -12829636);
-			this.font.drawString("10", 103, 114, -12829636);
-			this.font.drawString("10", 103, 141, -12829636);
+			this.font.drawString("20", 103, 87, -12829636);
+			this.font.drawString("20", 103, 114, -12829636);
+			this.font.drawString("20", 103, 141, -12829636);
 			this.font.drawString("40", 103, 194, -12829636);
 			this.font.drawString("30", 103, 167, -12829636);
 			this.font.drawString("$", 233, 206, -12829636);
 			this.font.drawString("$", 233, 184, -12829636);
+			this.font.drawString("50", 211, 194, -12829636);
+			this.font.drawString("30", 211, 167, -12829636);
+			this.font.drawString("25", 211, 140, -12829636);
+			this.font.drawString("25", 211, 113, -12829636);
+			this.font.drawString("25", 211, 86, -12829636);
+			this.font.drawString("20", 211, 59, -12829636);
+			this.font.drawString("10", 211, 32, -12829636);
 		}
 
 		@Override
@@ -423,6 +465,34 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 			this.addButton(new Button(this.guiLeft + 40, this.guiTop + 194, 50, 20, "Buy", e -> {
 				MegamodmainMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(6, x, y, z));
 				handleButtonAction(entity, 6, x, y, z);
+			}));
+			this.addButton(new Button(this.guiLeft + 148, this.guiTop + 32, 50, 20, " Buy ", e -> {
+				MegamodmainMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(7, x, y, z));
+				handleButtonAction(entity, 7, x, y, z);
+			}));
+			this.addButton(new Button(this.guiLeft + 148, this.guiTop + 59, 50, 20, " Buy ", e -> {
+				MegamodmainMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(8, x, y, z));
+				handleButtonAction(entity, 8, x, y, z);
+			}));
+			this.addButton(new Button(this.guiLeft + 148, this.guiTop + 86, 50, 20, " Buy ", e -> {
+				MegamodmainMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(9, x, y, z));
+				handleButtonAction(entity, 9, x, y, z);
+			}));
+			this.addButton(new Button(this.guiLeft + 148, this.guiTop + 113, 50, 20, " Buy ", e -> {
+				MegamodmainMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(10, x, y, z));
+				handleButtonAction(entity, 10, x, y, z);
+			}));
+			this.addButton(new Button(this.guiLeft + 148, this.guiTop + 140, 50, 20, " Buy ", e -> {
+				MegamodmainMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(11, x, y, z));
+				handleButtonAction(entity, 11, x, y, z);
+			}));
+			this.addButton(new Button(this.guiLeft + 148, this.guiTop + 167, 50, 20, " Buy ", e -> {
+				MegamodmainMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(12, x, y, z));
+				handleButtonAction(entity, 12, x, y, z);
+			}));
+			this.addButton(new Button(this.guiLeft + 148, this.guiTop + 194, 50, 20, " Buy ", e -> {
+				MegamodmainMod.PACKET_HANDLER.sendToServer(new ButtonPressedMessage(13, x, y, z));
+				handleButtonAction(entity, 13, x, y, z);
 			}));
 		}
 	}
@@ -560,6 +630,55 @@ public class ShopGui1Gui extends MegamodmainModElements.ModElement {
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("entity", entity);
 				BuyMelonProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 7) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				BuyIceProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 8) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				BuyWoolProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 9) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				BuyConcretePowderProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 10) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				BuyTerracottaProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 11) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				BuyGlassProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 12) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				BuyHayBaleProcedure.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 13) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				BuyObsidianProcedure.executeProcedure($_dependencies);
 			}
 		}
 	}

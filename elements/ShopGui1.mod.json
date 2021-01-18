@@ -303,12 +303,12 @@
       {
         "type": "label",
         "data": {
-          "text": "10",
+          "text": "20",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "10",
+          "name": "20",
           "x": 105,
           "y": 90
         }
@@ -316,12 +316,12 @@
       {
         "type": "label",
         "data": {
-          "text": "10",
+          "text": "20",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "10",
+          "name": "20",
           "x": 105,
           "y": 117
         }
@@ -329,12 +329,12 @@
       {
         "type": "label",
         "data": {
-          "text": "10",
+          "text": "20",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "10",
+          "name": "20",
           "x": 105,
           "y": 144
         }
@@ -417,6 +417,335 @@
           "name": "$",
           "x": 235,
           "y": 187
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " Buy ",
+          "onClick": {
+            "name": "BuyIce"
+          },
+          "width": 50,
+          "height": 20,
+          "name": " Buy ",
+          "x": 150,
+          "y": 35
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " Buy ",
+          "onClick": {
+            "name": "BuyWool"
+          },
+          "width": 50,
+          "height": 20,
+          "name": " Buy ",
+          "x": 150,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " Buy ",
+          "onClick": {
+            "name": "BuyConcretePowder"
+          },
+          "width": 50,
+          "height": 20,
+          "name": " Buy ",
+          "x": 150,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " Buy ",
+          "onClick": {
+            "name": "BuyTerracotta"
+          },
+          "width": 50,
+          "height": 20,
+          "name": " Buy ",
+          "x": 150,
+          "y": 116
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " Buy ",
+          "onClick": {
+            "name": "BuyGlass"
+          },
+          "width": 50,
+          "height": 20,
+          "name": " Buy ",
+          "x": 150,
+          "y": 143
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " Buy ",
+          "onClick": {
+            "name": "BuyHayBale"
+          },
+          "width": 50,
+          "height": 20,
+          "name": " Buy ",
+          "x": 150,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": " Buy ",
+          "onClick": {
+            "name": "BuyObsidian"
+          },
+          "width": 50,
+          "height": 20,
+          "name": " Buy ",
+          "x": 150,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "obsidian.png",
+          "use1Xscale": false,
+          "name": "obsidian.png",
+          "x": 123,
+          "y": 199
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "50",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "50",
+          "x": 213,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cahs.png",
+          "use1Xscale": true,
+          "name": "cahs.png",
+          "x": 204,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cahs.png",
+          "use1Xscale": true,
+          "name": "cahs.png",
+          "x": 204,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cahs.png",
+          "use1Xscale": true,
+          "name": "cahs.png",
+          "x": 204,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cahs.png",
+          "use1Xscale": true,
+          "name": "cahs.png",
+          "x": 204,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cahs.png",
+          "use1Xscale": true,
+          "name": "cahs.png",
+          "x": 204,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cahs.png",
+          "use1Xscale": true,
+          "name": "cahs.png",
+          "x": 204,
+          "y": 62
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cahs.png",
+          "use1Xscale": true,
+          "name": "cahs.png",
+          "x": 204,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "hay_block_side.png",
+          "use1Xscale": false,
+          "name": "hay_block_side.png",
+          "x": 123,
+          "y": 172
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "glass.png",
+          "use1Xscale": false,
+          "name": "glass.png",
+          "x": 123,
+          "y": 145
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "white_wool.png",
+          "use1Xscale": false,
+          "name": "white_wool.png",
+          "x": 123,
+          "y": 64
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "white_concrete_powder.png",
+          "use1Xscale": false,
+          "name": "white_concrete_powder.png",
+          "x": 123,
+          "y": 91
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "white_terracotta.png",
+          "use1Xscale": false,
+          "name": "white_terracotta.png",
+          "x": 123,
+          "y": 118
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "frosted_ice_0.png",
+          "use1Xscale": false,
+          "name": "frosted_ice_0.png",
+          "x": 123,
+          "y": 37
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "30",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "30",
+          "x": 213,
+          "y": 170
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "25",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "25",
+          "x": 213,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "25",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "25",
+          "x": 213,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "25",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "25",
+          "x": 213,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "20",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "20",
+          "x": 213,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "10",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "10",
+          "x": 213,
+          "y": 35
         }
       }
     ]
