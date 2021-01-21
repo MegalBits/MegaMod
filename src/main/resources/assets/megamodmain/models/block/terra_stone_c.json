@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "megamodmain:blocks/stone2",
+    "up": "megamodmain:blocks/stone3",
+    "north": "megamodmain:blocks/stone",
+    "east": "megamodmain:blocks/stone3",
+    "south": "megamodmain:blocks/stone2",
+    "west": "megamodmain:blocks/stone",
+    "particle": "megamodmain:blocks/stone2"
+  }
+}

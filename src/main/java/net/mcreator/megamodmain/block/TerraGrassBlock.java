@@ -28,7 +28,7 @@ import java.util.Collections;
 
 @MegamodmainModElements.ModElement.Tag
 public class TerraGrassBlock extends MegamodmainModElements.ModElement {
-	@ObjectHolder("megamodmain:terra_grass")
+	@ObjectHolder("megamodmain:terra_grass_a")
 	public static final Block block = null;
 	public TerraGrassBlock(MegamodmainModElements instance) {
 		super(instance, 32);
@@ -45,7 +45,7 @@ public class TerraGrassBlock extends MegamodmainModElements.ModElement {
 			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(0.65f, 3f).lightValue(0).harvestLevel(0)
 					.harvestTool(ToolType.SHOVEL));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("terra_grass");
+			setRegistryName("terra_grass_a");
 		}
 
 		@Override

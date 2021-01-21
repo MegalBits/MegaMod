@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "megamodmain:block/terra_grass_b"
+    },
+    "facing=east": {
+      "model": "megamodmain:block/terra_grass_b",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "megamodmain:block/terra_grass_b",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "megamodmain:block/terra_grass_b",
+      "y": 270
+    }
+  }
+}

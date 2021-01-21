@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "megamodmain:block/workbench"
+    },
+    "facing=east": {
+      "model": "megamodmain:block/workbench",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "megamodmain:block/workbench",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "megamodmain:block/workbench",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "megamodmain:block/workbench",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "megamodmain:block/workbench",
+      "x": 90
+    }
+  }
+}

@@ -9,18 +9,18 @@
     "undergroundBlock": {
       "value": "CUSTOM:TerraDirt"
     },
-    "treeType": 1,
+    "treeType": 0,
     "vanillaTreeType": "Default",
-    "minHeight": 4,
+    "minHeight": 6,
     "spawnVines": false,
     "treeVines": {
       "value": "Blocks.AIR"
     },
     "treeStem": {
-      "value": "CUSTOM:PurityLog"
+      "value": "Blocks.AIR"
     },
     "treeBranch": {
-      "value": "CUSTOM:PurityLeaves"
+      "value": "Blocks.AIR"
     },
     "treeFruits": {
       "value": "Blocks.AIR"

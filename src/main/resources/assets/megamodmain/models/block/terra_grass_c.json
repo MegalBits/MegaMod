@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "megamodmain:blocks/dirt3",
+    "up": "megamodmain:blocks/grasstop",
+    "north": "megamodmain:blocks/grasssides44",
+    "east": "megamodmain:blocks/grasssides2",
+    "south": "megamodmain:blocks/grasssides2",
+    "west": "megamodmain:blocks/l",
+    "particle": "megamodmain:blocks/dirt3"
+  }
+}

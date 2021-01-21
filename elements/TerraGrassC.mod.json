@@ -2,12 +2,12 @@
   "_fv": 13,
   "_type": "block",
   "definition": {
-    "texture": "stone",
-    "textureTop": "stone3",
-    "textureLeft": "stone3",
-    "textureFront": "stone2",
-    "textureRight": "stone2",
-    "textureBack": "stone",
+    "texture": "dirt3",
+    "textureTop": "grasstop",
+    "textureLeft": "grasssides2",
+    "textureFront": "grasssides44",
+    "textureRight": "l",
+    "textureBack": "grasssides2",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 3,
@@ -24,18 +24,18 @@
     "Mx": 1.0,
     "My": 1.0,
     "Mz": 1.0,
-    "name": "Terra Stone",
+    "name": "Terra Grass",
     "specialInfo": [],
-    "hardness": 5.8,
-    "resistance": 7.0,
+    "hardness": 0.65,
+    "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Terraria"
+      "value": "No creative tab entry"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "shovel",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:TerraDirt"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -45,14 +45,14 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "GRASS"
     },
     "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:TerraGrass"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -63,7 +63,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GROUND"
     },
     "luminance": 0.0,
     "unbreakable": false,
@@ -102,15 +102,12 @@
     ],
     "blocksToReplace": [
       {
-        "value": "Blocks.STONE"
-      },
-      {
-        "value": "CUSTOM:WoodStone"
+        "value": "CUSTOM:TerraGrass"
       }
     ],
     "frequencyPerChunks": 64,
-    "frequencyOnChunk": 64,
-    "minGenerateHeight": 0,
-    "maxGenerateHeight": 80
+    "frequencyOnChunk": 32,
+    "minGenerateHeight": 50,
+    "maxGenerateHeight": 70
   }
 }

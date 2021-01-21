@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "megamodmain:block/terra_stone_d"
+    },
+    "facing=east": {
+      "model": "megamodmain:block/terra_stone_d",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "megamodmain:block/terra_stone_d",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "megamodmain:block/terra_stone_d",
+      "y": 270
+    }
+  }
+}

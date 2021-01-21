@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "workbench",
+        "2": "workbench3"
+      },
+      "name": "default"
+    }
+  }
+}

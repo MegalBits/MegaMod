@@ -1,5 +1,5 @@
 {
-  "parent": "megamodmain:block/terra_grass",
+  "parent": "megamodmain:block/terra_grass_a",
   "display": {
     "thirdperson": {
       "rotation": [

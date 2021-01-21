@@ -1,5 +1,5 @@
 {
-  "parent": "megamodmain:block/terra_stone",
+  "parent": "megamodmain:block/workbench",
   "display": {
     "thirdperson": {
       "rotation": [

@@ -16,6 +16,8 @@ import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.IWorld;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.RayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Rotation;
 import net.minecraft.util.ResourceLocation;
@@ -27,14 +29,13 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.HorizontalBlock;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.megamodmain.itemgroup.TerrariaItemGroup;
 import net.mcreator.megamodmain.MegamodmainModElements;
 
 import java.util.Random;
@@ -42,25 +43,25 @@ import java.util.List;
 import java.util.Collections;
 
 @MegamodmainModElements.ModElement.Tag
-public class TerraStoneBlock extends MegamodmainModElements.ModElement {
-	@ObjectHolder("megamodmain:terra_stone_a")
+public class TerraGrassCBlock extends MegamodmainModElements.ModElement {
+	@ObjectHolder("megamodmain:terra_grass_c")
 	public static final Block block = null;
-	public TerraStoneBlock(MegamodmainModElements instance) {
-		super(instance, 37);
+	public TerraGrassCBlock(MegamodmainModElements instance) {
+		super(instance, 170);
 	}
 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(TerrariaItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(null)).setRegistryName(block.getRegistryName()));
 	}
 	public static class CustomBlock extends Block {
 		public static final DirectionProperty FACING = HorizontalBlock.HORIZONTAL_FACING;
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(5.8f, 7f).lightValue(0).harvestLevel(0)
-					.harvestTool(ToolType.PICKAXE));
+			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(0.65f, 3f).lightValue(0).harvestLevel(0)
+					.harvestTool(ToolType.SHOVEL));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
-			setRegistryName("terra_stone_a");
+			setRegistryName("terra_grass_c");
 		}
 
 		@Override
@@ -85,11 +86,16 @@ public class TerraStoneBlock extends MegamodmainModElements.ModElement {
 		}
 
 		@Override
+		public ItemStack getPickBlock(BlockState state, RayTraceResult target, IBlockReader world, BlockPos pos, PlayerEntity player) {
+			return new ItemStack(TerraGrassBlock.block, (int) (1));
+		}
+
+		@Override
 		public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(TerraDirtBlock.block, (int) (1)));
 		}
 	}
 	@Override
@@ -111,14 +117,12 @@ public class TerraStoneBlock extends MegamodmainModElements.ModElement {
 						return false;
 					return super.place(world, generator, rand, pos, config);
 				}
-			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("terra_stone_a", "terra_stone_a", blockAt -> {
+			}.withConfiguration(new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("terra_grass_c", "terra_grass_c", blockAt -> {
 				boolean blockCriteria = false;
-				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
-					blockCriteria = true;
-				if (blockAt.getBlock() == WoodStoneBlock.block.getDefaultState().getBlock())
+				if (blockAt.getBlock() == TerraGrassBlock.block.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 64)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(64, 0, 0, 80))));
+			}), block.getDefaultState(), 32)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(64, 50, 50, 70))));
 		}
 	}
 }

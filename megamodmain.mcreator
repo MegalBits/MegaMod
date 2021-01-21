@@ -1583,7 +1583,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "terra_grass"
+      "registry_name": "terra_grass_a"
     },
     {
       "name": "PurityLog",
@@ -1619,7 +1619,7 @@
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "terra_stone"
+      "registry_name": "terra_stone_a"
     },
     {
       "name": "TerraCopper",
@@ -1638,6 +1638,105 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "purity_leaves"
+    },
+    {
+      "name": "TerraTree1",
+      "type": "structure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_tree_1"
+    },
+    {
+      "name": "TerraTree2",
+      "type": "structure",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_tree_2"
+    },
+    {
+      "name": "TerraTree3",
+      "type": "structure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_tree_3"
+    },
+    {
+      "name": "TerraTree4",
+      "type": "structure",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_tree_4"
+    },
+    {
+      "name": "TerraStoneB",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_stone_b"
+    },
+    {
+      "name": "TerraStoneC",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_stone_c"
+    },
+    {
+      "name": "TerraStoneD",
+      "type": "block",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_stone_d"
+    },
+    {
+      "name": "TerraStoneE",
+      "type": "block",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_stone_e"
+    },
+    {
+      "name": "TerraGrassB",
+      "type": "block",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_grass_b"
+    },
+    {
+      "name": "TerraGrassC",
+      "type": "block",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_grass_c"
+    },
+    {
+      "name": "Workbench",
+      "type": "block",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "workbench"
     }
   ],
   "variable_elements": [],
@@ -1646,10 +1745,13 @@
     "en_us": {
       "item.megamodmain.cobblestone_boots": "Cobblestone Boots",
       "item.megamodmain.netherite_leggings": "Netherite Leggings",
+      "block.megamodmain.terra_grass_c": "Terra Grass",
+      "block.megamodmain.terra_grass_b": "Terra Grass",
       "item.megamodmain.netherite_chestplate": "Netherite Chestplate",
       "item.megamodmain.backpack": "Backpack",
       "block.megamodmain.purity_leaves": "Purity Terra",
       "item.megamodmain.netherite_helmet": "Netherite Helmet",
+      "block.megamodmain.terra_grass_a": "Terra Grass",
       "block.megamodmain.terra_wood": "Terra Wood",
       "item.megamodmain.cobblestone_chestplate": "Cobblestone Chestplate",
       "item.megamodmain.plantfibre": "Plant Fibre",
@@ -1662,9 +1764,14 @@
       "block.megamodmain.netherite_block": "Netherite Block",
       "item.megamodmain.cobblestone_helmet": "Cobblestone Helmet",
       "item.megamodmain.wooden_helmet": "Wooden Helmet",
+      "block.megamodmain.terra_stone_c": "Terra Stone",
+      "block.megamodmain.terra_stone_d": "Terra Stone",
       "item.megamodmain.wooden_boots": "Wooden Boots",
+      "block.megamodmain.terra_stone_e": "Terra Stone",
       "item.megamodmain.netherite_shovel": "Netherite Shovel",
       "item.megamodmain.netherite_axe": "Netherite Axe",
+      "block.megamodmain.terra_stone_a": "Terra Stone",
+      "block.megamodmain.terra_stone_b": "Terra Stone",
       "item.megamodmain.magnifying_glass": "Magnifying Glass",
       "item.megamodmain.cash": "Cash",
       "item.megamodmain.netherite_scrap": "Netherite Scrap",
@@ -1673,15 +1780,14 @@
       "item.megamodmain.wooden_picksword": "Wooden Picksword",
       "item.megamodmain.iron_dagger": "Iron Dagger",
       "item.megamodmain.diamond_feather": "Diamond Feather",
-      "block.megamodmain.terra_stone": "Terra Stone",
       "item.megamodmain.diamond_dagger": "Diamond Dagger",
       "biome.megamodmain.terraria_purity": "Terraria Purity",
-      "block.megamodmain.terra_grass": "Terra Grass",
       "block.megamodmain.terra_dirt": "Terra Dirt",
       "item.megamodmain.netherite_pickaxe": "Netherite Pickaxe",
       "block.megamodmain.wood_stone": "Woodstone",
       "item.megamodmain.wooden_dagger": "Wooden Dagger",
       "item.megamodmain.placeholder_name": "Placeholder Name",
+      "block.megamodmain.workbench": "Workbench",
       "item.megamodmain.cobblestone_leggings": "Cobblestone Leggings",
       "item.megamodmain.wooden_chestplate": "Wooden Chestplate",
       "advancements.starting_items.descr": "You joined the world!",
