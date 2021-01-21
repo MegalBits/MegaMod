@@ -33,7 +33,7 @@ import java.util.Random;
 @MegamodmainModElements.ModElement.Tag
 public class BirchBushStructure extends MegamodmainModElements.ModElement {
 	public BirchBushStructure(MegamodmainModElements instance) {
-		super(instance, 28);
+		super(instance, 54);
 	}
 
 	@Override

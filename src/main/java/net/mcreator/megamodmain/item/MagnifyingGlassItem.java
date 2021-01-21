@@ -24,7 +24,7 @@ public class MagnifyingGlassItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:magnifying_glass")
 	public static final Item block = null;
 	public MagnifyingGlassItem(MegamodmainModElements instance) {
-		super(instance, 45);
+		super(instance, 8);
 	}
 
 	@Override

@@ -1,0 +1,19 @@
+{
+  "group": "megamodmain",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "megamodmain:plant_fibre_b"
+    },
+    {
+      "item": "megamodmain:plant_fibre_b"
+    },
+    {
+      "item": "megamodmain:plantfibre"
+    }
+  ],
+  "result": {
+    "item": "minecraft:string",
+    "count": 1
+  }
+}

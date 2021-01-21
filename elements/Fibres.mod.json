@@ -1,0 +1,19 @@
+{
+  "_fv": 13,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Plantfibre"
+      },
+      {
+        "value": "CUSTOM:PlantFibreB"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "fibres",
+    "namespace": "mod"
+  }
+}

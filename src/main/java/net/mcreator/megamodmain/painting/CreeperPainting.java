@@ -12,7 +12,7 @@ import net.mcreator.megamodmain.MegamodmainModElements;
 @MegamodmainModElements.ModElement.Tag
 public class CreeperPainting extends MegamodmainModElements.ModElement {
 	public CreeperPainting(MegamodmainModElements instance) {
-		super(instance, 50);
+		super(instance, 74);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

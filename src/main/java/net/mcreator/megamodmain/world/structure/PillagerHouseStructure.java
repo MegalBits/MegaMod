@@ -33,7 +33,7 @@ import java.util.Random;
 @MegamodmainModElements.ModElement.Tag
 public class PillagerHouseStructure extends MegamodmainModElements.ModElement {
 	public PillagerHouseStructure(MegamodmainModElements instance) {
-		super(instance, 113);
+		super(instance, 116);
 	}
 
 	@Override

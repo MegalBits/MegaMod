@@ -18,7 +18,7 @@ public class GoldDaggerItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:gold_dagger")
 	public static final Item block = null;
 	public GoldDaggerItem(MegamodmainModElements instance) {
-		super(instance, 10);
+		super(instance, 16);
 	}
 
 	@Override

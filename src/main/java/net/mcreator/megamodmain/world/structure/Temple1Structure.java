@@ -33,7 +33,7 @@ import java.util.Random;
 @MegamodmainModElements.ModElement.Tag
 public class Temple1Structure extends MegamodmainModElements.ModElement {
 	public Temple1Structure(MegamodmainModElements instance) {
-		super(instance, 110);
+		super(instance, 113);
 	}
 
 	@Override

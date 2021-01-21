@@ -12,7 +12,7 @@ import java.util.Map;
 @MegamodmainModElements.ModElement.Tag
 public class MagnifyingGlassRightClickedInAirProcedure extends MegamodmainModElements.ModElement {
 	public MagnifyingGlassRightClickedInAirProcedure(MegamodmainModElements instance) {
-		super(instance, 45);
+		super(instance, 71);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

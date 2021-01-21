@@ -17,7 +17,7 @@ public class NetheriteAxeItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:netherite_axe")
 	public static final Item block = null;
 	public NetheriteAxeItem(MegamodmainModElements instance) {
-		super(instance, 100);
+		super(instance, 11);
 	}
 
 	@Override

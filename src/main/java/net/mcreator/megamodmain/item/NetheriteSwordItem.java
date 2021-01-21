@@ -17,7 +17,7 @@ public class NetheriteSwordItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:netherite_sword")
 	public static final Item block = null;
 	public NetheriteSwordItem(MegamodmainModElements instance) {
-		super(instance, 106);
+		super(instance, 20);
 	}
 
 	@Override

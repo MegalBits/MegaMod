@@ -19,7 +19,7 @@ import java.util.Map;
 @MegamodmainModElements.ModElement.Tag
 public class BuyConcretePowderProcedure extends MegamodmainModElements.ModElement {
 	public BuyConcretePowderProcedure(MegamodmainModElements instance) {
-		super(instance, 139);
+		super(instance, 138);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

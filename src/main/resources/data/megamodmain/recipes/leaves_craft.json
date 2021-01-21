@@ -1,0 +1,13 @@
+{
+  "group": "megamodmain",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_sapling"
+    }
+  ],
+  "result": {
+    "item": "minecraft:oak_leaves",
+    "count": 1
+  }
+}

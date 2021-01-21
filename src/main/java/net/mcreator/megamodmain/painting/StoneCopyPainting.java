@@ -12,7 +12,7 @@ import net.mcreator.megamodmain.MegamodmainModElements;
 @MegamodmainModElements.ModElement.Tag
 public class StoneCopyPainting extends MegamodmainModElements.ModElement {
 	public StoneCopyPainting(MegamodmainModElements instance) {
-		super(instance, 122);
+		super(instance, 124);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

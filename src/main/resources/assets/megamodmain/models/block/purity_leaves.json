@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "megamodmain:blocks/leaves1",
+    "up": "megamodmain:blocks/leaves1",
+    "north": "megamodmain:blocks/leaves1",
+    "east": "megamodmain:blocks/leaves1",
+    "south": "megamodmain:blocks/leaves1",
+    "west": "megamodmain:blocks/leaves1",
+    "particle": "megamodmain:blocks/leaves1"
+  }
+}

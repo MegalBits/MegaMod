@@ -16,7 +16,7 @@ import java.util.Collection;
 @MegamodmainModElements.ModElement.Tag
 public class LapisFeatherRightClickedInAirProcedure extends MegamodmainModElements.ModElement {
 	public LapisFeatherRightClickedInAirProcedure(MegamodmainModElements instance) {
-		super(instance, 20);
+		super(instance, 46);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

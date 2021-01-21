@@ -29,7 +29,7 @@ public class NetheriteItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:netherite_boots")
 	public static final Item boots = null;
 	public NetheriteItem(MegamodmainModElements instance) {
-		super(instance, 88);
+		super(instance, 19);
 	}
 
 	@Override

@@ -31,7 +31,7 @@ import java.util.Random;
 @MegamodmainModElements.ModElement.Tag
 public class WellStructure extends MegamodmainModElements.ModElement {
 	public WellStructure(MegamodmainModElements instance) {
-		super(instance, 115);
+		super(instance, 117);
 	}
 
 	@Override

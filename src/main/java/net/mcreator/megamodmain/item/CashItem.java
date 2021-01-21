@@ -16,7 +16,7 @@ public class CashItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:cash")
 	public static final Item block = null;
 	public CashItem(MegamodmainModElements instance) {
-		super(instance, 56);
+		super(instance, 27);
 	}
 
 	@Override

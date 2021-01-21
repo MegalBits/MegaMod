@@ -19,7 +19,7 @@ import java.util.Map;
 @MegamodmainModElements.ModElement.Tag
 public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 	public BuyLogProcedure(MegamodmainModElements instance) {
-		super(instance, 70);
+		super(instance, 95);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -44,7 +44,7 @@ public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 				}
 				return 0;
 			}
-		}.getAmount((int) (0))) > 9)) {
+		}.getAmount((int) (0))) > 19)) {
 			if (((new Object() {
 				public ItemStack getItemStack(int sltid) {
 					Entity _ent = entity;
@@ -67,7 +67,7 @@ public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 						if (_current instanceof Supplier) {
 							Object invobj = ((Supplier) _current).get();
 							if (invobj instanceof Map) {
-								((Slot) ((Map) invobj).get((int) (0))).decrStackSize((int) (15));
+								((Slot) ((Map) invobj).get((int) (0))).decrStackSize((int) (20));
 								_current.detectAndSendChanges();
 							}
 						}
@@ -95,7 +95,7 @@ public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 				}
 				return 0;
 			}
-		}.getAmount((int) (0))) > 9))) {
+		}.getAmount((int) (0))) > 19))) {
 			if (((new Object() {
 				public ItemStack getItemStack(int sltid) {
 					Entity _ent = entity;
@@ -126,7 +126,7 @@ public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 						}
 						return 0;
 					}
-				}.getAmount((int) (1))) > 9)) {
+				}.getAmount((int) (1))) > 19)) {
 					{
 						Entity _ent = entity;
 						if (_ent instanceof ServerPlayerEntity) {
@@ -134,7 +134,7 @@ public class BuyLogProcedure extends MegamodmainModElements.ModElement {
 							if (_current instanceof Supplier) {
 								Object invobj = ((Supplier) _current).get();
 								if (invobj instanceof Map) {
-									((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (15));
+									((Slot) ((Map) invobj).get((int) (1))).decrStackSize((int) (20));
 									_current.detectAndSendChanges();
 								}
 							}

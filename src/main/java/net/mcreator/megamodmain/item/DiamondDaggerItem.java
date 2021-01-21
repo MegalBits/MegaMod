@@ -18,7 +18,7 @@ public class DiamondDaggerItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:diamond_dagger")
 	public static final Item block = null;
 	public DiamondDaggerItem(MegamodmainModElements instance) {
-		super(instance, 12);
+		super(instance, 18);
 	}
 
 	@Override

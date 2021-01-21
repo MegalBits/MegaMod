@@ -33,7 +33,7 @@ import java.util.Random;
 @MegamodmainModElements.ModElement.Tag
 public class PlantSpruceStructure extends MegamodmainModElements.ModElement {
 	public PlantSpruceStructure(MegamodmainModElements instance) {
-		super(instance, 32);
+		super(instance, 58);
 	}
 
 	@Override

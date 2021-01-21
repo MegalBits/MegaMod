@@ -30,7 +30,7 @@ public class WoodenItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:wooden_boots")
 	public static final Item boots = null;
 	public WoodenItem(MegamodmainModElements instance) {
-		super(instance, 123);
+		super(instance, 21);
 	}
 
 	@Override

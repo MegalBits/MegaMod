@@ -13,7 +13,7 @@ import net.mcreator.megamodmain.MegamodmainModElements;
 @MegamodmainModElements.ModElement.Tag
 public class SpecialItemGroup extends MegamodmainModElements.ModElement {
 	public SpecialItemGroup(MegamodmainModElements instance) {
-		super(instance, 17);
+		super(instance, 43);
 	}
 
 	@Override

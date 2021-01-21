@@ -38,7 +38,7 @@ public class AncientDebrisBlock extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:ancient_debris")
 	public static final Block block = null;
 	public AncientDebrisBlock(MegamodmainModElements instance) {
-		super(instance, 89);
+		super(instance, 24);
 	}
 
 	@Override

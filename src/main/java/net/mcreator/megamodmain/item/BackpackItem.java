@@ -49,7 +49,7 @@ public class BackpackItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:backpack")
 	public static final Item block = null;
 	public BackpackItem(MegamodmainModElements instance) {
-		super(instance, 51);
+		super(instance, 9);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

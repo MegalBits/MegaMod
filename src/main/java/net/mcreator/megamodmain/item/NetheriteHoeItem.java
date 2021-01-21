@@ -17,7 +17,7 @@ public class NetheriteHoeItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:netherite_hoe")
 	public static final Item block = null;
 	public NetheriteHoeItem(MegamodmainModElements instance) {
-		super(instance, 104);
+		super(instance, 13);
 	}
 
 	@Override

@@ -16,7 +16,7 @@ public class NetheriteIngotItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:netherite_ingot")
 	public static final Item block = null;
 	public NetheriteIngotItem(MegamodmainModElements instance) {
-		super(instance, 92);
+		super(instance, 29);
 	}
 
 	@Override

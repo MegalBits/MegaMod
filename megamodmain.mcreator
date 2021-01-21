@@ -4,7 +4,7 @@
     {
       "name": "GoldenFeatherRightClickedInAir",
       "type": "procedure",
-      "sortid": 13,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -34,7 +34,7 @@
     {
       "name": "GoldenFeatherCraft",
       "type": "recipe",
-      "sortid": 14,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -43,7 +43,7 @@
     {
       "name": "DiamondFeatherRightClickedInAir",
       "type": "procedure",
-      "sortid": 15,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -73,7 +73,7 @@
     {
       "name": "DiamondFeatherCraft",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -82,7 +82,7 @@
     {
       "name": "Special",
       "type": "tab",
-      "sortid": 17,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -100,7 +100,7 @@
     {
       "name": "IronFeatherRightClickedInAir",
       "type": "procedure",
-      "sortid": 18,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -121,7 +121,7 @@
     {
       "name": "IronFeatherCraft",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -139,7 +139,7 @@
     {
       "name": "LapisFeatherRightClickedInAir",
       "type": "procedure",
-      "sortid": 20,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -160,7 +160,7 @@
     {
       "name": "LapisFeatherCraft",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -169,7 +169,7 @@
     {
       "name": "RabbitStaffRightClickedInAir",
       "type": "procedure",
-      "sortid": 22,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -199,7 +199,7 @@
     {
       "name": "RabbitStaffCraft",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -208,7 +208,7 @@
     {
       "name": "ScareCrow",
       "type": "structure",
-      "sortid": 24,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -217,7 +217,7 @@
     {
       "name": "SmallTree",
       "type": "structure",
-      "sortid": 25,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -226,7 +226,7 @@
     {
       "name": "OakBush",
       "type": "structure",
-      "sortid": 26,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -235,7 +235,7 @@
     {
       "name": "SpruceBush",
       "type": "structure",
-      "sortid": 27,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -244,7 +244,7 @@
     {
       "name": "BirchBush",
       "type": "structure",
-      "sortid": 28,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -253,7 +253,7 @@
     {
       "name": "AcaciaBush",
       "type": "structure",
-      "sortid": 29,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -262,7 +262,7 @@
     {
       "name": "PlantOak",
       "type": "structure",
-      "sortid": 30,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -271,7 +271,7 @@
     {
       "name": "PlantBirch",
       "type": "structure",
-      "sortid": 31,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -280,7 +280,7 @@
     {
       "name": "PlantSpruce",
       "type": "structure",
-      "sortid": 32,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -289,7 +289,7 @@
     {
       "name": "PlantAcacia",
       "type": "structure",
-      "sortid": 33,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -298,7 +298,7 @@
     {
       "name": "PlantWither",
       "type": "structure",
-      "sortid": 34,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -307,7 +307,7 @@
     {
       "name": "Skyblock",
       "type": "structure",
-      "sortid": 35,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -316,7 +316,7 @@
     {
       "name": "Stone",
       "type": "loottable",
-      "sortid": 36,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -325,7 +325,7 @@
     {
       "name": "Netherrack",
       "type": "loottable",
-      "sortid": 37,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -352,7 +352,7 @@
     {
       "name": "WoodenPickswordCraft",
       "type": "recipe",
-      "sortid": 38,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -361,7 +361,7 @@
     {
       "name": "StonePickswordCraft",
       "type": "recipe",
-      "sortid": 39,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -370,7 +370,7 @@
     {
       "name": "IronDagger",
       "type": "tool",
-      "sortid": 11,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -379,7 +379,7 @@
     {
       "name": "DiamondDagger",
       "type": "tool",
-      "sortid": 12,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -388,7 +388,7 @@
     {
       "name": "GoldDagger",
       "type": "tool",
-      "sortid": 10,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -397,7 +397,7 @@
     {
       "name": "StoneDagger",
       "type": "tool",
-      "sortid": 9,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -406,7 +406,7 @@
     {
       "name": "WoodenDagger",
       "type": "tool",
-      "sortid": 8,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -415,7 +415,7 @@
     {
       "name": "WoodenDaggerCraft",
       "type": "recipe",
-      "sortid": 40,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -424,7 +424,7 @@
     {
       "name": "StoneDaggerCraft",
       "type": "recipe",
-      "sortid": 41,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -433,7 +433,7 @@
     {
       "name": "IronDaggerCraft",
       "type": "recipe",
-      "sortid": 42,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -442,7 +442,7 @@
     {
       "name": "GoldDaggerCraft",
       "type": "recipe",
-      "sortid": 43,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -451,7 +451,7 @@
     {
       "name": "DiamondDaggerCraft",
       "type": "recipe",
-      "sortid": 44,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -460,7 +460,7 @@
     {
       "name": "MagnifyingGlassRightClickedInAir",
       "type": "procedure",
-      "sortid": 45,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -477,7 +477,7 @@
     {
       "name": "MagnifyingGlass",
       "type": "item",
-      "sortid": 45,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -486,7 +486,7 @@
     {
       "name": "MagnifyingGlassCraft",
       "type": "recipe",
-      "sortid": 46,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -495,7 +495,7 @@
     {
       "name": "WoodStone",
       "type": "block",
-      "sortid": 48,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -504,7 +504,7 @@
     {
       "name": "WoodStoneL",
       "type": "loottable",
-      "sortid": 49,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -513,7 +513,7 @@
     {
       "name": "Creeper",
       "type": "painting",
-      "sortid": 50,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -522,7 +522,7 @@
     {
       "name": "BackpackGui",
       "type": "gui",
-      "sortid": 51,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -531,7 +531,7 @@
     {
       "name": "Backpack",
       "type": "item",
-      "sortid": 51,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -540,7 +540,7 @@
     {
       "name": "BackpackCraft",
       "type": "recipe",
-      "sortid": 52,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -549,7 +549,7 @@
     {
       "name": "Bags",
       "type": "tag",
-      "sortid": 53,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -558,7 +558,7 @@
     {
       "name": "Shop",
       "type": "item",
-      "sortid": 54,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -567,7 +567,7 @@
     {
       "name": "StartingLoottable",
       "type": "loottable",
-      "sortid": 54,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -576,7 +576,7 @@
     {
       "name": "StartingItems",
       "type": "achievement",
-      "sortid": 54,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -585,7 +585,7 @@
     {
       "name": "ShopCraft",
       "type": "recipe",
-      "sortid": 55,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -594,7 +594,7 @@
     {
       "name": "Cash",
       "type": "item",
-      "sortid": 56,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -603,7 +603,7 @@
     {
       "name": "CreeperL",
       "type": "loottable",
-      "sortid": 57,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -612,7 +612,7 @@
     {
       "name": "ZombieL",
       "type": "loottable",
-      "sortid": 58,
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -621,7 +621,7 @@
     {
       "name": "SkeletonL",
       "type": "loottable",
-      "sortid": 59,
+      "sortid": 83,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -630,7 +630,7 @@
     {
       "name": "SpiderL",
       "type": "loottable",
-      "sortid": 60,
+      "sortid": 84,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -639,7 +639,7 @@
     {
       "name": "EndermanL",
       "type": "loottable",
-      "sortid": 61,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -648,7 +648,7 @@
     {
       "name": "HuskL",
       "type": "loottable",
-      "sortid": 62,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -657,7 +657,7 @@
     {
       "name": "StrayL",
       "type": "loottable",
-      "sortid": 63,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -666,7 +666,7 @@
     {
       "name": "CaveSpiderL",
       "type": "loottable",
-      "sortid": 64,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -675,7 +675,7 @@
     {
       "name": "SlimeL",
       "type": "loottable",
-      "sortid": 65,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -684,7 +684,7 @@
     {
       "name": "WitherL",
       "type": "loottable",
-      "sortid": 66,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -693,7 +693,7 @@
     {
       "name": "EnderDragonL",
       "type": "loottable",
-      "sortid": 67,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -702,7 +702,7 @@
     {
       "name": "ShopGui1",
       "type": "gui",
-      "sortid": 56,
+      "sortid": 92,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -711,7 +711,7 @@
     {
       "name": "BuyDirt",
       "type": "procedure",
-      "sortid": 68,
+      "sortid": 93,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -728,7 +728,7 @@
     {
       "name": "BuyStone",
       "type": "procedure",
-      "sortid": 69,
+      "sortid": 94,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -745,7 +745,7 @@
     {
       "name": "BuyLog",
       "type": "procedure",
-      "sortid": 70,
+      "sortid": 95,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -762,7 +762,7 @@
     {
       "name": "BuySand",
       "type": "procedure",
-      "sortid": 71,
+      "sortid": 96,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -779,7 +779,7 @@
     {
       "name": "BuyGravel",
       "type": "procedure",
-      "sortid": 72,
+      "sortid": 97,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -796,7 +796,7 @@
     {
       "name": "BuyPumpkin",
       "type": "procedure",
-      "sortid": 73,
+      "sortid": 98,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -813,7 +813,7 @@
     {
       "name": "BuyMelon",
       "type": "procedure",
-      "sortid": 74,
+      "sortid": 99,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -830,7 +830,7 @@
     {
       "name": "Tntspawn",
       "type": "structure",
-      "sortid": 87,
+      "sortid": 100,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -839,7 +839,7 @@
     {
       "name": "Netherite",
       "type": "armor",
-      "sortid": 88,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -854,7 +854,7 @@
     {
       "name": "AncientDebris",
       "type": "block",
-      "sortid": 89,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -863,7 +863,7 @@
     {
       "name": "NetheriteScrap",
       "type": "item",
-      "sortid": 90,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -872,7 +872,7 @@
     {
       "name": "NetheriteSmelt",
       "type": "recipe",
-      "sortid": 91,
+      "sortid": 101,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -881,7 +881,7 @@
     {
       "name": "NetheriteIngot",
       "type": "item",
-      "sortid": 92,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -890,7 +890,7 @@
     {
       "name": "NetheriteCraft",
       "type": "recipe",
-      "sortid": 93,
+      "sortid": 102,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -899,7 +899,7 @@
     {
       "name": "NHelmetCraft",
       "type": "recipe",
-      "sortid": 94,
+      "sortid": 103,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -908,7 +908,7 @@
     {
       "name": "NChestplateCraft",
       "type": "recipe",
-      "sortid": 95,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -917,7 +917,7 @@
     {
       "name": "NLeggingsCraft",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 105,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -926,7 +926,7 @@
     {
       "name": "NBootsCraft",
       "type": "recipe",
-      "sortid": 97,
+      "sortid": 106,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -935,7 +935,7 @@
     {
       "name": "NetheritePickaxe",
       "type": "tool",
-      "sortid": 98,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -944,7 +944,7 @@
     {
       "name": "NPickCraft",
       "type": "recipe",
-      "sortid": 99,
+      "sortid": 107,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -953,7 +953,7 @@
     {
       "name": "NetheriteAxe",
       "type": "tool",
-      "sortid": 100,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -962,7 +962,7 @@
     {
       "name": "NAxeCraft",
       "type": "recipe",
-      "sortid": 101,
+      "sortid": 108,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -971,7 +971,7 @@
     {
       "name": "NetheriteShovel",
       "type": "tool",
-      "sortid": 102,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -980,7 +980,7 @@
     {
       "name": "NSpadeCraft",
       "type": "recipe",
-      "sortid": 103,
+      "sortid": 109,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -989,7 +989,7 @@
     {
       "name": "NetheriteHoe",
       "type": "tool",
-      "sortid": 104,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -998,7 +998,7 @@
     {
       "name": "NHoeCraft",
       "type": "recipe",
-      "sortid": 105,
+      "sortid": 110,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1007,7 +1007,7 @@
     {
       "name": "NetheriteSword",
       "type": "tool",
-      "sortid": 106,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1016,7 +1016,7 @@
     {
       "name": "NSwordCraft",
       "type": "recipe",
-      "sortid": 107,
+      "sortid": 111,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1025,7 +1025,7 @@
     {
       "name": "EndTower",
       "type": "structure",
-      "sortid": 108,
+      "sortid": 112,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1034,7 +1034,7 @@
     {
       "name": "Temple1",
       "type": "structure",
-      "sortid": 110,
+      "sortid": 113,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1043,7 +1043,7 @@
     {
       "name": "Temple3",
       "type": "structure",
-      "sortid": 111,
+      "sortid": 114,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1052,7 +1052,7 @@
     {
       "name": "Temple2",
       "type": "structure",
-      "sortid": 112,
+      "sortid": 115,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1061,7 +1061,7 @@
     {
       "name": "PillagerHouse",
       "type": "structure",
-      "sortid": 113,
+      "sortid": 116,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1070,7 +1070,7 @@
     {
       "name": "NetheriteBlock",
       "type": "block",
-      "sortid": 114,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1079,7 +1079,7 @@
     {
       "name": "Well",
       "type": "structure",
-      "sortid": 115,
+      "sortid": 117,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1088,7 +1088,7 @@
     {
       "name": "NBlockCraft",
       "type": "recipe",
-      "sortid": 116,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1097,7 +1097,7 @@
     {
       "name": "NBlockUncraft",
       "type": "recipe",
-      "sortid": 117,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1106,7 +1106,7 @@
     {
       "name": "Gravel",
       "type": "recipe",
-      "sortid": 118,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1115,7 +1115,7 @@
     {
       "name": "Wool",
       "type": "recipe",
-      "sortid": 119,
+      "sortid": 121,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1124,7 +1124,7 @@
     {
       "name": "Netherwart",
       "type": "recipe",
-      "sortid": 120,
+      "sortid": 122,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1133,7 +1133,7 @@
     {
       "name": "Tower",
       "type": "structure",
-      "sortid": 121,
+      "sortid": 123,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1142,7 +1142,7 @@
     {
       "name": "StoneCopy",
       "type": "painting",
-      "sortid": 122,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1151,7 +1151,7 @@
     {
       "name": "Wooden",
       "type": "armor",
-      "sortid": 123,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1166,7 +1166,7 @@
     {
       "name": "WoodenArmourCraftHelmet",
       "type": "recipe",
-      "sortid": 124,
+      "sortid": 125,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1175,7 +1175,7 @@
     {
       "name": "WoodenArmourCraftChestplate",
       "type": "recipe",
-      "sortid": 125,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1184,7 +1184,7 @@
     {
       "name": "WoodenArmourCraftLeggings",
       "type": "recipe",
-      "sortid": 126,
+      "sortid": 127,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1193,7 +1193,7 @@
     {
       "name": "WoodenArmourCraftBoots",
       "type": "recipe",
-      "sortid": 127,
+      "sortid": 128,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1202,7 +1202,7 @@
     {
       "name": "Cobblestone",
       "type": "armor",
-      "sortid": 128,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1253,7 +1253,7 @@
     {
       "name": "BuyObsidian",
       "type": "procedure",
-      "sortid": 134,
+      "sortid": 133,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1270,7 +1270,7 @@
     {
       "name": "BuyHayBale",
       "type": "procedure",
-      "sortid": 135,
+      "sortid": 134,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1287,7 +1287,7 @@
     {
       "name": "BuyGlass",
       "type": "procedure",
-      "sortid": 136,
+      "sortid": 135,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1304,7 +1304,7 @@
     {
       "name": "BuyTerracotta",
       "type": "procedure",
-      "sortid": 137,
+      "sortid": 136,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1321,7 +1321,7 @@
     {
       "name": "BuyWool",
       "type": "procedure",
-      "sortid": 138,
+      "sortid": 137,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1338,7 +1338,7 @@
     {
       "name": "BuyConcretePowder",
       "type": "procedure",
-      "sortid": 139,
+      "sortid": 138,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1355,7 +1355,7 @@
     {
       "name": "BuyIce",
       "type": "procedure",
-      "sortid": 140,
+      "sortid": 139,
       "compiles": true,
       "locked_code": false,
       "ids": {},
@@ -1368,53 +1368,335 @@
           }
         ]
       }
+    },
+    {
+      "name": "Plantfibre",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plantfibre"
+    },
+    {
+      "name": "PlantFibreB",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plant_fibre_b"
+    },
+    {
+      "name": "LeavesL2",
+      "type": "loottable",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leaves_l_2"
+    },
+    {
+      "name": "LeavesL",
+      "type": "loottable",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leaves_l"
+    },
+    {
+      "name": "Blocksleaves",
+      "type": "loottable",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blocksleaves"
+    },
+    {
+      "name": "Blocksleavesblocksleaves",
+      "type": "loottable",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "blocksleavesblocksleaves"
+    },
+    {
+      "name": "Leav",
+      "type": "loottable",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leav"
+    },
+    {
+      "name": "LastLeav",
+      "type": "loottable",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "last_leav"
+    },
+    {
+      "name": "Fibres",
+      "type": "tag",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fibres"
+    },
+    {
+      "name": "LeavesCraft",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leaves_craft"
+    },
+    {
+      "name": "LeavesCraft2",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leaves_craft_2"
+    },
+    {
+      "name": "LeavesCraft3",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leaves_craft_3"
+    },
+    {
+      "name": "LeavesCraft4",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leaves_craft_4"
+    },
+    {
+      "name": "LeavesCraft5",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leaves_craft_5"
+    },
+    {
+      "name": "LeavesCraft6",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "leaves_craft_6"
+    },
+    {
+      "name": "FibresToString",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fibres_to_string"
+    },
+    {
+      "name": "FibresToString2",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fibres_to_string_2"
+    },
+    {
+      "name": "FibresToString3",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fibres_to_string_3"
+    },
+    {
+      "name": "FibresToString4",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "fibres_to_string_4"
+    },
+    {
+      "name": "PlaceholderName",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "placeholder_name"
+    },
+    {
+      "name": "Terraria",
+      "type": "tab",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terraria"
+    },
+    {
+      "name": "TerraDirt",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_dirt"
+    },
+    {
+      "name": "TerrariaPurity",
+      "type": "biome",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terraria_purity"
+    },
+    {
+      "name": "TerraGrass",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_grass"
+    },
+    {
+      "name": "PurityLog",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purity_log"
+    },
+    {
+      "name": "TerraWood",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_wood"
+    },
+    {
+      "name": "PuritylogL",
+      "type": "loottable",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "puritylog_l"
+    },
+    {
+      "name": "TerraStone",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_stone"
+    },
+    {
+      "name": "TerraCopper",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "terra_copper"
+    },
+    {
+      "name": "PurityLeaves",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "purity_leaves"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.megamodmain.netherite_boots": "Netherite Boots",
       "item.megamodmain.cobblestone_boots": "Cobblestone Boots",
       "item.megamodmain.netherite_leggings": "Netherite Leggings",
-      "item.megamodmain.wooden_picksword": "Wooden Picksword",
       "item.megamodmain.netherite_chestplate": "Netherite Chestplate",
-      "item.megamodmain.iron_dagger": "Iron Dagger",
       "item.megamodmain.backpack": "Backpack",
-      "item.megamodmain.diamond_feather": "Diamond Feather",
+      "block.megamodmain.purity_leaves": "Purity Terra",
       "item.megamodmain.netherite_helmet": "Netherite Helmet",
-      "item.megamodmain.diamond_dagger": "Diamond Dagger",
+      "block.megamodmain.terra_wood": "Terra Wood",
       "item.megamodmain.cobblestone_chestplate": "Cobblestone Chestplate",
-      "item.megamodmain.netherite_pickaxe": "Netherite Pickaxe",
-      "block.megamodmain.wood_stone": "Woodstone",
-      "item.megamodmain.wooden_dagger": "Wooden Dagger",
-      "item.megamodmain.cobblestone_leggings": "Cobblestone Leggings",
+      "item.megamodmain.plantfibre": "Plant Fibre",
       "item.megamodmain.stone_picksword": "Wooden Picksword",
-      "item.megamodmain.wooden_chestplate": "Wooden Chestplate",
-      "advancements.starting_items.descr": "You joined the world!",
-      "item.megamodmain.stone_dagger": "Stone Dagger",
-      "item.megamodmain.netherite_hoe": "Netherite Hoe",
-      "item.megamodmain.golden_feather": "Golden Feather",
       "item.megamodmain.gold_dagger": "Golden Dagger",
       "item.megamodmain.netherite_ingot": "Netherite Ingot",
       "itemGroup.tabspecial": "Special",
       "advancements.starting_items.title": "Free Stuff!",
       "item.megamodmain.wooden_leggings": "Wooden Leggings",
-      "item.megamodmain.iron_feather": "Iron Feather",
       "block.megamodmain.netherite_block": "Netherite Block",
       "item.megamodmain.cobblestone_helmet": "Cobblestone Helmet",
       "item.megamodmain.wooden_helmet": "Wooden Helmet",
-      "block.megamodmain.ancient_debris": "Ancient Debris",
       "item.megamodmain.wooden_boots": "Wooden Boots",
-      "item.megamodmain.rabbit_staff": "Rabbit Staff",
-      "item.megamodmain.netherite_sword": "Netherite Sword",
-      "item.megamodmain.lapis_feather": "Lapis Feather",
-      "item.megamodmain.netherite_axe": "Netherite Axe",
       "item.megamodmain.netherite_shovel": "Netherite Shovel",
-      "item.megamodmain.shop": "Shop",
+      "item.megamodmain.netherite_axe": "Netherite Axe",
       "item.megamodmain.magnifying_glass": "Magnifying Glass",
       "item.megamodmain.cash": "Cash",
-      "item.megamodmain.netherite_scrap": "Netherite Scrap"
+      "item.megamodmain.netherite_scrap": "Netherite Scrap",
+      "item.megamodmain.netherite_boots": "Netherite Boots",
+      "block.megamodmain.terra_copper": "Terra Copper",
+      "item.megamodmain.wooden_picksword": "Wooden Picksword",
+      "item.megamodmain.iron_dagger": "Iron Dagger",
+      "item.megamodmain.diamond_feather": "Diamond Feather",
+      "block.megamodmain.terra_stone": "Terra Stone",
+      "item.megamodmain.diamond_dagger": "Diamond Dagger",
+      "biome.megamodmain.terraria_purity": "Terraria Purity",
+      "block.megamodmain.terra_grass": "Terra Grass",
+      "block.megamodmain.terra_dirt": "Terra Dirt",
+      "item.megamodmain.netherite_pickaxe": "Netherite Pickaxe",
+      "block.megamodmain.wood_stone": "Woodstone",
+      "item.megamodmain.wooden_dagger": "Wooden Dagger",
+      "item.megamodmain.placeholder_name": "Placeholder Name",
+      "item.megamodmain.cobblestone_leggings": "Cobblestone Leggings",
+      "item.megamodmain.wooden_chestplate": "Wooden Chestplate",
+      "advancements.starting_items.descr": "You joined the world!",
+      "item.megamodmain.stone_dagger": "Stone Dagger",
+      "item.megamodmain.netherite_hoe": "Netherite Hoe",
+      "block.megamodmain.purity_log": "Terra Log",
+      "item.megamodmain.golden_feather": "Golden Feather",
+      "item.megamodmain.iron_feather": "Iron Feather",
+      "block.megamodmain.ancient_debris": "Ancient Debris",
+      "item.megamodmain.rabbit_staff": "Rabbit Staff",
+      "item.megamodmain.netherite_sword": "Netherite Sword",
+      "itemGroup.tabterraria": "Terraria",
+      "item.megamodmain.lapis_feather": "Lapis Feather",
+      "item.megamodmain.shop": "Shop",
+      "item.megamodmain.plant_fibre_b": "Plant Fibre"
     }
   },
   "workspaceSettings": {

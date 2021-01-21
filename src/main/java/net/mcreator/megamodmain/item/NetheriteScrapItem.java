@@ -16,7 +16,7 @@ public class NetheriteScrapItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:netherite_scrap")
 	public static final Item block = null;
 	public NetheriteScrapItem(MegamodmainModElements instance) {
-		super(instance, 90);
+		super(instance, 28);
 	}
 
 	@Override

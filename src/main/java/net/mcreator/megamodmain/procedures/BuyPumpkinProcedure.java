@@ -19,7 +19,7 @@ import java.util.Map;
 @MegamodmainModElements.ModElement.Tag
 public class BuyPumpkinProcedure extends MegamodmainModElements.ModElement {
 	public BuyPumpkinProcedure(MegamodmainModElements instance) {
-		super(instance, 73);
+		super(instance, 98);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

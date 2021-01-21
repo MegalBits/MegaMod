@@ -17,7 +17,7 @@ public class NetheritePickaxeItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:netherite_pickaxe")
 	public static final Item block = null;
 	public NetheritePickaxeItem(MegamodmainModElements instance) {
-		super(instance, 98);
+		super(instance, 10);
 	}
 
 	@Override

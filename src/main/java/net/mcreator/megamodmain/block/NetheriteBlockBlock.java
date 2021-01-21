@@ -24,7 +24,7 @@ public class NetheriteBlockBlock extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:netherite_block")
 	public static final Block block = null;
 	public NetheriteBlockBlock(MegamodmainModElements instance) {
-		super(instance, 114);
+		super(instance, 25);
 	}
 
 	@Override

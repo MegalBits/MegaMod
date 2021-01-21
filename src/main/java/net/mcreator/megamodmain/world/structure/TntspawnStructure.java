@@ -31,7 +31,7 @@ import java.util.Random;
 @MegamodmainModElements.ModElement.Tag
 public class TntspawnStructure extends MegamodmainModElements.ModElement {
 	public TntspawnStructure(MegamodmainModElements instance) {
-		super(instance, 87);
+		super(instance, 100);
 	}
 
 	@Override

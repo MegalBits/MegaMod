@@ -49,7 +49,7 @@ public class ShopItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:shop")
 	public static final Item block = null;
 	public ShopItem(MegamodmainModElements instance) {
-		super(instance, 54);
+		super(instance, 26);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

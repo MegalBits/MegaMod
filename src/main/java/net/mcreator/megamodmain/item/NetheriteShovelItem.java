@@ -17,7 +17,7 @@ public class NetheriteShovelItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:netherite_shovel")
 	public static final Item block = null;
 	public NetheriteShovelItem(MegamodmainModElements instance) {
-		super(instance, 102);
+		super(instance, 12);
 	}
 
 	@Override

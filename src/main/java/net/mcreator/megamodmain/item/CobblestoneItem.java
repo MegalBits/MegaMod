@@ -30,7 +30,7 @@ public class CobblestoneItem extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:cobblestone_boots")
 	public static final Item boots = null;
 	public CobblestoneItem(MegamodmainModElements instance) {
-		super(instance, 128);
+		super(instance, 22);
 	}
 
 	@Override

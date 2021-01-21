@@ -44,7 +44,7 @@ public class WoodStoneBlock extends MegamodmainModElements.ModElement {
 	@ObjectHolder("megamodmain:wood_stone")
 	public static final Block block = null;
 	public WoodStoneBlock(MegamodmainModElements instance) {
-		super(instance, 48);
+		super(instance, 23);
 	}
 
 	@Override
