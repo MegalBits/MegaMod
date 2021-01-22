@@ -10,14 +10,14 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "workbench:default",
-    "rotationMode": 2,
+    "rotationMode": 1,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "workbencitem",
     "particleTexture": "",
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
     "mz": 0.0,
@@ -26,12 +26,12 @@
     "Mz": 1.0,
     "name": "Workbench",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 3.0,
+    "resistance": 5.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Special"
+      "value": "CUSTOM:Terraria"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -45,7 +45,7 @@
     "canProvidePower": false,
     "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -63,7 +63,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GROUND"
+      "value": "WOOD"
     },
     "luminance": 0.0,
     "unbreakable": false,

@@ -3,7 +3,7 @@
   "textures": {
     "all": "megamodmain:blocks/workbencitem",
     "particle": "megamodmain:blocks/workbencitem",
-    "0": "megamodmain:blocks/workbench",
-    "2": "megamodmain:blocks/workbench3"
+    "0": "megamodmain:blocks/workbencitem",
+    "1": "megamodmain:blocks/workbench3"
   }
 }

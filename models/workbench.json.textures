@@ -2,8 +2,8 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "workbench",
-        "2": "workbench3"
+        "0": "workbencitem",
+        "1": "workbench3"
       },
       "name": "default"
     }
